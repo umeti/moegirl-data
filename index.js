@@ -35,9 +35,36 @@ async function main (){
 
 async function test(){
   let $ = cheerio.load(await fs.readFile('tmp/eye.html'))
-  $('a').map((i,el)=>{
-    console.log($(el).attr('href'))
+  let data = []
+  $('.mw-contributions-list > li').map((i,el)=>{
+    let date = $('.mw-changeslist-date',el).text()
+      .match(/(\d{4})年(\d\d?)月(\d\d?)日.+?(\d\d\:\d\d)/,'$1-$2-$3 $4')
+    
+    let y = date[1]
+    let m = date[2]
+    let d = date[3]
+    let t = date[4]
+    m = m.length == 1?'0'+m:m
+    d = d.length == 1?'0'+d:d
+    date = new Date(`${y}-${m}-${d}T${t}Z`)
+    let page = $('.mw-contributions-title',el).attr('title')
+    let href = $('.mw-contributions-title',el).attr('href')
+    let comment = $('.comment',el).text()
+    let isMinor =  $('.minoredit',el).length > 0
+    let plusBytes = $('.mw-plusminus-pos,.mw-plusminus-neg',el).text()
+    plusBytes = parseInt( plusBytes.replace(/[^\d\+\-]/g,'')||0)
+    
+    data.push({
+      date,
+      page,
+      href,
+      comment,
+      isMinor,
+      plusBytes
+    })
+    //console.log(`${date.toISOString()} ${page}`)
   })
+  console.log(data)
 }
 
 test()
