@@ -83,18 +83,42 @@ function analyzePages(data){
   return pages
 }
 
+function analyzeDays(data){
+  //times.mostEditedDay 
+
+  let days = new Map()
+  for(let item of data){
+    let i = Math.floor(item.date.getTime() / 86400000) * 86400000
+    let bake = days.get(i)
+    if(bake){
+      bake.editCount ++
+    }else{
+      days.set(i,{
+        day:new Date(i),
+        editCount:1
+      })
+    }
+  }
+
+  return days
+}
+
 async function report(data){
 
   let pages = analyzePages(data)
+  let days = analyzeDays(data)
   return {
     editCount: data.length,
     pageCount: pages.size,
     pages,
+    days,
   }
 }
 
 async function test(){
-  console.log(await report(await makeData()))
+  let data = await makeData()
+  console.log(data)
+  console.log(await report(data))
 }
 
 
