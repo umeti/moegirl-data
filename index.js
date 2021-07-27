@@ -33,13 +33,13 @@ async function main (){
 }
 
 
-async function test(){
+async function makeData(){
   let $ = cheerio.load(await fs.readFile('tmp/eye.html'))
   let data = []
   $('.mw-contributions-list > li').map((i,el)=>{
     let date = $('.mw-changeslist-date',el).text()
       .match(/(\d{4})年(\d\d?)月(\d\d?)日.+?(\d\d\:\d\d)/,'$1-$2-$3 $4')
-    
+
     let y = date[1]
     let m = date[2]
     let d = date[3]
@@ -53,7 +53,7 @@ async function test(){
     let isMinor =  $('.minoredit',el).length > 0
     let plusBytes = $('.mw-plusminus-pos,.mw-plusminus-neg',el).text()
     plusBytes = parseInt( plusBytes.replace(/[^\d\+\-]/g,'')||0)
-    
+
     data.push({
       date,
       page,
@@ -64,8 +64,39 @@ async function test(){
     })
     //console.log(`${date.toISOString()} ${page}`)
   })
-  console.log(data)
+  //console.log(data)
+  return data
 }
+
+
+function analyzePages(data){
+  pages = new Map()
+  for(let item of data){
+    let bake = pages.get(item.page) || {}
+    if(bake.editCount){
+      bake.editCount++
+    }else{
+      bake.editCount = 1
+      pages.set(item.page,bake)
+    }
+  }
+  return pages
+}
+
+async function report(data){
+
+  let pages = analyzePages(data)
+  return {
+    editCount: data.length,
+    pageCount: pages.size,
+    pages,
+  }
+}
+
+async function test(){
+  console.log(await report(await makeData()))
+}
+
 
 test()
 //main()
