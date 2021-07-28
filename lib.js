@@ -18,7 +18,10 @@ async function loadUserContribsData(userName,params={}){
 
     console.debug('loading from cache')
     contribs = JSON.parse(await fs.readFile(cacheFile))
-    
+    if(contribs.data.length == 0){
+      console.debug('  data is emtry\n')
+      throw 'data is emtry'
+    }
   }catch(e){
     console.debug('loading from network')
     contribs = {
@@ -28,7 +31,11 @@ async function loadUserContribsData(userName,params={}){
     }
 
     contribs.data = await makeData(userName,params)
-    await fs.writeFile(cacheFile, JSON.stringify(contribs,' ',2))
+    fs.open(cacheFile,'w')
+      .then(async (f)=>{
+        f.write(JSON.stringify(contribs,' ',2))
+          .finally(()=>f.close())
+      })
   }
   for (let item of contribs.data){
     item.date = new Date(item.date)
@@ -55,11 +62,12 @@ async function fetchUserContribs(userName, params) {
 
   let res = await axios.get(url, {
     headers: {
-      'user-agent': 'googlebot/2.0'
+      'user-agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
     }
   })
-  return res
 
+  fs.writeFile(`tmp/last-page.html`,res.data)
+  return res
 }
 
 
@@ -78,6 +86,7 @@ async function makeData(userName,params) {
   console.debug('making up ')
 
   let $ = cheerio.load(html)
+  testPage($)
   let data = []
   $('.mw-contributions-list > li').map((i, el) => {
     let date = $('.mw-changeslist-date', el).text()
@@ -109,7 +118,17 @@ async function makeData(userName,params) {
   })
   //console.log(data)
   //TODO: get next pages
+
   return data
+}
+
+function testPage($){
+  let t = $('title').text()
+  if (t.indexOf('萌娘百科') == -1){
+    console.error('请求似乎被拦截')
+    return false
+  }
+  return true
 }
 
 
@@ -118,3 +137,4 @@ module.exports = {
   makeData,
   loadUserContribsData
 }
+
