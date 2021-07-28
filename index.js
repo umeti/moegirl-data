@@ -1,7 +1,7 @@
-const {makeData} =  require('./lib.js')
-
+const {loadUserContribsData} =  require('./lib.js')
 async function main(){
-  let data = await makeData('鬼影233')
+  let userName = process.argv[2] || '梦吉'
+  let data = await loadUserContribsData(userName)
   let report = await makeReport(data)
 
   // console.log(data)
@@ -11,6 +11,10 @@ async function main(){
 
 function showReport(report){
   let _ = report.overview
+  if(_.editCount == 0){
+    console.log('无任何编辑')
+    return
+  }
   let text = 
 `
 总编辑数 ${_.editCount}
