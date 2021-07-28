@@ -99,7 +99,7 @@ async function parseUserContribsPage($) {
         plusBytes
       })
     } catch (err) {
-      await tracklog($(el).html())
+      tracklog($(el).html())
       unknownItemCount++
     }
   })
@@ -159,8 +159,8 @@ async function fetchPage(url, base = 'https://zh.moegirl.org.cn/') {
   return res
 }
 
-async function tracklog(msg) {
-  await fs.writeFile('tmp/track.log', msg, { flag: 'a' })
+function tracklog(msg) {
+  fs.writeFile('tmp/track.log', msg+"\n", { flag: 'a' })
   //console.error(msg)
 }
 
