@@ -5,8 +5,70 @@ async function main(){
   let report = await makeReport(data)
 
   // console.log(data)
-  console.log(report.overview)
+ // console.log(report.overview)
+  showReport(report)
+}
+
+function showReport(report){
+  let _ = report.overview
+  let text = 
+`
+总编辑数 ${_.editCount}
+总页面数 ${_.pageCount}
+活动天数 ${_.dayCount}
+编辑最多的一天 ${_.mostEditedDay.day.toISOString().substr(0,10)} (${_.mostEditedDay.editCount})
+编辑最多的页面 ${_.mostEditedPage.title} (${_.mostEditedPage.editCount})
+时段活跃度
+`
+  for(let p in _.timeHabit){
+    text += `  ${p} ${_.timeHabit[p].all}\n`
+  }
+  console.log(text)
+
+}
+
+async function makeReport(data) {
   
+  let pages = analyzePages(data)
+  let days = analyzeDays(data)
+  let mostEditedDay = null
+  for (let day of days.values()) {
+    day.periods = analyzePeriod(day.items)
+    
+    if(mostEditedDay){
+      if(mostEditedDay.editCount < day.editCount){
+        mostEditedDay = day
+      }
+    }else{
+      mostEditedDay = day
+    }
+  }
+
+  let mostEditedPage = null
+  for(let page of pages.values()){
+    if(mostEditedPage){
+      if(mostEditedPage.editCount < page.editCount){
+        mostEditedPage = page
+      }
+    }else{
+      mostEditedPage = page
+    }
+  }
+
+  let timeHabit  = analyzeTimeHabit(days)
+
+  return {
+    pages,
+    days,
+    overview: {
+      editCount: data.length,
+      pageCount: pages.size,
+      dayCount: days.size,
+      mostEditedDay,
+      mostEditedPage,
+      timeHabit,
+    }
+  }
 }
 
 function analyzePages(data) {
@@ -47,7 +109,7 @@ function analyzeDays(data) {
   return days
 }
 
-const PERIOD_OF_TIME = {
+const PERIOD_OF_TIME_EN = {
   0: 'night',
   1: 'night',
   2: 'night',
@@ -73,7 +135,32 @@ const PERIOD_OF_TIME = {
   22: 'evening',
   23: 'night',
 }
-
+const PERIOD_OF_TIME = {
+  0: '深夜',
+  1: '深夜',
+  2: '深夜',
+  3: '深夜',
+  4: '凌晨',
+  5: '凌晨',
+  6: '清晨',
+  7: '清晨',
+  8: '上午',
+  9: '上午',
+  10: '上午',
+  11: '中午',
+  12: '中午',
+  13: '下午',
+  14: '下午',
+  15: '下午',
+  16: '下午',
+  17: '傍晚',
+  18: '傍晚',
+  19: '晚上',
+  20: '晚上',
+  21: '晚上',
+  22: '晚上',
+  23: '深夜',
+}
 
 function analyzePeriod(data) {
   let periods = {}
@@ -109,49 +196,6 @@ function analyzeTimeHabit(days){
     }
   }
   return periodCounts
-}
-
-async function makeReport(data) {
-  
-  let pages = analyzePages(data)
-  let days = analyzeDays(data)
-  let mostEditedDay = null
-  for (let day of days.values()) {
-    day.periods = analyzePeriod(day.items)
-    
-    if(mostEditedDay){
-      if(mostEditedDay.editCount < day.editCount){
-        mostEditedDay = day
-      }
-    }else{
-      mostEditedDay = day
-    }
-  }
-
-  let mostEditedPage = null
-  for(let page of pages.values()){
-    if(mostEditedPage){
-      if(mostEditedPage.editCount < page.editCount){
-        mostEditedPage = page
-      }
-    }else{
-      mostEditedPage = page
-    }
-  }
-
-  let timeHabit  = analyzeTimeHabit(days)
-
-  return {
-    pages,
-    days,
-    overview: {
-      editCount: data.length,
-      pageCount: pages.size,
-      mostEditedDay,
-      mostEditedPage,
-      timeHabit,
-    }
-  }
 }
 
 async function test() {
