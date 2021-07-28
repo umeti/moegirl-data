@@ -19,8 +19,8 @@ async function loadUserContribsData(userName, params = {}) {
     console.debug('loading from cache')
     contribs = JSON.parse(await fs.readFile(cacheFile))
     if (contribs.data.length == 0) {
-      console.debug('  data is emtry\n')
-      throw 'data is emtry'
+      console.debug('  data is empty\n')
+      throw 'data is empty'
     }
   } catch (e) {
     console.debug('loading from network')
