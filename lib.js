@@ -3,6 +3,7 @@ const fs = require('fs/promises')
 const cheerio = require('cheerio')
 const { contains } = require('cheerio/lib/static')
 
+const TRACK_LOG = false
 const CACHE_EXPIRE_TIME = 86400000
 
 async function loadUserContribsData(userName, params = {}) {
@@ -98,8 +99,9 @@ async function parseUserContribsPage($) {
         isMinor,
         plusBytes
       })
-    } catch (err) {
       tracklog($(el).html())
+    } catch (err) {
+      errorlog($(el).html())
       unknownItemCount++
     }
   })
@@ -160,10 +162,16 @@ async function fetchPage(url, base = 'https://zh.moegirl.org.cn/') {
 }
 
 function tracklog(msg) {
+  if(!TRACK_LOG) return;
+  msg = `--- ${new Date().toISOString()} ---\n${msg}`
   fs.writeFile('tmp/track.log', msg+"\n", { flag: 'a' })
-  //console.error(msg)
 }
 
+function errorlog(msg) {
+  if(!TRACK_LOG) return;
+  msg = `--- ${new Date().toISOString()} ---\n${msg}`
+  fs.writeFile('tmp/error.log', msg+"\n", { flag: 'a' })
+}
 module.exports = {
   makeData,
   loadUserContribsData
