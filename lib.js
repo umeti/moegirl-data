@@ -83,22 +83,23 @@ async function parseUserContribsPage($) {
       let t = date[4]
       m = m.length == 1 ? '0' + m : m
       d = d.length == 1 ? '0' + d : d
-      date = `${y}-${m}-${d}T${t}Z`
-      let page = $('.mw-contributions-title', el).attr('title')
-      let href = $('.mw-contributions-title', el).attr('href')
-      let comment = $('.comment', el).text()
-      let isMinor = $('.minoredit', el).length > 0
-      let plusBytes = $('.mw-plusminus-pos,.mw-plusminus-neg', el).text()
-      plusBytes = parseInt(plusBytes.replace(/[^\d\+\-]/g, '') || 0)
-
-      data.push({
-        date,
-        page,
-        href,
-        comment,
-        isMinor,
-        plusBytes
+      let _ = {}
+      _.date = `${y}-${m}-${d}T${t}Z`
+      _.page = $('.mw-contributions-title', el).attr('title')
+      _.href = $('.mw-contributions-title', el).attr('href')
+      _.comment = $('.comment', el).text()
+      _.isMinor = $('.minoredit', el).length > 0
+      _.plusBytes = $('.mw-plusminus-pos,.mw-plusminus-neg', el).text()
+      _.plusBytes = parseInt(_.plusBytes.replace(/[^\d\+\-]/g, '') || 0)
+      _.tags = []
+      _.tagsText = []
+      $('.mw-tag-marker',el).map((i,el)=>{
+        // mw-tag-marker mw-tag-marker- #28
+        _.tags.push($(el).attr('class').substr(28))
+        _.tagsText.push($(el).text())
       })
+
+      data.push(_)
       tracklog($(el).html())
     } catch (err) {
       errorlog($(el).html())
