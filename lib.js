@@ -1,7 +1,6 @@
 const axios = require('axios').default
 const fs = require('fs/promises')
 const cheerio = require('cheerio')
-const { contains } = require('cheerio/lib/static')
 
 const TRACK_LOG = false
 const CACHE_EXPIRE_TIME = 86400000
@@ -85,6 +84,9 @@ async function parseUserContribsPage($) {
       d = d.length == 1 ? '0' + d : d
       let _ = {}
       _.date = `${y}-${m}-${d}T${t}Z`
+      _.id = $('.mw-changeslist-date', el).attr('href').match(/(?<=oldid\=)\d+/)
+      _.id = _.id &&  _.id[0]
+
       _.page = $('.mw-contributions-title', el).attr('title')
       _.href = $('.mw-contributions-title', el).attr('href')
       _.comment = $('.comment', el).text()
@@ -98,6 +100,7 @@ async function parseUserContribsPage($) {
         _.tags.push($(el).attr('class').substr(28))
         _.tagsText.push($(el).text())
       })
+
 
       data.push(_)
       tracklog($(el).html())
