@@ -91,14 +91,15 @@ async function parseUserContribsPage($) {
       _.href = $('.mw-contributions-title', el).attr('href')
       _.comment = $('.comment', el).text()
       _.isMinor = $('.minoredit', el).length > 0
+      _.isNew = $('.newpage',el).length > 0
       _.plusBytes = $('.mw-plusminus-pos,.mw-plusminus-neg', el).text()
       _.plusBytes = parseInt(_.plusBytes.replace(/[^\d\+\-]/g, '') || 0)
-      _.tags = []
-      _.tagsText = []
+      _.tags = {}
       $('.mw-tag-marker',el).map((i,el)=>{
         // mw-tag-marker mw-tag-marker- #28
-        _.tags.push($(el).attr('class').substr(28))
-        _.tagsText.push($(el).text())
+        let name = $(el).attr('class').substr(28) 
+        let text = $(el).text()
+        _.tags[name] = text
       })
 
 

@@ -18,11 +18,19 @@ function showReport(report){
   let text = 
 `
 总编辑数 ${_.editCount}
+自动化编辑数 ${_.editCountOfAuto}
+讨论页编辑数 ${_.editCountOfTalk}
+用户页编辑数 ${_.editCountOfUser}
+常规页编辑数 ${_.editCountOfCommon}
 总页面数 ${_.pageCount}
+常规页面数 ${_.pageCountOfCommon} 
+创建的常规页面数 ${_.createCount} 
+最多编辑的一天 ${_.mostEditedDay.key} (${_.mostEditedDay.count})
+最多编辑的页面 ${_.mostEditedPage.key} (${_.mostEditedPage.count})
+最多常规编辑的一天 ${_.mostEditedDayOfCommon.key} (${_.mostEditedDayOfCommon.count})
+最多常规编辑的页面 ${_.mostEditedPageOfCommon.key} (${_.mostEditedPageOfCommon.count})
 活动天数 ${_.dayCount}
-编辑最多的一天 ${_.mostEditedDay.day.toISOString().substr(0,10)} (${_.mostEditedDay.editCount})
-编辑最多的页面 ${_.mostEditedPage.title} (${_.mostEditedPage.editCount})
-时段活跃度
+活动时段统计
 `
   for(let p in _.timeHabit){
     text += `  ${p} ${_.timeHabit[p].all}\n`
@@ -31,49 +39,110 @@ function showReport(report){
 
 }
 
+function findMostEdit(map){
+  let key="",count=0
+  for(let k of map.keys()){
+    let item = map.get(k) 
+    if(count < item.editCount){
+      key = k
+      count = item.editCount
+    }
+
+  }
+
+  return {
+    key,
+    count,
+  }
+}
+
 async function makeReport(data) {
   
   let pages = analyzePages(data)
   let days = analyzeDays(data)
-  let mostEditedDay = null
   for (let day of days.values()) {
     day.periods = analyzePeriod(day.items)
-    
-    if(mostEditedDay){
-      if(mostEditedDay.editCount < day.editCount){
-        mostEditedDay = day
-      }
-    }else{
-      mostEditedDay = day
-    }
   }
 
-  let mostEditedPage = null
-  for(let page of pages.values()){
-    if(mostEditedPage){
-      if(mostEditedPage.editCount < page.editCount){
-        mostEditedPage = page
-      }
-    }else{
-      mostEditedPage = page
-    }
-  }
+  
+  let mostEditedDay = findMostEdit(days)
+  let mostEditedPage = findMostEdit(pages)
 
   let timeHabit  = analyzeTimeHabit(days)
+
+  let filteredData = filterData(data)
+  let commonPages = analyzePages(filteredData.common)
+  let commonDays = analyzeDays(filteredData.common)
+  let mostEditedDayOfCommon = findMostEdit(commonDays)
+  let mostEditedPageOfCommon =  findMostEdit(commonPages)
 
   return {
     pages,
     days,
+    filterData,
     overview: {
       editCount: data.length,
+      editCountOfAuto:filteredData.auto.length,
+      editCountOfTalk:filteredData.talk.length,
+      editCountOfUser:filteredData.user.length,
+      editCountOfCommon:filteredData.common.length,
       pageCount: pages.size,
+      pageCountOfCommon: commonPages.size,
+      createCount: filteredData.create.length,
       dayCount: days.size,
       mostEditedDay,
       mostEditedPage,
+      mostEditedDayOfCommon,
+      mostEditedPageOfCommon,
       timeHabit,
     }
   }
 }
+
+function isAuto(item){
+  if(item.tags.Automation_tool){
+    return true
+  }
+  return false
+}
+
+function isUser(item){
+  return /^User\:/i.test(item.page)
+}
+
+function isTalk(item){
+  return /^.*?Talk\:/i.test(item.page)
+}
+
+function filterData(data){
+  let _ = {
+    auto:[],
+    talk:[],
+    user:[],
+    common:[],
+    create:[]
+  }
+  
+  for (let item of data){
+    if(isAuto(item)){
+      _.auto.push(item)
+    }else if(isUser(item)){
+      _.user.push(item)
+    }else if(isTalk(item)){
+      _.talk.push(item)
+    }else{
+      _.common.push(item)
+      if(item.isNew){
+        _.create.push(item)
+      }
+    }
+    
+  }
+  
+  //console.debug(_)
+  return _
+}
+
 
 function analyzePages(data) {
   pages = new Map()
@@ -96,7 +165,7 @@ function analyzePages(data) {
 function analyzeDays(data) {
   let days = new Map()
   for (let item of data) {
-    let i = Math.floor(item.date.getTime() / 86400000) * 86400000
+    let i = item.date.toISOString().substr(0,10)
     let bake = days.get(i)
     if (bake) {
       bake.editCount++
@@ -165,6 +234,17 @@ const PERIOD_OF_TIME = {
   22: '晚上',
   23: '深夜',
 }
+/*
+各时段对应如下
+凌晨04-06
+清晨06-08
+上午08-11
+中午11-13
+下午13-17
+傍晚17-19
+晚上19-23
+深夜23-04
+*/
 
 function analyzePeriod(data) {
   let periods = {}
