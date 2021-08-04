@@ -17,23 +17,39 @@ function showReport(report){
   }
   let text = 
 `
-总编辑数 ${_.editCount}
-自动化编辑数 ${_.editCountOfAuto}
-讨论页编辑数 ${_.editCountOfTalk}
-用户页编辑数 ${_.editCountOfUser}
-常规页编辑数 ${_.editCountOfCommon}
-总页面数 ${_.pageCount}
-常规页面数 ${_.pageCountOfCommon} 
-创建的常规页面数 ${_.createCount} 
-最多编辑的一天 ${_.mostEditedDay.key} (${_.mostEditedDay.count})
-最多编辑的页面 ${_.mostEditedPage.key} (${_.mostEditedPage.count})
-最多常规编辑的一天 ${_.mostEditedDayOfCommon.key} (${_.mostEditedDayOfCommon.count})
-最多常规编辑的页面 ${_.mostEditedPageOfCommon.key} (${_.mostEditedPageOfCommon.count})
-活动天数 ${_.dayCount}
-活动时段统计
+总编辑数： ${_.editCount}
+自动化编辑数： ${_.editCountOfAuto}
+讨论页编辑数： ${_.editCountOfTalk}
+用户页编辑数： ${_.editCountOfUser}
+常规页编辑数： ${_.editCountOfCommon}
+总页面数： ${_.pageCount}
+常规页面数： ${_.pageCountOfCommon} 
+创建的常规页面数： ${_.createCount} 
+最多编辑的一天： ${_.mostEditedDay.key} (${_.mostEditedDay.count})
+最多编辑的页面： ${_.mostEditedPage.key} (${_.mostEditedPage.count})
+最多常规编辑的一天： ${_.mostEditedDayOfCommon.key} (${_.mostEditedDayOfCommon.count})
+最多常规编辑的页面： ${_.mostEditedPageOfCommon.key} (${_.mostEditedPageOfCommon.count})
+活动天数： ${_.dayCount}
+活动时段统计：
 `
+  let rem = {
+    '凌晨': '04:00-06:00',
+    '清晨': '06:00-08:00',
+    '上午': '08:00-11:00',
+    '中午': '11:00-13:00',
+    '下午': '13:00-17:00',
+    '傍晚': '17:00-19:00',
+    '晚上': '19:00-23:00',
+    '深夜': '23:00-04:00',
+  }
+  let times = []
   for(let p in _.timeHabit){
-    text += `  ${p} ${_.timeHabit[p].all}\n`
+    //text += `  ${p}(${rem[p]}) ${_.timeHabit[p].all}\n`
+    times.push({key:p,val:_.timeHabit[p].all})
+  }
+  times = times.sort((a,b)=>b.val-a.val)
+  for (let t of times){
+    text += ` ${rem[t.key]} ${t.val}\n`
   }
   console.log(text)
 
