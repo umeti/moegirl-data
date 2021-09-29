@@ -1,4 +1,7 @@
 yarn.lock
 node_modules/
 tmp/
+tmp.*
 .*.sw*
+vc.yml
+*.wiki
