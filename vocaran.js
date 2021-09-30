@@ -121,7 +121,8 @@ async function makeData(html) {
       $history = $(e).parent().next().next()
     }
   })
-
+  // 处理历史榜单
+  let history_no = $("a",$history).first().text()
   $('img[alt^=rank]', $history).each((i, e) => {
     let $e = $(e)
     let rank = $e.attr('alt').substr(-1)
@@ -132,7 +133,7 @@ async function makeData(html) {
     history.push(_)
   })
 
-  return { ranklist, history }
+  return { ranklist, history,history_no }
 }
 
 function getWeight(text) {
