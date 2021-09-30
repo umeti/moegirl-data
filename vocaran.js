@@ -32,7 +32,10 @@ async function live(no) {
   let m = data.bilivideo.desc.match(/sm\d+/)
   console.log("  fetch niconico data...")
   data.nicovideo = await nicometa(m[0])
-
+  for(let his of data.history){
+    let meta = await nicometa(his.sm)
+    his.time = meta.time
+  }
   console.log("  save local data...")
   fs.writeFile(`data/vocaran${no}.json`, JSON.stringify(data, 2, ' '))
 }
