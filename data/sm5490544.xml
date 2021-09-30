@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nicovideo_thumb_response status="ok">
+  <thumb>
+    <video_id>sm5490544</video_id>
+    <title>週刊VOCALOIDランキング　#62</title>
+    <description>○集計期間：12月1日5時～12月8日5時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各1000位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。PL：Closed　週刊#61：sm5430322　週刊#63：sm5561318</description>
+    <thumbnail_url>https://nicovideo.cdn.nimg.jp/thumbnails/5490544/5490544</thumbnail_url>
+    <first_retrieve>2008-12-09T00:53:16+09:00</first_retrieve>
+    <length>22:11</length>
+    <movie_type>mp4</movie_type>
+    <size_high>36944192</size_high>
+    <size_low>31722825</size_low>
+    <view_counter>58955</view_counter>
+    <comment_num>28705</comment_num>
+    <mylist_counter>264</mylist_counter>
+    <last_res_body>69 64 48 50 いきなり卑怯だ! おおおおおおおおお 550以上遅れてる私が いいね おおお つええwww wwwwwwwwwwwwwww !? 落差www ひとしずく 43 37 335遅れ…… 1位「HONEY - NANAM... </last_res_body>
+    <watch_url>https://www.nicovideo.jp/watch/sm5490544</watch_url>
+    <thumb_type>video</thumb_type>
+    <embeddable>1</embeddable>
+    <no_live_play>0</no_live_play>
+    <tags domain="jp">
+      <tag lock="1">VOCALOIDランキング</tag>
+      <tag lock="1">初音ミク</tag>
+      <tag lock="1">鏡音リン・レン</tag>
+      <tag lock="1">神威がくぽ</tag>
+      <tag category="1" lock="1">エンターテイメント</tag>
+      <tag>週刊VOCALOIDランキング</tag>
+      <tag>納得の1位</tag>
+      <tag>VOCALOID</tag>
+      <tag>KAITO</tag>
+      <tag>出落ち</tag>
+    </tags>
+    <genre>エンターテイメント</genre>
+    <user_id>983487</user_id>
+    <user_nickname>sippotan</user_nickname>
+    <user_icon_url>https://secure-dcdn.cdn.nimg.jp/nicoaccount/usericon/s/98/983487.jpg?1573837083</user_icon_url>
+  </thumb>
+</nicovideo_thumb_response>
