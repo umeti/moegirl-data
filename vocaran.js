@@ -21,21 +21,26 @@ async function main(arg) {
 }
 
 async function live(no) {
+  console.log("Fetch vocaran "+no)
   let res = await fetch('http://web.archive.org/web/20180323041737/http://vocaran.jpn.org/vocaran/' + no)
   let html = await res.text()
-  let data = makeData(html)
-  data.bilivideo = biliget(no)
   
+  console.log("  make local data...")
+  let data = await makeData(html)
+  console.log("  fetch bilibili data...")
+  data.bilivideo = await biliget(no)
   let m = data.bilivideo.desc.match(/sm\d+/)
+  console.log("  fetch niconico data...")
   data.nicovideo = await nicometa(m[0])
 
+  console.log("  save local data...")
   fs.writeFile(`data/vocaran${no}.json`, JSON.stringify(data, 2, ' '))
 }
 
 async function nicometa(sm){
-  // let res = await fetch('https://ext.nicovideo.jp/api/getthumbinfo/'+sm)
-  // let xml = await res.text()
-  let xml = await fs.readFile('data/sm5490544.xml','utf-8')
+  let res = await fetch('https://ext.nicovideo.jp/api/getthumbinfo/'+sm)
+  let xml = await res.text()
+  //let xml = await fs.readFile('data/sm5490544.xml','utf-8')
   let $ = cheerio.load(xml)
   let id = $('video_id').text()
   let time = $('first_retrieve').text()
@@ -57,7 +62,9 @@ async function biliget(no) {
 async function bilimeta(aid) {
   let res = await fetch('https://api.bilibili.com/x/web-interface/view?aid=' + aid)
   if (res.status != 200) {
-    return {}
+    console.log("bilimeta return "+res.status)
+
+    return {desc:'',}
   }
 
   let data = await res.json()
