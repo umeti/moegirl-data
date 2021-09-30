@@ -1,1365 +1,13 @@
 {
  "vocaloid": [
   {
-   "title": "週刊VOCAL CharacterとUTAU ranking700・642",
-   "aid": 756909156,
-   "cid": 306545922,
-   "bvid": "BV1Br4y1A7tH",
-   "vocaloid": 2,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCAL CharacterとUTAU Ranking 701・643",
-   "aid": 972004536,
-   "cid": 309023346,
-   "bvid": "BV1Dp4y1H7Jk",
-   "vocaloid": 3,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCAL CharacterとUTAU RANKING 703・645",
-   "aid": 332334090,
-   "cid": 316473570,
-   "bvid": "BV1NA411K71N",
-   "vocaloid": 5,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCAL CharacterとUTAU RANKING 704・646",
-   "aid": 417484281,
-   "cid": 318760613,
-   "bvid": "BV1QV411n7uY",
-   "vocaloid": 6,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #116",
-   "aid": 56033,
-   "cid": 95261,
-   "bvid": "BV1ax411c7pC",
-   "vocaloid": 116,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #117",
-   "aid": 58349,
-   "cid": 97475,
-   "bvid": "BV1ex411c77F",
-   "vocaloid": 117,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #118",
-   "aid": 61624,
-   "cid": 102218,
-   "bvid": "BV1vx411c77u",
-   "vocaloid": 118,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #119",
-   "aid": 64486,
-   "cid": 106285,
-   "bvid": "BV1ex411c79x",
-   "vocaloid": 119,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #120",
-   "aid": 66512,
-   "cid": 109766,
-   "bvid": "BV12x411c74t",
-   "vocaloid": 120,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #121",
-   "aid": 68612,
-   "cid": 112735,
-   "bvid": "BV11x411c7HR",
-   "vocaloid": 121,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #122",
-   "aid": 71167,
-   "cid": 116322,
-   "bvid": "BV1mx411c7Vw",
-   "vocaloid": 122,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #123",
-   "aid": 73214,
-   "cid": 119458,
-   "bvid": "BV12x411c7iy",
-   "vocaloid": 123,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #124",
-   "aid": 75162,
-   "cid": 122605,
-   "bvid": "BV1Ux411c74u",
-   "vocaloid": 124,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #125",
-   "aid": 78122,
-   "cid": 130555,
-   "bvid": "BV1Dx411c7ct",
-   "vocaloid": 125,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #126",
-   "aid": 80654,
-   "cid": 135341,
-   "bvid": "BV1Sx411c7Y8",
-   "vocaloid": 126,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #127",
-   "aid": 83317,
-   "cid": 139699,
-   "bvid": "BV1rx411c7gE",
-   "vocaloid": 127,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #128",
-   "aid": 85405,
-   "cid": 143018,
-   "bvid": "BV16x411c7aG",
-   "vocaloid": 128,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #129",
-   "aid": 88417,
-   "cid": 147715,
-   "bvid": "BV1kx411c7Nb",
-   "vocaloid": 129,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #130",
-   "aid": 90660,
-   "cid": 151032,
-   "bvid": "BV1yx411c7cc",
-   "vocaloid": 130,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #131",
-   "aid": 94383,
-   "cid": 157197,
-   "bvid": "BV11x411c7ws",
-   "vocaloid": 131,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #132",
-   "aid": 95821,
-   "cid": 159595,
-   "bvid": "BV1yx411c79g",
-   "vocaloid": 132,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #133",
-   "aid": 97278,
-   "cid": 161998,
-   "bvid": "BV1yx411c7qf",
-   "vocaloid": 133,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #134",
-   "aid": 99709,
-   "cid": 166172,
-   "bvid": "BV1dx411c72q",
-   "vocaloid": 134,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #135",
-   "aid": 103261,
-   "cid": 171417,
-   "bvid": "BV1Zx411c74g",
-   "vocaloid": 135,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #136",
-   "aid": 105557,
-   "cid": 175053,
-   "bvid": "BV1ox411c7EK",
-   "vocaloid": 136,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #137",
-   "aid": 108044,
-   "cid": 179651,
-   "bvid": "BV1fx411c7ET",
-   "vocaloid": 137,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #138",
-   "aid": 111128,
-   "cid": 184957,
-   "bvid": "BV1Fx411w7SA",
-   "vocaloid": 138,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #139",
-   "aid": 113892,
-   "cid": 189525,
-   "bvid": "BV1fx411c7kf",
-   "vocaloid": 139,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #140～#145",
-   "aid": 137165,
-   "cid": 228379,
-   "bvid": "BV1Tx411w7DY",
-   "vocaloid": 145,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #146",
-   "aid": 137699,
-   "cid": 229350,
-   "bvid": "BV1Tx411w7Wz",
-   "vocaloid": 146,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #147",
-   "aid": 141081,
-   "cid": 234333,
-   "bvid": "BV1ux411w7TM",
-   "vocaloid": 147,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #148",
-   "aid": 143276,
-   "cid": 237721,
-   "bvid": "BV1Mx411w7ba",
-   "vocaloid": 148,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #149",
-   "aid": 150988,
-   "cid": 250143,
-   "bvid": "BV1cx411w7FJ",
-   "vocaloid": 149,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #150",
-   "aid": 151251,
-   "cid": 250603,
-   "bvid": "BV1cx411w7Pb",
-   "vocaloid": 150,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #174",
-   "aid": 54936,
-   "cid": 93738,
-   "bvid": "BV1ax411c7ra",
-   "vocaloid": 174,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #175",
-   "aid": 58294,
-   "cid": 97369,
-   "bvid": "BV1ex411c77o",
-   "vocaloid": 175,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #176",
-   "aid": 61976,
-   "cid": 102710,
-   "bvid": "BV1vx411c7tB",
-   "vocaloid": 176,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #177",
-   "aid": 64144,
-   "cid": 105907,
-   "bvid": "BV1ex411c7SL",
-   "vocaloid": 177,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング#178",
-   "aid": 66583,
-   "cid": 109878,
-   "bvid": "BV11x411c7Z9",
-   "vocaloid": 178,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #179",
-   "aid": 249101,
-   "cid": 399983,
-   "bvid": "BV1hx411w7jh",
-   "vocaloid": 179,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #180",
-   "aid": 253811,
-   "cid": 406477,
-   "bvid": "BV1ax411w7Bg",
-   "vocaloid": 180,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #181",
-   "aid": 260637,
-   "cid": 416372,
-   "bvid": "BV1vx411w7Eg",
-   "vocaloid": 181,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #182",
-   "aid": 262405,
-   "cid": 418885,
-   "bvid": "BV1Nx411F7oq",
-   "vocaloid": 182,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #183",
-   "aid": 267836,
-   "cid": 426211,
-   "bvid": "BV1Kx411F7ou",
-   "vocaloid": 183,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #180～#183 Result",
-   "aid": 106137,
-   "cid": 176088,
-   "bvid": "BV1ox411c7xq",
-   "vocaloid": 183,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #183 chokaigi edition",
-   "aid": 257196,
-   "cid": 411367,
-   "bvid": "BV1Yx411w7ik",
-   "vocaloid": 183,
-   "utau": null
-  },
-  {
-   "title": "Weekly UTAU Ranking #184",
-   "aid": 273314,
-   "cid": 434062,
-   "bvid": "BV1Tx411F79B",
-   "vocaloid": 184,
-   "utau": null
-  },
-  {
-   "title": "Weekly UTAU Ranking #185",
-   "aid": 276844,
-   "cid": 440744,
-   "bvid": "BV1Mx411F7f8",
-   "vocaloid": 185,
-   "utau": null
-  },
-  {
-   "title": "Weekly UTAU Ranking #186",
-   "aid": 280505,
-   "cid": 446185,
-   "bvid": "BV1Fx411F79g",
-   "vocaloid": 186,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #187",
-   "aid": 285647,
-   "cid": 453869,
-   "bvid": "BV1cx411F72m",
-   "vocaloid": 187,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #184～#187 Result",
-   "aid": 801389944,
-   "cid": 291942384,
-   "bvid": "BV1Zy4y1J7X2",
-   "vocaloid": 187,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #188",
-   "aid": 290188,
-   "cid": 460032,
-   "bvid": "BV1wx411F7eN",
-   "vocaloid": 188,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUranking #189",
-   "aid": 297161,
-   "cid": 469916,
-   "bvid": "BV15x411F7on",
-   "vocaloid": 189,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUranking #190",
-   "aid": 301856,
-   "cid": 476754,
-   "bvid": "BV1jx411F7tV",
-   "vocaloid": 190,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUranking #191",
-   "aid": 306845,
-   "cid": 483561,
-   "bvid": "BV17x411F75z",
-   "vocaloid": 191,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #188～#191 Result",
-   "aid": 228693,
-   "cid": 370717,
-   "bvid": "BV1sx411w7gg",
-   "vocaloid": 191,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUranking #192",
-   "aid": 311759,
-   "cid": 490624,
-   "bvid": "BV1gx411F71q",
-   "vocaloid": 192,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #192",
-   "aid": 100837,
-   "cid": 167691,
-   "bvid": "BV1dx411c74g",
-   "vocaloid": 192,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUranking #193",
-   "aid": 319742,
-   "cid": 501726,
-   "bvid": "BV1Vx411F7Ty",
-   "vocaloid": 193,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #193",
-   "aid": 103399,
-   "cid": 171665,
-   "bvid": "BV1Zx411c7s9",
-   "vocaloid": 193,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUranking #194",
-   "aid": 325035,
-   "cid": 508949,
-   "bvid": "BV15x411F7Ms",
-   "vocaloid": 194,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #194",
-   "aid": 105937,
-   "cid": 175758,
-   "bvid": "BV1ox411c7n5",
-   "vocaloid": 194,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU曲Ranking #195",
-   "aid": 330367,
-   "cid": 516176,
-   "bvid": "BV1sx411F7Xz",
-   "vocaloid": 195,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #195",
-   "aid": 108510,
-   "cid": 180371,
-   "bvid": "BV1fx411c7ER",
-   "vocaloid": 195,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUranking #196",
-   "aid": 335416,
-   "cid": 523401,
-   "bvid": "BV1xx411F7Uk",
-   "vocaloid": 196,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #196",
-   "aid": 111530,
-   "cid": 185712,
-   "bvid": "BV1Fx411w7XA",
-   "vocaloid": 196,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUranking #197",
-   "aid": 343385,
-   "cid": 534005,
-   "bvid": "BV1bx411F7MQ",
-   "vocaloid": 197,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #197",
-   "aid": 114372,
-   "cid": 814395,
-   "bvid": "BV1fx411c7QL",
-   "vocaloid": 197,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUranking #198",
-   "aid": 350868,
-   "cid": 542590,
-   "bvid": "BV1Hx411F7GJ",
-   "vocaloid": 198,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #198",
-   "aid": 116671,
-   "cid": 814372,
-   "bvid": "BV1Qx411c7wS",
-   "vocaloid": 198,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUranking #199",
-   "aid": 355435,
-   "cid": 548498,
-   "bvid": "BV1px411F7FM",
-   "vocaloid": 199,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #199",
-   "aid": 120054,
-   "cid": 199785,
-   "bvid": "BV1Xx411c7cL",
-   "vocaloid": 199,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU曲Ranking #200【最终回】",
-   "aid": 357502,
-   "cid": 551066,
-   "bvid": "BV1Wx411F7UX",
-   "vocaloid": 200,
-   "utau": null
-  },
-  {
-   "title": "【200回】週刊VOCALOIDランキング #200",
-   "aid": 123060,
-   "cid": 204739,
-   "bvid": "BV19x411c7Y6",
-   "vocaloid": 200,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #201",
-   "aid": 126568,
-   "cid": 210263,
-   "bvid": "BV1Xx411c7Uk",
-   "vocaloid": 201,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #202",
-   "aid": 130001,
-   "cid": 217201,
-   "bvid": "BV1Rx411c7Hb",
-   "vocaloid": 202,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #203",
-   "aid": 134100,
-   "cid": 223623,
-   "bvid": "BV1Kx411w7Ju",
-   "vocaloid": 203,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #204",
-   "aid": 137747,
-   "cid": 229401,
-   "bvid": "BV1Tx411w7hY",
-   "vocaloid": 204,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #205",
-   "aid": 140816,
-   "cid": 233962,
-   "bvid": "BV1ux411w7wX",
-   "vocaloid": 205,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #206",
-   "aid": 143694,
-   "cid": 238320,
-   "bvid": "BV1gx411w7tU",
-   "vocaloid": 206,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #207",
-   "aid": 146609,
-   "cid": 242937,
-   "bvid": "BV1ux411w7tr",
-   "vocaloid": 207,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #208",
-   "aid": 149411,
-   "cid": 247139,
-   "bvid": "BV1cx411w7mM",
-   "vocaloid": 208,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #238",
-   "aid": 253817,
-   "cid": 406484,
-   "bvid": "BV1ax411w7BP",
-   "vocaloid": 238,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #239",
-   "aid": 258206,
-   "cid": 412042,
-   "bvid": "BV1vx411w7Cx",
-   "vocaloid": 239,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #240",
-   "aid": 262299,
-   "cid": 418749,
-   "bvid": "BV1Nx411F7Sb",
-   "vocaloid": 240,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #241",
-   "aid": 267267,
-   "cid": 425400,
-   "bvid": "BV1Kx411F7mP",
-   "vocaloid": 241,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #242",
-   "aid": 271455,
-   "cid": 431530,
-   "bvid": "BV1Tx411F7f5",
-   "vocaloid": 242,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #243",
-   "aid": 275766,
-   "cid": 439098,
-   "bvid": "BV1ux411F7EN",
-   "vocaloid": 243,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #244",
-   "aid": 281052,
-   "cid": 446935,
-   "bvid": "BV1Fx411F7sT",
-   "vocaloid": 244,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #245",
-   "aid": 285011,
-   "cid": 452938,
-   "bvid": "BV1cx411F7zZ",
-   "vocaloid": 245,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #246",
-   "aid": 289417,
-   "cid": 458904,
-   "bvid": "BV1wx411F7oP",
-   "vocaloid": 246,
-   "utau": null
-  },
-  {
-   "title": " 週刊VOCALOID RANKING #247",
-   "aid": 294767,
-   "cid": 466586,
-   "bvid": "BV1Ax411F7ZM",
-   "vocaloid": 247,
-   "utau": null
-  },
-  {
-   "title": " 週刊VOCALOID RANKING #248",
-   "aid": 299982,
-   "cid": 474111,
-   "bvid": "BV17x411F7Fe",
-   "vocaloid": 248,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #249",
-   "aid": 305259,
-   "cid": 481396,
-   "bvid": "BV17x411F7xE",
-   "vocaloid": 249,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #250",
-   "aid": 310807,
-   "cid": 489433,
-   "bvid": "BV1Ex411F78v",
-   "vocaloid": 250,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #251",
-   "aid": 316841,
-   "cid": 497770,
-   "bvid": "BV13x411F7kG",
-   "vocaloid": 251,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #252",
-   "aid": 323130,
-   "cid": 506395,
-   "bvid": "BV1Gx411F7sD",
-   "vocaloid": 252,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #253",
-   "aid": 328843,
-   "cid": 514135,
-   "bvid": "BV1xx411F7cw",
-   "vocaloid": 253,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #254",
-   "aid": 334478,
-   "cid": 521734,
-   "bvid": "BV14x411F7PR",
-   "vocaloid": 254,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #255",
-   "aid": 341306,
-   "cid": 531287,
-   "bvid": "BV1bx411F72U",
-   "vocaloid": 255,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #256",
-   "aid": 346028,
-   "cid": 536923,
-   "bvid": "BV1nx411F7pt",
-   "vocaloid": 256,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #257",
-   "aid": 351416,
-   "cid": 543281,
-   "bvid": "BV1nx411F713",
-   "vocaloid": 257,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID RANKING #258",
-   "aid": 355420,
-   "cid": 548608,
-   "bvid": "BV1Hx411F7fx",
-   "vocaloid": 258,
-   "utau": null
-  },
-  {
-   "title": "【初音ミク】 週刊mikumiku Ranking #287",
-   "aid": 521397,
-   "cid": 780153,
-   "bvid": "BV15x411c781",
-   "vocaloid": 287,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU排行榜Digest #328・#329",
-   "aid": 2070384,
-   "cid": 3206600,
-   "bvid": "BV1fx411A7wy",
-   "vocaloid": 329,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU排行榜Digest #330・#331",
-   "aid": 2113340,
-   "cid": 3279353,
-   "bvid": "BV1ys411S7Hx",
-   "vocaloid": 331,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU排行榜Digest #332・#333",
-   "aid": 2159771,
-   "cid": 3358600,
-   "bvid": "BV1Ss411S7eK",
-   "vocaloid": 333,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU排行榜Digest #334・#335",
-   "aid": 2218156,
-   "cid": 3446582,
-   "bvid": "BV1Ts411D7JN",
-   "vocaloid": 335,
-   "utau": null
-  },
-  {
-   "title": "【週刊】UTAU排行榜Digest【 #336・#337】",
-   "aid": 2273741,
-   "cid": 3544659,
-   "bvid": "BV1vs411D71m",
-   "vocaloid": 337,
-   "utau": null
-  },
-  {
-   "title": "【週刊】UTAU排行榜Digest【 #338・#339】",
-   "aid": 2313501,
-   "cid": 3609481,
-   "bvid": "BV1is411D7Tb",
-   "vocaloid": 339,
-   "utau": null
-  },
-  {
-   "title": "【週刊】UTAU排行榜Digest【 #340・#341】",
-   "aid": 2368160,
-   "cid": 3702082,
-   "bvid": "BV1Ws411U7c2",
-   "vocaloid": 341,
-   "utau": null
-  },
-  {
-   "title": "【週刊】UTAU排行榜Digest【 #342・#343】",
-   "aid": 2433522,
-   "cid": 3809118,
-   "bvid": "BV1Cs411U7WX",
-   "vocaloid": 343,
-   "utau": null
-  },
-  {
    "title": "【CeVIO周刊】突発佐藤莎莎拉排行榜",
    "aid": 613679,
    "cid": 902995,
    "bvid": "BV1Fs411f7op",
    "error": "",
-   "vocaloid": null,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #151",
-   "aid": 151903,
-   "cid": 251430,
-   "bvid": "BV1Ax411w7um",
-   "vocaloid": 151,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #152",
-   "aid": 155353,
-   "cid": 257163,
-   "bvid": "BV1wx411w77F",
-   "vocaloid": 152,
-   "utau": null
-  },
-  {
-   "title": " 週刊UTAUランキング #153",
-   "aid": 158715,
-   "cid": 262288,
-   "bvid": "BV1Ax411w79G",
-   "vocaloid": 153,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #154",
-   "aid": 161629,
-   "cid": 266915,
-   "bvid": "BV1Nx411w745",
-   "vocaloid": 154,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #155",
-   "aid": 165048,
-   "cid": 272294,
-   "bvid": "BV1jx411w7uf",
-   "vocaloid": 155,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #156",
-   "aid": 169190,
-   "cid": 278570,
-   "bvid": "BV17x411w7Ho",
-   "vocaloid": 156,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #157",
-   "aid": 171971,
-   "cid": 283126,
-   "bvid": "BV1jx411w7f5",
-   "vocaloid": 157,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #158",
-   "aid": 175705,
-   "cid": 288437,
-   "bvid": "BV1Ex411w7uj",
-   "vocaloid": 158,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #159",
-   "aid": 180117,
-   "cid": 294966,
-   "bvid": "BV1Jx411w7xs",
-   "vocaloid": 159,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #160",
-   "aid": 182222,
-   "cid": 298088,
-   "bvid": "BV13x411w78W",
-   "vocaloid": 160,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #161",
-   "aid": 185375,
-   "cid": 302553,
-   "bvid": "BV1Gx411w7am",
-   "vocaloid": 161,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #162",
-   "aid": 188144,
-   "cid": 306852,
-   "bvid": "BV1Gx411w7w6",
-   "vocaloid": 162,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #163",
-   "aid": 190934,
-   "cid": 311308,
-   "bvid": "BV1Vx411w7bc",
-   "vocaloid": 163,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #164",
-   "aid": 194517,
-   "cid": 317071,
-   "bvid": "BV1Lx411w7uM",
-   "vocaloid": 164,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #165",
-   "aid": 196720,
-   "cid": 320434,
-   "bvid": "BV14x411w7VD",
-   "vocaloid": 165,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #166",
-   "aid": 200776,
-   "cid": 326474,
-   "bvid": "BV1tx411w74A",
-   "vocaloid": 166,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #167",
-   "aid": 203762,
-   "cid": 331509,
-   "bvid": "BV1tx411w7wu",
-   "vocaloid": 167,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #168",
-   "aid": 207239,
-   "cid": 336819,
-   "bvid": "BV1bx411w7KS",
-   "vocaloid": 168,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #169",
-   "aid": 211539,
-   "cid": 343356,
-   "bvid": "BV18x411w7sq",
-   "vocaloid": 169,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #170",
-   "aid": 215841,
-   "cid": 350227,
-   "bvid": "BV1Hx411w7Fz",
-   "vocaloid": 170,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #171",
-   "aid": 220916,
-   "cid": 358549,
-   "bvid": "BV1Hx411w72k",
-   "vocaloid": 171,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #172",
-   "aid": 222477,
-   "cid": 361072,
-   "bvid": "BV1Wx411w7vK",
-   "vocaloid": 172,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #173",
-   "aid": 226352,
-   "cid": 366964,
-   "bvid": "BV1sx411w7C6",
-   "vocaloid": 173,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #174",
-   "aid": 229577,
-   "cid": 371983,
-   "bvid": "BV1ix411w7dg",
-   "vocaloid": 174,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #175",
-   "aid": 233511,
-   "cid": 377904,
-   "bvid": "BV1Bx411w7GS",
-   "vocaloid": 175,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #176",
-   "aid": 237867,
-   "cid": 384096,
-   "bvid": "BV1zx411w78z",
-   "vocaloid": 176,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #177",
-   "aid": 242209,
-   "cid": 390543,
-   "bvid": "BV16x411w7mQ",
-   "vocaloid": 177,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #178",
-   "aid": 245826,
-   "cid": 395447,
-   "bvid": "BV1ax411w7Kc",
-   "vocaloid": 178,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #209",
-   "aid": 152299,
-   "cid": 252031,
-   "bvid": "BV1Ax411w7G1",
-   "vocaloid": 209,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #210",
-   "aid": 155297,
-   "cid": 257055,
-   "bvid": "BV1wx411w7JP",
-   "vocaloid": 210,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #211",
-   "aid": 158710,
-   "cid": 262283,
-   "bvid": "BV1Ax411w79x",
-   "vocaloid": 211,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #212 【修正版+错版】",
-   "aid": 162134,
-   "cid": 267808,
-   "bvid": "BV1Px411w7fX",
-   "vocaloid": 212,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #213",
-   "aid": 165447,
-   "cid": 273016,
-   "bvid": "BV1jx411w7Jm",
-   "vocaloid": 213,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #214",
-   "aid": 169130,
-   "cid": 278399,
-   "bvid": "BV17x411w7pD",
-   "vocaloid": 214,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #215",
-   "aid": 172405,
-   "cid": 283840,
-   "bvid": "BV1Jx411w7Fv",
-   "vocaloid": 215,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #216",
-   "aid": 176206,
-   "cid": 289060,
-   "bvid": "BV1nx411w7MH",
-   "vocaloid": 216,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #217",
-   "aid": 179770,
-   "cid": 294498,
-   "bvid": "BV1Jx411w7Wa",
-   "vocaloid": 217,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #218",
-   "aid": 182602,
-   "cid": 298600,
-   "bvid": "BV13x411w7NA",
-   "vocaloid": 218,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #219",
-   "aid": 185581,
-   "cid": 302875,
-   "bvid": "BV1Gx411w78n",
-   "vocaloid": 219,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #220",
-   "aid": 188359,
-   "cid": 307163,
-   "bvid": "BV1Gx411w7KS",
-   "vocaloid": 220,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #221",
-   "aid": 191259,
-   "cid": 311823,
-   "bvid": "BV1Vx411w76d",
-   "vocaloid": 221,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #222",
-   "aid": 194137,
-   "cid": 316527,
-   "bvid": "BV1Lx411w7KC",
-   "vocaloid": 222,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #223",
-   "aid": 196970,
-   "cid": 320811,
-   "bvid": "BV14x411w7EH",
-   "vocaloid": 223,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #224",
-   "aid": 200659,
-   "cid": 326361,
-   "bvid": "BV1xx411w78E",
-   "vocaloid": 224,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #225",
-   "aid": 204217,
-   "cid": 332216,
-   "bvid": "BV14x411w7vz",
-   "vocaloid": 225,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #226",
-   "aid": 207761,
-   "cid": 337498,
-   "bvid": "BV1bx411w7Ln",
-   "vocaloid": 226,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #227",
-   "aid": 212158,
-   "cid": 344239,
-   "bvid": "BV1bx411w7oa",
-   "vocaloid": 227,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #228",
-   "aid": 215894,
-   "cid": 350287,
-   "bvid": "BV1nx411w7Z2",
-   "vocaloid": 228,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #229",
-   "aid": 219453,
-   "cid": 356195,
-   "bvid": "BV1px411w7PK",
-   "vocaloid": 229,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #230",
-   "aid": 222791,
-   "cid": 361470,
-   "bvid": "BV1Wx411w7Bh",
-   "vocaloid": 230,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #231",
-   "aid": 226306,
-   "cid": 366867,
-   "bvid": "BV1sx411w7CH",
-   "vocaloid": 231,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #232",
-   "aid": 229674,
-   "cid": 372148,
-   "bvid": "BV1qx411w7Px",
-   "vocaloid": 232,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #233",
-   "aid": 233468,
-   "cid": 377825,
-   "bvid": "BV1ix411w75U",
-   "vocaloid": 233,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #234",
-   "aid": 237803,
-   "cid": 383975,
-   "bvid": "BV1zx411w7Hd",
-   "vocaloid": 234,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #235",
-   "aid": 241067,
-   "cid": 388644,
-   "bvid": "BV1Bx411w7Yb",
-   "vocaloid": 235,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #236",
-   "aid": 245784,
-   "cid": 395363,
-   "bvid": "BV1ax411w7Ky",
-   "vocaloid": 236,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #237",
-   "aid": 250246,
-   "cid": 401910,
-   "bvid": "BV1Yx411w7pc",
-   "vocaloid": 237,
-   "utau": null
+   "vocaloid": 0,
+   "utau": 0
   },
   {
    "title": "週刊VOCALOIDRANKING 179期",
@@ -1367,456 +15,8 @@
    "cid": 112766,
    "bvid": "BV11x411c7H8",
    "error": "",
-   "vocaloid": null,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #87",
-   "aid": 838205341,
-   "cid": 189814255,
-   "bvid": "BV17g4y1B74d",
-   "vocaloid": 87,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #88",
-   "aid": 753130232,
-   "cid": 189815813,
-   "bvid": "BV1Bk4y1k7nL",
-   "vocaloid": 88,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #89",
-   "aid": 370632862,
-   "cid": 189816608,
-   "bvid": "BV1BZ4y1s7Q8",
-   "vocaloid": 89,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #90",
-   "aid": 243137301,
-   "cid": 189817347,
-   "bvid": "BV1de411p7Uj",
-   "vocaloid": 90,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #91",
-   "aid": 838232033,
-   "cid": 189817965,
-   "bvid": "BV14g4y1B7vp",
-   "vocaloid": 91,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #92",
-   "aid": 838212954,
-   "cid": 192709559,
-   "bvid": "BV18g4y1B78J",
-   "vocaloid": 92,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #93",
-   "aid": 200677853,
-   "cid": 192710303,
-   "bvid": "BV1mz411q7KQ",
-   "vocaloid": 93,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #94",
-   "aid": 498197922,
-   "cid": 192711672,
-   "bvid": "BV16K411W7iW",
-   "vocaloid": 94,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #95",
-   "aid": 583195947,
-   "cid": 192712825,
-   "bvid": "BV1Pz4y1d7p9",
-   "vocaloid": 95,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #96",
-   "aid": 200719122,
-   "cid": 192714055,
-   "bvid": "BV1Fz411B78L",
-   "vocaloid": 96,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #97",
-   "aid": 925746137,
-   "cid": 192714785,
-   "bvid": "BV1kT4y1u715",
-   "vocaloid": 97,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #98",
-   "aid": 243168255,
-   "cid": 192715421,
-   "bvid": "BV1Te411W7Kq",
-   "vocaloid": 98,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #99",
-   "aid": 668215862,
-   "cid": 192716169,
-   "bvid": "BV1xa4y1e7hB",
-   "vocaloid": 99,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #100",
-   "aid": 370825309,
-   "cid": 195533711,
-   "bvid": "BV1oZ4y1p7Ln",
-   "vocaloid": 100,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #101",
-   "aid": 413316189,
-   "cid": 195534611,
-   "bvid": "BV16V411C7UP",
-   "vocaloid": 101,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #102",
-   "aid": 285755533,
-   "cid": 195535404,
-   "bvid": "BV1Qf4y117Bb",
-   "vocaloid": 102,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #103",
-   "aid": 840799503,
-   "cid": 195535749,
-   "bvid": "BV1Q54y1D7Z9",
-   "vocaloid": 103,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #104",
-   "aid": 838281967,
-   "cid": 195536299,
-   "bvid": "BV1Qg4y1B7Yq",
-   "vocaloid": 104,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #105(和谐版)",
-   "aid": 753297742,
-   "cid": 195581506,
-   "bvid": "BV1Uk4y167HU",
-   "vocaloid": 105,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #106",
-   "aid": 38411,
-   "cid": 63948,
-   "bvid": "BV1qx411c7i4",
-   "vocaloid": 106,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #107",
-   "aid": 39856,
-   "cid": 66914,
-   "bvid": "BV1qx411c7nt",
-   "vocaloid": 107,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #108",
-   "aid": 41159,
-   "cid": 69207,
-   "bvid": "BV1Bx411c7Rm",
-   "vocaloid": 108,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #109",
-   "aid": 42787,
-   "cid": 71912,
-   "bvid": "BV1Bx411c7Rg",
-   "vocaloid": 109,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #110",
-   "aid": 44712,
-   "cid": 75207,
-   "bvid": "BV1Bx411c73u",
-   "vocaloid": 110,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #111",
-   "aid": 45522,
-   "cid": 76420,
-   "bvid": "BV16x411c7G8",
-   "vocaloid": 111,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #112",
-   "aid": 47243,
-   "cid": 81638,
-   "bvid": "BV1zx411c7YF",
-   "vocaloid": 112,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #113",
-   "aid": 455815416,
-   "cid": 195536932,
-   "bvid": "BV1u5411x7ik",
-   "vocaloid": 113,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #114",
-   "aid": 840857507,
-   "cid": 195537077,
-   "bvid": "BV1F54y1Q7WQ",
-   "vocaloid": 114,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #115",
-   "aid": 200882249,
-   "cid": 197789474,
-   "bvid": "BV1uz411i7K4",
-   "vocaloid": 115,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #146",
-   "aid": 15802,
-   "cid": 25593,
-   "bvid": "BV1bx411c7vN",
-   "vocaloid": 146,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #147",
-   "aid": 17095,
-   "cid": 28101,
-   "bvid": "BV1Hx411c7cd",
-   "vocaloid": 147,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #148",
-   "aid": 18275,
-   "cid": 29807,
-   "bvid": "BV1nx411c7Dp",
-   "vocaloid": 148,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #149",
-   "aid": 19355,
-   "cid": 31750,
-   "bvid": "BV1nx411c78z",
-   "vocaloid": 149,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #150",
-   "aid": 20715,
-   "cid": 34003,
-   "bvid": "BV1px411c7KP",
-   "vocaloid": 150,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #151",
-   "aid": 22016,
-   "cid": 36097,
-   "bvid": "BV1px411c7F3",
-   "vocaloid": 151,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #152",
-   "aid": 23405,
-   "cid": 38572,
-   "bvid": "BV1Hx411c71E",
-   "vocaloid": 152,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #153",
-   "aid": 24613,
-   "cid": 40514,
-   "bvid": "BV1Wx411c7p5",
-   "vocaloid": 153,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #155",
-   "aid": 26792,
-   "cid": 44293,
-   "bvid": "BV1px411c7Ca",
-   "vocaloid": 155,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #156",
-   "aid": 78784347,
-   "cid": 205145933,
-   "bvid": "BV1UJ411y799",
-   "vocaloid": 156,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #157",
-   "aid": 78784817,
-   "cid": 209714787,
-   "bvid": "BV1UJ411y7b5",
-   "vocaloid": 157,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #158",
-   "aid": 30874,
-   "cid": 51508,
-   "bvid": "BV1Wx411c7d7",
-   "vocaloid": 158,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #159",
-   "aid": 78791650,
-   "cid": 210417264,
-   "bvid": "BV1rJ411y7Xi",
-   "vocaloid": 159,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #160",
-   "aid": 78792306,
-   "cid": 210417469,
-   "bvid": "BV1rJ411y7at",
-   "vocaloid": 160,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #161",
-   "aid": 78793422,
-   "cid": 212299647,
-   "bvid": "BV1rJ411y73L",
-   "vocaloid": 161,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #162[曇花一現的某冠軍]",
-   "aid": 35537,
-   "cid": 59228,
-   "bvid": "BV1ix411c7c1",
-   "vocaloid": 162,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #163",
-   "aid": 37048,
-   "cid": 61497,
-   "bvid": "BV1qx411c7CW",
-   "vocaloid": 163,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #164",
-   "aid": 78793876,
-   "cid": 212299236,
-   "bvid": "BV16J411y7y2",
-   "vocaloid": 164,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #165",
-   "aid": 39873,
-   "cid": 66934,
-   "bvid": "BV1qx411c7JP",
-   "vocaloid": 165,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #166",
-   "aid": 41203,
-   "cid": 69264,
-   "bvid": "BV1Bx411c7dF",
-   "vocaloid": 166,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #167",
-   "aid": 42628,
-   "cid": 71638,
-   "bvid": "BV1Bx411c7mT",
-   "vocaloid": 167,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #168",
-   "aid": 43914,
-   "cid": 73953,
-   "bvid": "BV1Bx411c7YB",
-   "vocaloid": 168,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #169",
-   "aid": 45527,
-   "cid": 76426,
-   "bvid": "BV16x411c7GY",
-   "vocaloid": 169,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #170",
-   "aid": 47294,
-   "cid": 81707,
-   "bvid": "BV1zx411c7YH",
-   "vocaloid": 170,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #171",
-   "aid": 78794154,
-   "cid": 213857140,
-   "bvid": "BV16J411y7S2",
-   "vocaloid": 171,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #172",
-   "aid": 50853,
-   "cid": 87097,
-   "bvid": "BV1hx411c7bd",
-   "vocaloid": 172,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #173",
-   "aid": 52723,
-   "cid": 92163,
-   "bvid": "BV18x411c72C",
-   "vocaloid": 173,
-   "utau": null
+   "vocaloid": 0,
+   "utau": 0
   },
   {
    "title": "週刊坊華呂居土番付 百五十四回忌法要",
@@ -1824,1368 +24,8 @@
    "cid": 42226,
    "bvid": "BV1Wx411c7wp",
    "error": "",
-   "vocaloid": null,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #2",
-   "aid": 81485151,
-   "cid": 215291686,
-   "bvid": "BV1iJ411h7js",
-   "vocaloid": 2,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #3（画質向上版）",
-   "aid": 82405712,
-   "cid": 140989204,
-   "bvid": "BV1SJ411V7CL",
-   "vocaloid": 3,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #4",
-   "aid": 83308130,
-   "cid": 142522269,
-   "bvid": "BV17J411H7Z2",
-   "vocaloid": 4,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #5",
-   "aid": 84401702,
-   "cid": 144369209,
-   "bvid": "BV1L7411i752",
-   "vocaloid": 5,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #6",
-   "aid": 85634024,
-   "cid": 222996368,
-   "bvid": "BV1A741167ok",
-   "vocaloid": 6,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #7",
-   "aid": 85718941,
-   "cid": 225779328,
-   "bvid": "BV1n741167N1",
-   "vocaloid": 7,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #8",
-   "aid": 86670339,
-   "cid": 229138503,
-   "bvid": "BV1r7411p7ZM",
-   "vocaloid": 8,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #9",
-   "aid": 88969248,
-   "cid": 151974331,
-   "bvid": "BV187411g75t",
-   "vocaloid": 9,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #10",
-   "aid": 88969975,
-   "cid": 151976064,
-   "bvid": "BV187411g7JC",
-   "vocaloid": 10,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #11",
-   "aid": 88970583,
-   "cid": 151977293,
-   "bvid": "BV1b7411g7fE",
-   "vocaloid": 11,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #12",
-   "aid": 88971037,
-   "cid": 151978516,
-   "bvid": "BV187411g7uM",
-   "vocaloid": 12,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #13",
-   "aid": 90126042,
-   "cid": 153926109,
-   "bvid": "BV1s7411j7pH",
-   "vocaloid": 13,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #14",
-   "aid": 90126901,
-   "cid": 153928046,
-   "bvid": "BV1s7411j7Mm",
-   "vocaloid": 14,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #15",
-   "aid": 90127853,
-   "cid": 153929814,
-   "bvid": "BV1W7411j7kY",
-   "vocaloid": 15,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #16(和谐版)",
-   "aid": 90129856,
-   "cid": 154197175,
-   "bvid": "BV1L7411j7mA",
-   "vocaloid": 16,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #17",
-   "aid": 92322958,
-   "cid": 157638057,
-   "bvid": "BV1kE411n7tX",
-   "vocaloid": 17,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #18",
-   "aid": 92323547,
-   "cid": 157639088,
-   "bvid": "BV1kE411n7i5",
-   "vocaloid": 18,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #19",
-   "aid": 92324126,
-   "cid": 157640053,
-   "bvid": "BV1eE411n7ZD",
-   "vocaloid": 19,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #20",
-   "aid": 93398746,
-   "cid": 159465035,
-   "bvid": "BV15E41147xU",
-   "vocaloid": 20,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #21",
-   "aid": 93400001,
-   "cid": 159468111,
-   "bvid": "BV15E41147VF",
-   "vocaloid": 21,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #22",
-   "aid": 93400931,
-   "cid": 159470649,
-   "bvid": "BV1VE41147ZP",
-   "vocaloid": 22,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #23",
-   "aid": 95183254,
-   "cid": 162495616,
-   "bvid": "BV16E411N74N",
-   "vocaloid": 23,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #24",
-   "aid": 95184632,
-   "cid": 162498272,
-   "bvid": "BV16E411N7GT",
-   "vocaloid": 24,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #25",
-   "aid": 95185452,
-   "cid": 162500288,
-   "bvid": "BV1zE411N7ZT",
-   "vocaloid": 25,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #26",
-   "aid": 95186190,
-   "cid": 162501655,
-   "bvid": "BV1zE411N7et",
-   "vocaloid": 26,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #27(和谐版)",
-   "aid": 98730148,
-   "cid": 168536880,
-   "bvid": "BV1N7411U7b3",
-   "vocaloid": 27,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #28",
-   "aid": 97001137,
-   "cid": 165601458,
-   "bvid": "BV1E7411d72S",
-   "vocaloid": 28,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #29",
-   "aid": 97001886,
-   "cid": 165602551,
-   "bvid": "BV1n7411d7SH",
-   "vocaloid": 29,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #30",
-   "aid": 97002547,
-   "cid": 165603954,
-   "bvid": "BV1n7411d78K",
-   "vocaloid": 30,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #31",
-   "aid": 98703589,
-   "cid": 168491696,
-   "bvid": "BV1d7411m7Js",
-   "vocaloid": 31,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #32",
-   "aid": 98704694,
-   "cid": 168493826,
-   "bvid": "BV1d7411m7u3",
-   "vocaloid": 32,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #33",
-   "aid": 98705331,
-   "cid": 168495636,
-   "bvid": "BV1d7411m7LC",
-   "vocaloid": 33,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #34",
-   "aid": 98705959,
-   "cid": 168496644,
-   "bvid": "BV1Z7411m7H4",
-   "vocaloid": 34,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #35",
-   "aid": 242550935,
-   "cid": 171605402,
-   "bvid": "BV1te411x7Q9",
-   "vocaloid": 35,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #36",
-   "aid": 667594156,
-   "cid": 171607065,
-   "bvid": "BV1Ya4y1t7gy",
-   "vocaloid": 36,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #37",
-   "aid": 497536215,
-   "cid": 171610655,
-   "bvid": "BV1eK411772m",
-   "vocaloid": 37,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #38",
-   "aid": 327596613,
-   "cid": 171612761,
-   "bvid": "BV1gA411h7gE",
-   "vocaloid": 38,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #39",
-   "aid": 582605913,
-   "cid": 171707716,
-   "bvid": "BV1g64y1u7A9",
-   "vocaloid": 39,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #40",
-   "aid": 200015834,
-   "cid": 171709253,
-   "bvid": "BV1az411h7Kf",
-   "vocaloid": 40,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #41",
-   "aid": 582547742,
-   "cid": 171710722,
-   "bvid": "BV1X64y1M7sx",
-   "vocaloid": 41,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #42",
-   "aid": 540094430,
-   "cid": 171711985,
-   "bvid": "BV1Si4y1b75k",
-   "vocaloid": 42,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #43",
-   "aid": 837719746,
-   "cid": 174686556,
-   "bvid": "BV1qg4y187JX",
-   "vocaloid": 43,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #44",
-   "aid": 412660951,
-   "cid": 174688219,
-   "bvid": "BV14V411o7Pn",
-   "vocaloid": 44,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #45",
-   "aid": 327663745,
-   "cid": 174689549,
-   "bvid": "BV1HA411h7eG",
-   "vocaloid": 45,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #46",
-   "aid": 925132523,
-   "cid": 174690383,
-   "bvid": "BV1dT4y13741",
-   "vocaloid": 46,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #47",
-   "aid": 752715277,
-   "cid": 174878385,
-   "bvid": "BV1Tk4y1R7Ch",
-   "vocaloid": 47,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #48",
-   "aid": 882706983,
-   "cid": 174879320,
-   "bvid": "BV1yK4y1r7yQ",
-   "vocaloid": 48,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #49",
-   "aid": 540178092,
-   "cid": 174880686,
-   "bvid": "BV1Ki4y187BB",
-   "vocaloid": 49,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #50",
-   "aid": 837631044,
-   "cid": 174881731,
-   "bvid": "BV1Mg4y187SW",
-   "vocaloid": 50,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #51",
-   "aid": 752693624,
-   "cid": 177816568,
-   "bvid": "BV1ck4y1R7D2",
-   "vocaloid": 51,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #52(和谐版)",
-   "aid": 370187140,
-   "cid": 177841194,
-   "bvid": "BV1GZ4y1x7Zo",
-   "vocaloid": 52,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #53",
-   "aid": 242642095,
-   "cid": 177819317,
-   "bvid": "BV11e411x7qq",
-   "vocaloid": 53,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #54",
-   "aid": 327726741,
-   "cid": 177820255,
-   "bvid": "BV1uA411b7eF",
-   "vocaloid": 54,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #55",
-   "aid": 285247836,
-   "cid": 177987944,
-   "bvid": "BV1Uf4y1U73B",
-   "vocaloid": 55,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #56",
-   "aid": 242747498,
-   "cid": 177989580,
-   "bvid": "BV1me411W7bf",
-   "vocaloid": 56,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #57",
-   "aid": 540225305,
-   "cid": 177991041,
-   "bvid": "BV18i4y187LS",
-   "vocaloid": 57,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #58",
-   "aid": 200134825,
-   "cid": 177992285,
-   "bvid": "BV1bz411b78S",
-   "vocaloid": 58,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #58",
-   "aid": 76652084,
-   "cid": 195536032,
-   "bvid": "BV1HJ411d7k7",
-   "vocaloid": 58,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #59",
-   "aid": 370325109,
-   "cid": 180929544,
-   "bvid": "BV1dZ4y1x7qz",
-   "vocaloid": 59,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #59",
-   "aid": 76745073,
-   "cid": 168523615,
-   "bvid": "BV1DJ411d7Rq",
-   "vocaloid": 59,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #60",
-   "aid": 412782077,
-   "cid": 180931163,
-   "bvid": "BV1wV411Z7D9",
-   "vocaloid": 60,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #60",
-   "aid": 78275470,
-   "cid": 202359481,
-   "bvid": "BV16J411i71f",
-   "vocaloid": 60,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #61",
-   "aid": 285322111,
-   "cid": 180932464,
-   "bvid": "BV13f4y1S7jM",
-   "vocaloid": 61,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #61",
-   "aid": 78380820,
-   "cid": 202564993,
-   "bvid": "BV13J411q7JB",
-   "vocaloid": 61,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #62",
-   "aid": 455291418,
-   "cid": 180934338,
-   "bvid": "BV1D5411t7zk",
-   "vocaloid": 62,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #62",
-   "aid": 78557913,
-   "cid": 202565464,
-   "bvid": "BV1iJ411v7eb",
-   "vocaloid": 62,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #63",
-   "aid": 625258842,
-   "cid": 180935463,
-   "bvid": "BV17t4y127P8",
-   "vocaloid": 63,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #63",
-   "aid": 78674350,
-   "cid": 134616335,
-   "bvid": "BV1PJ411y7S8",
-   "vocaloid": 63,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #64",
-   "aid": 455282693,
-   "cid": 180936254,
-   "bvid": "BV1U5411t7NM",
-   "vocaloid": 64,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #64",
-   "aid": 78674982,
-   "cid": 134617476,
-   "bvid": "BV1PJ411y7b2",
-   "vocaloid": 64,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #65",
-   "aid": 497804651,
-   "cid": 180937244,
-   "bvid": "BV17K411j7cQ",
-   "vocaloid": 65,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #65",
-   "aid": 78679737,
-   "cid": 165605146,
-   "bvid": "BV1LJ411y7Yh",
-   "vocaloid": 65,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #66",
-   "aid": 242852960,
-   "cid": 180937991,
-   "bvid": "BV1ne411s74o",
-   "vocaloid": 66,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #66",
-   "aid": 78669834,
-   "cid": 134608851,
-   "bvid": "BV1AJ411y7eA",
-   "vocaloid": 66,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #67",
-   "aid": 327918112,
-   "cid": 184394433,
-   "bvid": "BV1uA41187MU",
-   "vocaloid": 67,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #67",
-   "aid": 78670227,
-   "cid": 189820012,
-   "bvid": "BV1AJ411y7iK",
-   "vocaloid": 67,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #68",
-   "aid": 200480836,
-   "cid": 184396380,
-   "bvid": "BV1tz411z7by",
-   "vocaloid": 68,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #68",
-   "aid": 78678148,
-   "cid": 134622836,
-   "bvid": "BV1LJ411y7k7",
-   "vocaloid": 68,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #69",
-   "aid": 497928901,
-   "cid": 184397272,
-   "bvid": "BV1VK41157xj",
-   "vocaloid": 69,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #69",
-   "aid": 78678505,
-   "cid": 134623363,
-   "bvid": "BV1LJ411y71d",
-   "vocaloid": 69,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #70",
-   "aid": 967926967,
-   "cid": 184398248,
-   "bvid": "BV1Dp4y1X79M",
-   "vocaloid": 70,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #70",
-   "aid": 78678881,
-   "cid": 134623896,
-   "bvid": "BV1LJ411y7ZK",
-   "vocaloid": 70,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #71",
-   "aid": 540426760,
-   "cid": 184399164,
-   "bvid": "BV1ki4y1t7W7",
-   "vocaloid": 71,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #71",
-   "aid": 78680202,
-   "cid": 134625968,
-   "bvid": "BV17J411y7hf",
-   "vocaloid": 71,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #72",
-   "aid": 925459284,
-   "cid": 184400904,
-   "bvid": "BV1dT4y1g7s6",
-   "vocaloid": 72,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #72",
-   "aid": 78680573,
-   "cid": 134626586,
-   "bvid": "BV17J411y7vz",
-   "vocaloid": 72,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #73",
-   "aid": 200391574,
-   "cid": 184401742,
-   "bvid": "BV1Fz411z79R",
-   "vocaloid": 73,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #73",
-   "aid": 78680989,
-   "cid": 134627348,
-   "bvid": "BV17J411y71w",
-   "vocaloid": 73,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #74",
-   "aid": 370624319,
-   "cid": 187201817,
-   "bvid": "BV1qZ4y1s7F9",
-   "vocaloid": 74,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #74",
-   "aid": 78681616,
-   "cid": 134628443,
-   "bvid": "BV17J411y7sL",
-   "vocaloid": 74,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #75",
-   "aid": 668018047,
-   "cid": 187203188,
-   "bvid": "BV1Ta4y1i7Mj",
-   "vocaloid": 75,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #75",
-   "aid": 78682035,
-   "cid": 134629168,
-   "bvid": "BV17J411y74Z",
-   "vocaloid": 75,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #76",
-   "aid": 753106173,
-   "cid": 187204271,
-   "bvid": "BV18k4y1k7vK",
-   "vocaloid": 76,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #76",
-   "aid": 78682488,
-   "cid": 134629851,
-   "bvid": "BV17J411y7c8",
-   "vocaloid": 76,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #77",
-   "aid": 540536569,
-   "cid": 187205783,
-   "bvid": "BV15i4y1b7Ns",
-   "vocaloid": 77,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #77",
-   "aid": 78682868,
-   "cid": 134630518,
-   "bvid": "BV17J411y7AR",
-   "vocaloid": 77,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #78",
-   "aid": 625526705,
-   "cid": 187207240,
-   "bvid": "BV1mt4y1y7tG",
-   "vocaloid": 78,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #78",
-   "aid": 78683602,
-   "cid": 134631776,
-   "bvid": "BV1jJ411y763",
-   "vocaloid": 78,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #79",
-   "aid": 840544474,
-   "cid": 187208231,
-   "bvid": "BV1L54y1X78t",
-   "vocaloid": 79,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #79",
-   "aid": 78683927,
-   "cid": 134632324,
-   "bvid": "BV1jJ411y7Xp",
-   "vocaloid": 79,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #80",
-   "aid": 625540143,
-   "cid": 187209827,
-   "bvid": "BV1Dt4y1y7E9",
-   "vocaloid": 80,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #80",
-   "aid": 78687725,
-   "cid": 202360498,
-   "bvid": "BV17J411y79v",
-   "vocaloid": 80,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #81",
-   "aid": 968040720,
-   "cid": 187210821,
-   "bvid": "BV1qp4y197M3",
-   "vocaloid": 81,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #81",
-   "aid": 78687899,
-   "cid": 136573284,
-   "bvid": "BV17J411y7fg",
-   "vocaloid": 81,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #82",
-   "aid": 9204,
-   "cid": 13951,
-   "bvid": "BV1bx411c7sW",
-   "vocaloid": 82,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #82",
-   "aid": 78688085,
-   "cid": 134639434,
-   "bvid": "BV1EJ411y7Pd",
-   "vocaloid": 82,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAUランキング #83",
-   "aid": 9847,
-   "cid": 16301,
-   "bvid": "BV1bx411c7Pb",
-   "vocaloid": 83,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #83",
-   "aid": 78688644,
-   "cid": 134640015,
-   "bvid": "BV1nJ411y7wX",
-   "vocaloid": 83,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #84",
-   "aid": 668157329,
-   "cid": 189809882,
-   "bvid": "BV1za4y1i71Q",
-   "vocaloid": 84,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #84",
-   "aid": 78689173,
-   "cid": 134640869,
-   "bvid": "BV1nJ411y73s",
-   "vocaloid": 84,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #85",
-   "aid": 710724412,
-   "cid": 189811607,
-   "bvid": "BV1BQ4y1A7GA",
-   "vocaloid": 85,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #85",
-   "aid": 78689514,
-   "cid": 151980763,
-   "bvid": "BV1JJ411y7zc",
-   "vocaloid": 85,
-   "utau": null
-  },
-  {
-   "title": "週刊UTAU Ranking #86",
-   "aid": 540676690,
-   "cid": 189812840,
-   "bvid": "BV1ti4y147aW",
-   "vocaloid": 86,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #86",
-   "aid": 78689665,
-   "cid": 134642165,
-   "bvid": "BV1JJ411y7yM",
-   "vocaloid": 86,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #87",
-   "aid": 78690155,
-   "cid": 157641407,
-   "bvid": "BV1JJ411y7R4",
-   "vocaloid": 87,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #88",
-   "aid": 78690393,
-   "cid": 134643378,
-   "bvid": "BV1JJ411y7H1",
-   "vocaloid": 88,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #89",
-   "aid": 78690794,
-   "cid": 134643927,
-   "bvid": "BV1JJ411y7s2",
-   "vocaloid": 89,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #90",
-   "aid": 78691081,
-   "cid": 134644265,
-   "bvid": "BV1JJ411y7qp",
-   "vocaloid": 90,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #91",
-   "aid": 78691289,
-   "cid": 134644716,
-   "bvid": "BV1JJ411y7Ym",
-   "vocaloid": 91,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #92",
-   "aid": 78691604,
-   "cid": 134645002,
-   "bvid": "BV1JJ411y7uD",
-   "vocaloid": 92,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #93",
-   "aid": 93,
-   "cid": 3631524,
-   "bvid": "BV1xx411c72s",
-   "vocaloid": 93,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #94",
-   "aid": 78691800,
-   "cid": 134645414,
-   "bvid": "BV1JJ411y7KJ",
-   "vocaloid": 94,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #95",
-   "aid": 78691994,
-   "cid": 134645820,
-   "bvid": "BV1JJ411y73U",
-   "vocaloid": 95,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #96",
-   "aid": 78692203,
-   "cid": 135681090,
-   "bvid": "BV1JJ411y7EM",
-   "vocaloid": 96,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #97",
-   "aid": 78694853,
-   "cid": 134650406,
-   "bvid": "BV1gJ411y79K",
-   "vocaloid": 97,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #98",
-   "aid": 78695176,
-   "cid": 134650889,
-   "bvid": "BV13J411y7KA",
-   "vocaloid": 98,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #99",
-   "aid": 78695445,
-   "cid": 134651304,
-   "bvid": "BV1gJ411y7eP",
-   "vocaloid": 99,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #100",
-   "aid": 65910985,
-   "cid": 114347445,
-   "bvid": "BV1r4411q7RS",
-   "vocaloid": 100,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #101",
-   "aid": 78695935,
-   "cid": 134651676,
-   "bvid": "BV1gJ411y7vY",
-   "vocaloid": 101,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #102",
-   "aid": 78696181,
-   "cid": 134652383,
-   "bvid": "BV1gJ411y76M",
-   "vocaloid": 102,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #103",
-   "aid": 78696558,
-   "cid": 134652814,
-   "bvid": "BV1GJ411y7rV",
-   "vocaloid": 103,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #104",
-   "aid": 78696759,
-   "cid": 134653396,
-   "bvid": "BV1GJ411y72v",
-   "vocaloid": 104,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #105",
-   "aid": 78696955,
-   "cid": 134653704,
-   "bvid": "BV1GJ411y7CP",
-   "vocaloid": 105,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #106",
-   "aid": 78697274,
-   "cid": 134654005,
-   "bvid": "BV1GJ411y7dV",
-   "vocaloid": 106,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #107",
-   "aid": 78697474,
-   "cid": 134654503,
-   "bvid": "BV1GJ411y7W3",
-   "vocaloid": 107,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #108",
-   "aid": 78697732,
-   "cid": 134654776,
-   "bvid": "BV1GJ411y7tk",
-   "vocaloid": 108,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #110",
-   "aid": 78698150,
-   "cid": 134655611,
-   "bvid": "BV1GJ411y7hx",
-   "vocaloid": 110,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #111",
-   "aid": 78698313,
-   "cid": 134655876,
-   "bvid": "BV1GJ411y7iG",
-   "vocaloid": 111,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #112",
-   "aid": 78698413,
-   "cid": 134656122,
-   "bvid": "BV1GJ411y7vC",
-   "vocaloid": 112,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #113",
-   "aid": 78698745,
-   "cid": 134656431,
-   "bvid": "BV1GJ411y7wp",
-   "vocaloid": 113,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #114",
-   "aid": 78698924,
-   "cid": 134656758,
-   "bvid": "BV1GJ411y7ML",
-   "vocaloid": 114,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #115",
-   "aid": 78699012,
-   "cid": 134657124,
-   "bvid": "BV1GJ411y75t",
-   "vocaloid": 115,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #116",
-   "aid": 78699309,
-   "cid": 134657444,
-   "bvid": "BV1GJ411y7Jj",
-   "vocaloid": 116,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #117",
-   "aid": 78699484,
-   "cid": 134657728,
-   "bvid": "BV1GJ411y7Lu",
-   "vocaloid": 117,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID排行 #118",
-   "aid": 1086,
-   "cid": 3785930,
-   "bvid": "BV1xx411c78W",
-   "vocaloid": 118,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID排行 #121",
-   "aid": 1547,
-   "cid": 3856334,
-   "bvid": "BV1xx411c7BQ",
-   "vocaloid": 121,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #122",
-   "aid": 1865,
-   "cid": 3908379,
-   "bvid": "BV1xx411c7kG",
-   "vocaloid": 122,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #123",
-   "aid": 79423384,
-   "cid": 213858008,
-   "bvid": "BV1YJ411k7pU",
-   "vocaloid": 123,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #124",
-   "aid": 2449,
-   "cid": 5340,
-   "bvid": "BV1xx411c7Vb",
-   "vocaloid": 124,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #125",
-   "aid": 78761111,
-   "cid": 134766314,
-   "bvid": "BV1hJ411y7F1",
-   "vocaloid": 125,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #126",
-   "aid": 79627480,
-   "cid": 153960136,
-   "bvid": "BV1PJ411r7Rc",
-   "vocaloid": 126,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #127",
-   "aid": 3875,
-   "cid": 6142,
-   "bvid": "BV1xx411c7Tz",
-   "vocaloid": 127,
-   "utau": null
-  },
-  {
-   "title": "[已修复]週刊VOCALOIDランキング #128",
-   "aid": 4173,
-   "cid": 1021,
-   "bvid": "BV1tx411c7FE",
-   "vocaloid": 128,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #129",
-   "aid": 78761293,
-   "cid": 134768367,
-   "bvid": "BV1hJ411y7K4",
-   "vocaloid": 129,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #130",
-   "aid": 78761975,
-   "cid": 134768678,
-   "bvid": "BV1hJ411y7V4",
-   "vocaloid": 130,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #131",
-   "aid": 78774919,
-   "cid": 134790497,
-   "bvid": "BV12J411y7rj",
-   "vocaloid": 131,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #132",
-   "aid": 5383,
-   "cid": 2837,
-   "bvid": "BV14x411c7mj",
-   "vocaloid": 132,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #133",
-   "aid": 78775362,
-   "cid": 134791900,
-   "bvid": "BV12J411y75D",
-   "vocaloid": 133,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #134",
-   "aid": 78782789,
-   "cid": 205114930,
-   "bvid": "BV1SJ411y7P5",
-   "vocaloid": 134,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #135",
-   "aid": 6440,
-   "cid": 9571,
-   "bvid": "BV14x411c78c",
-   "vocaloid": 135,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #136",
-   "aid": 6996,
-   "cid": 10454,
-   "bvid": "BV14x411c7qT",
-   "vocaloid": 136,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #137",
-   "aid": 7528,
-   "cid": 11234,
-   "bvid": "BV14x411c7gL",
-   "vocaloid": 137,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #138",
-   "aid": 78783547,
-   "cid": 163757506,
-   "bvid": "BV1UJ411y7kE",
-   "vocaloid": 138,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #139",
-   "aid": 8563,
-   "cid": 12879,
-   "bvid": "BV1bx411c77z",
-   "vocaloid": 139,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #140",
-   "aid": 9180,
-   "cid": 13907,
-   "bvid": "BV1bx411c7Wk",
-   "vocaloid": 140,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #141",
-   "aid": 9752,
-   "cid": 16101,
-   "bvid": "BV1bx411c7PX",
-   "vocaloid": 141,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #142",
-   "aid": 10646,
-   "cid": 17632,
-   "bvid": "BV1tx411c7z2",
-   "vocaloid": 142,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #143",
-   "aid": 11563,
-   "cid": 20162,
-   "bvid": "BV1tx411c7Wd",
-   "vocaloid": 143,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOID Ranking #144",
-   "aid": 78783867,
-   "cid": 209714498,
-   "bvid": "BV1UJ411y71q",
-   "vocaloid": 144,
-   "utau": null
-  },
-  {
-   "title": "週刊VOCALOIDランキング #145",
-   "aid": 13566,
-   "cid": 24024,
-   "bvid": "BV18x411c7No",
-   "vocaloid": 145,
-   "utau": null
+   "vocaloid": 0,
+   "utau": 0
   },
   {
    "title": "週刊UTAU Ranking 创刊号",
@@ -3193,8 +33,8 @@
    "cid": 215291454,
    "bvid": "BV1tJ411a7y2",
    "error": "",
-   "vocaloid": null,
-   "utau": null
+   "vocaloid": 0,
+   "utau": 0
   },
   {
    "title": "週刊MikuMikuRanking #1",
@@ -3202,7 +42,7 @@
    "cid": 568317,
    "bvid": "BV1Bx411F7AM",
    "vocaloid": 1,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "【初音ミク】週刊MikuMiku Ranking #2",
@@ -3210,7 +50,7 @@
    "cid": 148121056,
    "bvid": "BV1bJ41197w5",
    "vocaloid": 2,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "【初音ミク】週刊MikuMiku Ranking #3",
@@ -3218,7 +58,7 @@
    "cid": 132647901,
    "bvid": "BV1QJ411Q7vc",
    "vocaloid": 3,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "【初音ミク】週刊MikuMiku Ranking #4",
@@ -3226,7 +66,7 @@
    "cid": 132759478,
    "bvid": "BV12J411B73j",
    "vocaloid": 4,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "【初音ミク】週刊MikuMiku Ranking #5",
@@ -3234,7 +74,7 @@
    "cid": 132897882,
    "bvid": "BV1fJ411B7fS",
    "vocaloid": 5,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "【转载/补档】週刊VOCALOIDランキング　#6",
@@ -3242,7 +82,7 @@
    "cid": 48301359,
    "bvid": "BV1Xs411A78U",
    "vocaloid": 6,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking　#7",
@@ -3250,7 +90,7 @@
    "cid": 48844782,
    "bvid": "BV1rs411w7Nc",
    "vocaloid": 7,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking　#8",
@@ -3258,7 +98,7 @@
    "cid": 48845728,
    "bvid": "BV1rs411w7LB",
    "vocaloid": 8,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking　#9",
@@ -3266,7 +106,7 @@
    "cid": 48846522,
    "bvid": "BV16s411w7rb",
    "vocaloid": 9,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking　#10",
@@ -3274,7 +114,7 @@
    "cid": 48846750,
    "bvid": "BV16s411w7Uu",
    "vocaloid": 10,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking　#11",
@@ -3282,7 +122,7 @@
    "cid": 48847257,
    "bvid": "BV16s411w7DB",
    "vocaloid": 11,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking　#12",
@@ -3290,7 +130,7 @@
    "cid": 48848185,
    "bvid": "BV1ks411w7Sw",
    "vocaloid": 12,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #13",
@@ -3298,7 +138,7 @@
    "cid": 132646576,
    "bvid": "BV1ft411w7J3",
    "vocaloid": 13,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #14",
@@ -3306,7 +146,7 @@
    "cid": 132750053,
    "bvid": "BV15t411c7cY",
    "vocaloid": 14,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #15",
@@ -3314,7 +154,7 @@
    "cid": 132897084,
    "bvid": "BV1B4411f71Y",
    "vocaloid": 15,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #16",
@@ -3322,7 +162,7 @@
    "cid": 133490869,
    "bvid": "BV1Gt411F7Zf",
    "vocaloid": 16,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #17",
@@ -3330,7 +170,7 @@
    "cid": 133658761,
    "bvid": "BV1ct411u7vE",
    "vocaloid": 17,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #18",
@@ -3338,7 +178,7 @@
    "cid": 133935674,
    "bvid": "BV1ot411u7r8",
    "vocaloid": 18,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #19",
@@ -3346,7 +186,7 @@
    "cid": 134115729,
    "bvid": "BV1Gt411M7XR",
    "vocaloid": 19,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #20",
@@ -3354,7 +194,7 @@
    "cid": 148121491,
    "bvid": "BV1UJ411v7pr",
    "vocaloid": 20,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking　#21",
@@ -3362,7 +202,7 @@
    "cid": 48984884,
    "bvid": "BV1Ts41137bX",
    "vocaloid": 21,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #22",
@@ -3370,7 +210,7 @@
    "cid": 136277538,
    "bvid": "BV1ft411P7Qn",
    "vocaloid": 22,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #23",
@@ -3378,7 +218,7 @@
    "cid": 137315838,
    "bvid": "BV12t411N7Rq",
    "vocaloid": 23,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #24",
@@ -3386,7 +226,7 @@
    "cid": 137990863,
    "bvid": "BV1J4411X7ce",
    "vocaloid": 24,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #25",
@@ -3394,7 +234,7 @@
    "cid": 137991820,
    "bvid": "BV1X4411X75N",
    "vocaloid": 25,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #26",
@@ -3402,7 +242,7 @@
    "cid": 137992455,
    "bvid": "BV1K4411Q72e",
    "vocaloid": 26,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #27",
@@ -3410,7 +250,7 @@
    "cid": 138842439,
    "bvid": "BV1C4411Q7JD",
    "vocaloid": 27,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #28",
@@ -3418,7 +258,7 @@
    "cid": 139443622,
    "bvid": "BV1Q4411S7ta",
    "vocaloid": 28,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #29",
@@ -3426,7 +266,7 @@
    "cid": 140848675,
    "bvid": "BV1N4411U74W",
    "vocaloid": 29,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #30",
@@ -3434,7 +274,7 @@
    "cid": 140849014,
    "bvid": "BV1r4411U7oh",
    "vocaloid": 30,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #31",
@@ -3442,7 +282,7 @@
    "cid": 140849867,
    "bvid": "BV1Y4411Z7R5",
    "vocaloid": 31,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #32",
@@ -3450,7 +290,7 @@
    "cid": 140850563,
    "bvid": "BV154411f7PC",
    "vocaloid": 32,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #33",
@@ -3458,7 +298,7 @@
    "cid": 140990816,
    "bvid": "BV1A4411Z7Cf",
    "vocaloid": 33,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #34",
@@ -3466,7 +306,7 @@
    "cid": 140991104,
    "bvid": "BV134411d7dn",
    "vocaloid": 34,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #35",
@@ -3474,7 +314,7 @@
    "cid": 140991670,
    "bvid": "BV1x441197kK",
    "vocaloid": 35,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #36",
@@ -3482,7 +322,7 @@
    "cid": 142526683,
    "bvid": "BV1T4411R7zD",
    "vocaloid": 36,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #37",
@@ -3490,7 +330,7 @@
    "cid": 142527293,
    "bvid": "BV174411r7Wf",
    "vocaloid": 37,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #38",
@@ -3498,7 +338,7 @@
    "cid": 142528212,
    "bvid": "BV1V4411k7BL",
    "vocaloid": 38,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOIDランキング　#39",
@@ -3506,7 +346,7 @@
    "cid": 48986602,
    "bvid": "BV1Ts41137uV",
    "vocaloid": 39,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #40",
@@ -3514,7 +354,7 @@
    "cid": 144371434,
    "bvid": "BV1U441167G4",
    "vocaloid": 40,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #41",
@@ -3522,7 +362,7 @@
    "cid": 144372218,
    "bvid": "BV1o4411q7Vs",
    "vocaloid": 41,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #42",
@@ -3530,7 +370,7 @@
    "cid": 144372883,
    "bvid": "BV1M4411m7RV",
    "vocaloid": 42,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #43",
@@ -3538,7 +378,7 @@
    "cid": 133527568,
    "bvid": "BV1uJ411B7G9",
    "vocaloid": 43,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #44",
@@ -3546,7 +386,7 @@
    "cid": 146433668,
    "bvid": "BV1ZE411D7px",
    "vocaloid": 44,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #45",
@@ -3554,7 +394,7 @@
    "cid": 146433912,
    "bvid": "BV1ZE411D7No",
    "vocaloid": 45,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #46",
@@ -3562,7 +402,7 @@
    "cid": 146434042,
    "bvid": "BV1ZE411D7fq",
    "vocaloid": 46,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #47",
@@ -3570,7 +410,7 @@
    "cid": 146516950,
    "bvid": "BV1FE411Q7hN",
    "vocaloid": 47,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #48",
@@ -3578,7 +418,7 @@
    "cid": 162454730,
    "bvid": "BV1aJ411B7cJ",
    "vocaloid": 48,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #49",
@@ -3586,7 +426,7 @@
    "cid": 146517245,
    "bvid": "BV1wE411Q7Gw",
    "vocaloid": 49,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #50",
@@ -3594,7 +434,7 @@
    "cid": 146517873,
    "bvid": "BV1wE411Q7F4",
    "vocaloid": 50,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #51",
@@ -3602,7 +442,7 @@
    "cid": 120960591,
    "bvid": "BV1WE411Q7h7",
    "vocaloid": 51,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #52",
@@ -3610,7 +450,7 @@
    "cid": 148120679,
    "bvid": "BV1sE411Q7fq",
    "vocaloid": 52,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #53",
@@ -3618,7 +458,7 @@
    "cid": 187212053,
    "bvid": "BV1sE411Q7iW",
    "vocaloid": 53,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #54",
@@ -3626,7 +466,7 @@
    "cid": 184420966,
    "bvid": "BV1AE411v79q",
    "vocaloid": 54,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #55",
@@ -3634,7 +474,7 @@
    "cid": 180950375,
    "bvid": "BV1XE411v7sa",
    "vocaloid": 55,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #56",
@@ -3642,7 +482,7 @@
    "cid": 177824668,
    "bvid": "BV1HJ411U7xy",
    "vocaloid": 56,
-   "utau": null
+   "utau": 0
   },
   {
    "title": "週刊VOCALOID Ranking #57",
@@ -3650,10 +490,3171 @@
    "cid": 174882662,
    "bvid": "BV1KJ41127HY",
    "vocaloid": 57,
-   "utau": null
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #58",
+   "aid": 76652084,
+   "cid": 195536032,
+   "bvid": "BV1HJ411d7k7",
+   "vocaloid": 58,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #59",
+   "aid": 76745073,
+   "cid": 168523615,
+   "bvid": "BV1DJ411d7Rq",
+   "vocaloid": 59,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #60",
+   "aid": 78275470,
+   "cid": 202359481,
+   "bvid": "BV16J411i71f",
+   "vocaloid": 60,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #61",
+   "aid": 78380820,
+   "cid": 202564993,
+   "bvid": "BV13J411q7JB",
+   "vocaloid": 61,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #62",
+   "aid": 78557913,
+   "cid": 202565464,
+   "bvid": "BV1iJ411v7eb",
+   "vocaloid": 62,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #63",
+   "aid": 78674350,
+   "cid": 134616335,
+   "bvid": "BV1PJ411y7S8",
+   "vocaloid": 63,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #64",
+   "aid": 78674982,
+   "cid": 134617476,
+   "bvid": "BV1PJ411y7b2",
+   "vocaloid": 64,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #65",
+   "aid": 78679737,
+   "cid": 165605146,
+   "bvid": "BV1LJ411y7Yh",
+   "vocaloid": 65,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #66",
+   "aid": 78669834,
+   "cid": 134608851,
+   "bvid": "BV1AJ411y7eA",
+   "vocaloid": 66,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #67",
+   "aid": 78670227,
+   "cid": 189820012,
+   "bvid": "BV1AJ411y7iK",
+   "vocaloid": 67,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #68",
+   "aid": 78678148,
+   "cid": 134622836,
+   "bvid": "BV1LJ411y7k7",
+   "vocaloid": 68,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #69",
+   "aid": 78678505,
+   "cid": 134623363,
+   "bvid": "BV1LJ411y71d",
+   "vocaloid": 69,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #70",
+   "aid": 78678881,
+   "cid": 134623896,
+   "bvid": "BV1LJ411y7ZK",
+   "vocaloid": 70,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #71",
+   "aid": 78680202,
+   "cid": 134625968,
+   "bvid": "BV17J411y7hf",
+   "vocaloid": 71,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #72",
+   "aid": 78680573,
+   "cid": 134626586,
+   "bvid": "BV17J411y7vz",
+   "vocaloid": 72,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #73",
+   "aid": 78680989,
+   "cid": 134627348,
+   "bvid": "BV17J411y71w",
+   "vocaloid": 73,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #74",
+   "aid": 78681616,
+   "cid": 134628443,
+   "bvid": "BV17J411y7sL",
+   "vocaloid": 74,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #75",
+   "aid": 78682035,
+   "cid": 134629168,
+   "bvid": "BV17J411y74Z",
+   "vocaloid": 75,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #76",
+   "aid": 78682488,
+   "cid": 134629851,
+   "bvid": "BV17J411y7c8",
+   "vocaloid": 76,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #77",
+   "aid": 78682868,
+   "cid": 134630518,
+   "bvid": "BV17J411y7AR",
+   "vocaloid": 77,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #78",
+   "aid": 78683602,
+   "cid": 134631776,
+   "bvid": "BV1jJ411y763",
+   "vocaloid": 78,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #79",
+   "aid": 78683927,
+   "cid": 134632324,
+   "bvid": "BV1jJ411y7Xp",
+   "vocaloid": 79,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #80",
+   "aid": 78687725,
+   "cid": 202360498,
+   "bvid": "BV17J411y79v",
+   "vocaloid": 80,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #81",
+   "aid": 78687899,
+   "cid": 136573284,
+   "bvid": "BV17J411y7fg",
+   "vocaloid": 81,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #82",
+   "aid": 78688085,
+   "cid": 134639434,
+   "bvid": "BV1EJ411y7Pd",
+   "vocaloid": 82,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #83",
+   "aid": 78688644,
+   "cid": 134640015,
+   "bvid": "BV1nJ411y7wX",
+   "vocaloid": 83,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #84",
+   "aid": 78689173,
+   "cid": 134640869,
+   "bvid": "BV1nJ411y73s",
+   "vocaloid": 84,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #85",
+   "aid": 78689514,
+   "cid": 151980763,
+   "bvid": "BV1JJ411y7zc",
+   "vocaloid": 85,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #86",
+   "aid": 78689665,
+   "cid": 134642165,
+   "bvid": "BV1JJ411y7yM",
+   "vocaloid": 86,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #87",
+   "aid": 78690155,
+   "cid": 157641407,
+   "bvid": "BV1JJ411y7R4",
+   "vocaloid": 87,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #88",
+   "aid": 78690393,
+   "cid": 134643378,
+   "bvid": "BV1JJ411y7H1",
+   "vocaloid": 88,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #89",
+   "aid": 78690794,
+   "cid": 134643927,
+   "bvid": "BV1JJ411y7s2",
+   "vocaloid": 89,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #90",
+   "aid": 78691081,
+   "cid": 134644265,
+   "bvid": "BV1JJ411y7qp",
+   "vocaloid": 90,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #91",
+   "aid": 78691289,
+   "cid": 134644716,
+   "bvid": "BV1JJ411y7Ym",
+   "vocaloid": 91,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #92",
+   "aid": 78691604,
+   "cid": 134645002,
+   "bvid": "BV1JJ411y7uD",
+   "vocaloid": 92,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #93",
+   "aid": 93,
+   "cid": 3631524,
+   "bvid": "BV1xx411c72s",
+   "vocaloid": 93,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #94",
+   "aid": 78691800,
+   "cid": 134645414,
+   "bvid": "BV1JJ411y7KJ",
+   "vocaloid": 94,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #95",
+   "aid": 78691994,
+   "cid": 134645820,
+   "bvid": "BV1JJ411y73U",
+   "vocaloid": 95,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #96",
+   "aid": 78692203,
+   "cid": 135681090,
+   "bvid": "BV1JJ411y7EM",
+   "vocaloid": 96,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #97",
+   "aid": 78694853,
+   "cid": 134650406,
+   "bvid": "BV1gJ411y79K",
+   "vocaloid": 97,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #98",
+   "aid": 78695176,
+   "cid": 134650889,
+   "bvid": "BV13J411y7KA",
+   "vocaloid": 98,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #99",
+   "aid": 78695445,
+   "cid": 134651304,
+   "bvid": "BV1gJ411y7eP",
+   "vocaloid": 99,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #100",
+   "aid": 65910985,
+   "cid": 114347445,
+   "bvid": "BV1r4411q7RS",
+   "vocaloid": 100,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #101",
+   "aid": 78695935,
+   "cid": 134651676,
+   "bvid": "BV1gJ411y7vY",
+   "vocaloid": 101,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #102",
+   "aid": 78696181,
+   "cid": 134652383,
+   "bvid": "BV1gJ411y76M",
+   "vocaloid": 102,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #103",
+   "aid": 78696558,
+   "cid": 134652814,
+   "bvid": "BV1GJ411y7rV",
+   "vocaloid": 103,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #104",
+   "aid": 78696759,
+   "cid": 134653396,
+   "bvid": "BV1GJ411y72v",
+   "vocaloid": 104,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #105",
+   "aid": 78696955,
+   "cid": 134653704,
+   "bvid": "BV1GJ411y7CP",
+   "vocaloid": 105,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #106",
+   "aid": 78697274,
+   "cid": 134654005,
+   "bvid": "BV1GJ411y7dV",
+   "vocaloid": 106,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #107",
+   "aid": 78697474,
+   "cid": 134654503,
+   "bvid": "BV1GJ411y7W3",
+   "vocaloid": 107,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #108",
+   "aid": 78697732,
+   "cid": 134654776,
+   "bvid": "BV1GJ411y7tk",
+   "vocaloid": 108,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #110",
+   "aid": 78698150,
+   "cid": 134655611,
+   "bvid": "BV1GJ411y7hx",
+   "vocaloid": 110,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #111",
+   "aid": 78698313,
+   "cid": 134655876,
+   "bvid": "BV1GJ411y7iG",
+   "vocaloid": 111,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #112",
+   "aid": 78698413,
+   "cid": 134656122,
+   "bvid": "BV1GJ411y7vC",
+   "vocaloid": 112,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #113",
+   "aid": 78698745,
+   "cid": 134656431,
+   "bvid": "BV1GJ411y7wp",
+   "vocaloid": 113,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #114",
+   "aid": 78698924,
+   "cid": 134656758,
+   "bvid": "BV1GJ411y7ML",
+   "vocaloid": 114,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #115",
+   "aid": 78699012,
+   "cid": 134657124,
+   "bvid": "BV1GJ411y75t",
+   "vocaloid": 115,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #116",
+   "aid": 78699309,
+   "cid": 134657444,
+   "bvid": "BV1GJ411y7Jj",
+   "vocaloid": 116,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #117",
+   "aid": 78699484,
+   "cid": 134657728,
+   "bvid": "BV1GJ411y7Lu",
+   "vocaloid": 117,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID排行 #118",
+   "aid": 1086,
+   "cid": 3785930,
+   "bvid": "BV1xx411c78W",
+   "vocaloid": 118,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID排行 #121",
+   "aid": 1547,
+   "cid": 3856334,
+   "bvid": "BV1xx411c7BQ",
+   "vocaloid": 121,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #122",
+   "aid": 1865,
+   "cid": 3908379,
+   "bvid": "BV1xx411c7kG",
+   "vocaloid": 122,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #123",
+   "aid": 79423384,
+   "cid": 213858008,
+   "bvid": "BV1YJ411k7pU",
+   "vocaloid": 123,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #124",
+   "aid": 2449,
+   "cid": 5340,
+   "bvid": "BV1xx411c7Vb",
+   "vocaloid": 124,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #125",
+   "aid": 78761111,
+   "cid": 134766314,
+   "bvid": "BV1hJ411y7F1",
+   "vocaloid": 125,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #126",
+   "aid": 79627480,
+   "cid": 153960136,
+   "bvid": "BV1PJ411r7Rc",
+   "vocaloid": 126,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #127",
+   "aid": 3875,
+   "cid": 6142,
+   "bvid": "BV1xx411c7Tz",
+   "vocaloid": 127,
+   "utau": 0
+  },
+  {
+   "title": "[已修复]週刊VOCALOIDランキング #128",
+   "aid": 4173,
+   "cid": 1021,
+   "bvid": "BV1tx411c7FE",
+   "vocaloid": 128,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #129",
+   "aid": 78761293,
+   "cid": 134768367,
+   "bvid": "BV1hJ411y7K4",
+   "vocaloid": 129,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #130",
+   "aid": 78761975,
+   "cid": 134768678,
+   "bvid": "BV1hJ411y7V4",
+   "vocaloid": 130,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #131",
+   "aid": 78774919,
+   "cid": 134790497,
+   "bvid": "BV12J411y7rj",
+   "vocaloid": 131,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #132",
+   "aid": 5383,
+   "cid": 2837,
+   "bvid": "BV14x411c7mj",
+   "vocaloid": 132,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #133",
+   "aid": 78775362,
+   "cid": 134791900,
+   "bvid": "BV12J411y75D",
+   "vocaloid": 133,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #134",
+   "aid": 78782789,
+   "cid": 205114930,
+   "bvid": "BV1SJ411y7P5",
+   "vocaloid": 134,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #135",
+   "aid": 6440,
+   "cid": 9571,
+   "bvid": "BV14x411c78c",
+   "vocaloid": 135,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #136",
+   "aid": 6996,
+   "cid": 10454,
+   "bvid": "BV14x411c7qT",
+   "vocaloid": 136,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #137",
+   "aid": 7528,
+   "cid": 11234,
+   "bvid": "BV14x411c7gL",
+   "vocaloid": 137,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #138",
+   "aid": 78783547,
+   "cid": 163757506,
+   "bvid": "BV1UJ411y7kE",
+   "vocaloid": 138,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #139",
+   "aid": 8563,
+   "cid": 12879,
+   "bvid": "BV1bx411c77z",
+   "vocaloid": 139,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #140",
+   "aid": 9180,
+   "cid": 13907,
+   "bvid": "BV1bx411c7Wk",
+   "vocaloid": 140,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #141",
+   "aid": 9752,
+   "cid": 16101,
+   "bvid": "BV1bx411c7PX",
+   "vocaloid": 141,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #142",
+   "aid": 10646,
+   "cid": 17632,
+   "bvid": "BV1tx411c7z2",
+   "vocaloid": 142,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #143",
+   "aid": 11563,
+   "cid": 20162,
+   "bvid": "BV1tx411c7Wd",
+   "vocaloid": 143,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #144",
+   "aid": 78783867,
+   "cid": 209714498,
+   "bvid": "BV1UJ411y71q",
+   "vocaloid": 144,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #145",
+   "aid": 13566,
+   "cid": 24024,
+   "bvid": "BV18x411c7No",
+   "vocaloid": 145,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #146",
+   "aid": 15802,
+   "cid": 25593,
+   "bvid": "BV1bx411c7vN",
+   "vocaloid": 146,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #147",
+   "aid": 17095,
+   "cid": 28101,
+   "bvid": "BV1Hx411c7cd",
+   "vocaloid": 147,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #148",
+   "aid": 18275,
+   "cid": 29807,
+   "bvid": "BV1nx411c7Dp",
+   "vocaloid": 148,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #149",
+   "aid": 19355,
+   "cid": 31750,
+   "bvid": "BV1nx411c78z",
+   "vocaloid": 149,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #150",
+   "aid": 20715,
+   "cid": 34003,
+   "bvid": "BV1px411c7KP",
+   "vocaloid": 150,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #151",
+   "aid": 22016,
+   "cid": 36097,
+   "bvid": "BV1px411c7F3",
+   "vocaloid": 151,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #152",
+   "aid": 23405,
+   "cid": 38572,
+   "bvid": "BV1Hx411c71E",
+   "vocaloid": 152,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #153",
+   "aid": 24613,
+   "cid": 40514,
+   "bvid": "BV1Wx411c7p5",
+   "vocaloid": 153,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #155",
+   "aid": 26792,
+   "cid": 44293,
+   "bvid": "BV1px411c7Ca",
+   "vocaloid": 155,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #156",
+   "aid": 78784347,
+   "cid": 205145933,
+   "bvid": "BV1UJ411y799",
+   "vocaloid": 156,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #157",
+   "aid": 78784817,
+   "cid": 209714787,
+   "bvid": "BV1UJ411y7b5",
+   "vocaloid": 157,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #158",
+   "aid": 30874,
+   "cid": 51508,
+   "bvid": "BV1Wx411c7d7",
+   "vocaloid": 158,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #159",
+   "aid": 78791650,
+   "cid": 210417264,
+   "bvid": "BV1rJ411y7Xi",
+   "vocaloid": 159,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #160",
+   "aid": 78792306,
+   "cid": 210417469,
+   "bvid": "BV1rJ411y7at",
+   "vocaloid": 160,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #161",
+   "aid": 78793422,
+   "cid": 212299647,
+   "bvid": "BV1rJ411y73L",
+   "vocaloid": 161,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #162[曇花一現的某冠軍]",
+   "aid": 35537,
+   "cid": 59228,
+   "bvid": "BV1ix411c7c1",
+   "vocaloid": 162,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #163",
+   "aid": 37048,
+   "cid": 61497,
+   "bvid": "BV1qx411c7CW",
+   "vocaloid": 163,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #164",
+   "aid": 78793876,
+   "cid": 212299236,
+   "bvid": "BV16J411y7y2",
+   "vocaloid": 164,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #165",
+   "aid": 39873,
+   "cid": 66934,
+   "bvid": "BV1qx411c7JP",
+   "vocaloid": 165,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #166",
+   "aid": 41203,
+   "cid": 69264,
+   "bvid": "BV1Bx411c7dF",
+   "vocaloid": 166,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #167",
+   "aid": 42628,
+   "cid": 71638,
+   "bvid": "BV1Bx411c7mT",
+   "vocaloid": 167,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #168",
+   "aid": 43914,
+   "cid": 73953,
+   "bvid": "BV1Bx411c7YB",
+   "vocaloid": 168,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #169",
+   "aid": 45527,
+   "cid": 76426,
+   "bvid": "BV16x411c7GY",
+   "vocaloid": 169,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #170",
+   "aid": 47294,
+   "cid": 81707,
+   "bvid": "BV1zx411c7YH",
+   "vocaloid": 170,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #171",
+   "aid": 78794154,
+   "cid": 213857140,
+   "bvid": "BV16J411y7S2",
+   "vocaloid": 171,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #172",
+   "aid": 50853,
+   "cid": 87097,
+   "bvid": "BV1hx411c7bd",
+   "vocaloid": 172,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #173",
+   "aid": 52723,
+   "cid": 92163,
+   "bvid": "BV18x411c72C",
+   "vocaloid": 173,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #174",
+   "aid": 54936,
+   "cid": 93738,
+   "bvid": "BV1ax411c7ra",
+   "vocaloid": 174,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #175",
+   "aid": 58294,
+   "cid": 97369,
+   "bvid": "BV1ex411c77o",
+   "vocaloid": 175,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #176",
+   "aid": 61976,
+   "cid": 102710,
+   "bvid": "BV1vx411c7tB",
+   "vocaloid": 176,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #177",
+   "aid": 64144,
+   "cid": 105907,
+   "bvid": "BV1ex411c7SL",
+   "vocaloid": 177,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング#178",
+   "aid": 66583,
+   "cid": 109878,
+   "bvid": "BV11x411c7Z9",
+   "vocaloid": 178,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #180～#183 Result",
+   "aid": 106137,
+   "cid": 176088,
+   "bvid": "BV1ox411c7xq",
+   "vocaloid": 183,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #183 chokaigi edition",
+   "aid": 257196,
+   "cid": 411367,
+   "bvid": "BV1Yx411w7ik",
+   "vocaloid": 183,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #184～#187 Result",
+   "aid": 801389944,
+   "cid": 291942384,
+   "bvid": "BV1Zy4y1J7X2",
+   "vocaloid": 187,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #188～#191 Result",
+   "aid": 228693,
+   "cid": 370717,
+   "bvid": "BV1sx411w7gg",
+   "vocaloid": 191,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #192",
+   "aid": 100837,
+   "cid": 167691,
+   "bvid": "BV1dx411c74g",
+   "vocaloid": 192,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #193",
+   "aid": 103399,
+   "cid": 171665,
+   "bvid": "BV1Zx411c7s9",
+   "vocaloid": 193,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #194",
+   "aid": 105937,
+   "cid": 175758,
+   "bvid": "BV1ox411c7n5",
+   "vocaloid": 194,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #195",
+   "aid": 108510,
+   "cid": 180371,
+   "bvid": "BV1fx411c7ER",
+   "vocaloid": 195,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #196",
+   "aid": 111530,
+   "cid": 185712,
+   "bvid": "BV1Fx411w7XA",
+   "vocaloid": 196,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #197",
+   "aid": 114372,
+   "cid": 814395,
+   "bvid": "BV1fx411c7QL",
+   "vocaloid": 197,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #198",
+   "aid": 116671,
+   "cid": 814372,
+   "bvid": "BV1Qx411c7wS",
+   "vocaloid": 198,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #199",
+   "aid": 120054,
+   "cid": 199785,
+   "bvid": "BV1Xx411c7cL",
+   "vocaloid": 199,
+   "utau": 0
+  },
+  {
+   "title": "【200回】週刊VOCALOIDランキング #200",
+   "aid": 123060,
+   "cid": 204739,
+   "bvid": "BV19x411c7Y6",
+   "vocaloid": 200,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #201",
+   "aid": 126568,
+   "cid": 210263,
+   "bvid": "BV1Xx411c7Uk",
+   "vocaloid": 201,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #202",
+   "aid": 130001,
+   "cid": 217201,
+   "bvid": "BV1Rx411c7Hb",
+   "vocaloid": 202,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #203",
+   "aid": 134100,
+   "cid": 223623,
+   "bvid": "BV1Kx411w7Ju",
+   "vocaloid": 203,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #204",
+   "aid": 137747,
+   "cid": 229401,
+   "bvid": "BV1Tx411w7hY",
+   "vocaloid": 204,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #205",
+   "aid": 140816,
+   "cid": 233962,
+   "bvid": "BV1ux411w7wX",
+   "vocaloid": 205,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #206",
+   "aid": 143694,
+   "cid": 238320,
+   "bvid": "BV1gx411w7tU",
+   "vocaloid": 206,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #207",
+   "aid": 146609,
+   "cid": 242937,
+   "bvid": "BV1ux411w7tr",
+   "vocaloid": 207,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #208",
+   "aid": 149411,
+   "cid": 247139,
+   "bvid": "BV1cx411w7mM",
+   "vocaloid": 208,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #209",
+   "aid": 152299,
+   "cid": 252031,
+   "bvid": "BV1Ax411w7G1",
+   "vocaloid": 209,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #210",
+   "aid": 155297,
+   "cid": 257055,
+   "bvid": "BV1wx411w7JP",
+   "vocaloid": 210,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #211",
+   "aid": 158710,
+   "cid": 262283,
+   "bvid": "BV1Ax411w79x",
+   "vocaloid": 211,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #212 【修正版+错版】",
+   "aid": 162134,
+   "cid": 267808,
+   "bvid": "BV1Px411w7fX",
+   "vocaloid": 212,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #213",
+   "aid": 165447,
+   "cid": 273016,
+   "bvid": "BV1jx411w7Jm",
+   "vocaloid": 213,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #214",
+   "aid": 169130,
+   "cid": 278399,
+   "bvid": "BV17x411w7pD",
+   "vocaloid": 214,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #215",
+   "aid": 172405,
+   "cid": 283840,
+   "bvid": "BV1Jx411w7Fv",
+   "vocaloid": 215,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #216",
+   "aid": 176206,
+   "cid": 289060,
+   "bvid": "BV1nx411w7MH",
+   "vocaloid": 216,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #217",
+   "aid": 179770,
+   "cid": 294498,
+   "bvid": "BV1Jx411w7Wa",
+   "vocaloid": 217,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #218",
+   "aid": 182602,
+   "cid": 298600,
+   "bvid": "BV13x411w7NA",
+   "vocaloid": 218,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #219",
+   "aid": 185581,
+   "cid": 302875,
+   "bvid": "BV1Gx411w78n",
+   "vocaloid": 219,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #220",
+   "aid": 188359,
+   "cid": 307163,
+   "bvid": "BV1Gx411w7KS",
+   "vocaloid": 220,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #221",
+   "aid": 191259,
+   "cid": 311823,
+   "bvid": "BV1Vx411w76d",
+   "vocaloid": 221,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #222",
+   "aid": 194137,
+   "cid": 316527,
+   "bvid": "BV1Lx411w7KC",
+   "vocaloid": 222,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #223",
+   "aid": 196970,
+   "cid": 320811,
+   "bvid": "BV14x411w7EH",
+   "vocaloid": 223,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #224",
+   "aid": 200659,
+   "cid": 326361,
+   "bvid": "BV1xx411w78E",
+   "vocaloid": 224,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #225",
+   "aid": 204217,
+   "cid": 332216,
+   "bvid": "BV14x411w7vz",
+   "vocaloid": 225,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #226",
+   "aid": 207761,
+   "cid": 337498,
+   "bvid": "BV1bx411w7Ln",
+   "vocaloid": 226,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #227",
+   "aid": 212158,
+   "cid": 344239,
+   "bvid": "BV1bx411w7oa",
+   "vocaloid": 227,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #228",
+   "aid": 215894,
+   "cid": 350287,
+   "bvid": "BV1nx411w7Z2",
+   "vocaloid": 228,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #229",
+   "aid": 219453,
+   "cid": 356195,
+   "bvid": "BV1px411w7PK",
+   "vocaloid": 229,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #230",
+   "aid": 222791,
+   "cid": 361470,
+   "bvid": "BV1Wx411w7Bh",
+   "vocaloid": 230,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #231",
+   "aid": 226306,
+   "cid": 366867,
+   "bvid": "BV1sx411w7CH",
+   "vocaloid": 231,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #232",
+   "aid": 229674,
+   "cid": 372148,
+   "bvid": "BV1qx411w7Px",
+   "vocaloid": 232,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #233",
+   "aid": 233468,
+   "cid": 377825,
+   "bvid": "BV1ix411w75U",
+   "vocaloid": 233,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #234",
+   "aid": 237803,
+   "cid": 383975,
+   "bvid": "BV1zx411w7Hd",
+   "vocaloid": 234,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #235",
+   "aid": 241067,
+   "cid": 388644,
+   "bvid": "BV1Bx411w7Yb",
+   "vocaloid": 235,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #236",
+   "aid": 245784,
+   "cid": 395363,
+   "bvid": "BV1ax411w7Ky",
+   "vocaloid": 236,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #237",
+   "aid": 250246,
+   "cid": 401910,
+   "bvid": "BV1Yx411w7pc",
+   "vocaloid": 237,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #238",
+   "aid": 253817,
+   "cid": 406484,
+   "bvid": "BV1ax411w7BP",
+   "vocaloid": 238,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #239",
+   "aid": 258206,
+   "cid": 412042,
+   "bvid": "BV1vx411w7Cx",
+   "vocaloid": 239,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #240",
+   "aid": 262299,
+   "cid": 418749,
+   "bvid": "BV1Nx411F7Sb",
+   "vocaloid": 240,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #241",
+   "aid": 267267,
+   "cid": 425400,
+   "bvid": "BV1Kx411F7mP",
+   "vocaloid": 241,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #242",
+   "aid": 271455,
+   "cid": 431530,
+   "bvid": "BV1Tx411F7f5",
+   "vocaloid": 242,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #243",
+   "aid": 275766,
+   "cid": 439098,
+   "bvid": "BV1ux411F7EN",
+   "vocaloid": 243,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #244",
+   "aid": 281052,
+   "cid": 446935,
+   "bvid": "BV1Fx411F7sT",
+   "vocaloid": 244,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #245",
+   "aid": 285011,
+   "cid": 452938,
+   "bvid": "BV1cx411F7zZ",
+   "vocaloid": 245,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #246",
+   "aid": 289417,
+   "cid": 458904,
+   "bvid": "BV1wx411F7oP",
+   "vocaloid": 246,
+   "utau": 0
+  },
+  {
+   "title": " 週刊VOCALOID RANKING #247",
+   "aid": 294767,
+   "cid": 466586,
+   "bvid": "BV1Ax411F7ZM",
+   "vocaloid": 247,
+   "utau": 0
+  },
+  {
+   "title": " 週刊VOCALOID RANKING #248",
+   "aid": 299982,
+   "cid": 474111,
+   "bvid": "BV17x411F7Fe",
+   "vocaloid": 248,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #249",
+   "aid": 305259,
+   "cid": 481396,
+   "bvid": "BV17x411F7xE",
+   "vocaloid": 249,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #250",
+   "aid": 310807,
+   "cid": 489433,
+   "bvid": "BV1Ex411F78v",
+   "vocaloid": 250,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #251",
+   "aid": 316841,
+   "cid": 497770,
+   "bvid": "BV13x411F7kG",
+   "vocaloid": 251,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #252",
+   "aid": 323130,
+   "cid": 506395,
+   "bvid": "BV1Gx411F7sD",
+   "vocaloid": 252,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #253",
+   "aid": 328843,
+   "cid": 514135,
+   "bvid": "BV1xx411F7cw",
+   "vocaloid": 253,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #254",
+   "aid": 334478,
+   "cid": 521734,
+   "bvid": "BV14x411F7PR",
+   "vocaloid": 254,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #255",
+   "aid": 341306,
+   "cid": 531287,
+   "bvid": "BV1bx411F72U",
+   "vocaloid": 255,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #256",
+   "aid": 346028,
+   "cid": 536923,
+   "bvid": "BV1nx411F7pt",
+   "vocaloid": 256,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #257",
+   "aid": 351416,
+   "cid": 543281,
+   "bvid": "BV1nx411F713",
+   "vocaloid": 257,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID RANKING #258",
+   "aid": 355420,
+   "cid": 548608,
+   "bvid": "BV1Hx411F7fx",
+   "vocaloid": 258,
+   "utau": 0
+  },
+  {
+   "title": "【初音ミク】 週刊mikumiku Ranking #287",
+   "aid": 521397,
+   "cid": 780153,
+   "bvid": "BV15x411c781",
+   "vocaloid": 287,
+   "utau": 0
   }
  ],
- "utau": [],
+ "utau": [
+  {
+   "title": "週刊VOCAL CharacterとUTAU ranking700・642",
+   "aid": 756909156,
+   "cid": 306545922,
+   "bvid": "BV1Br4y1A7tH",
+   "vocaloid": 0,
+   "utau": 2
+  },
+  {
+   "title": "週刊UTAU Ranking #2",
+   "aid": 81485151,
+   "cid": 215291686,
+   "bvid": "BV1iJ411h7js",
+   "vocaloid": 0,
+   "utau": 2
+  },
+  {
+   "title": "週刊VOCAL CharacterとUTAU Ranking 701・643",
+   "aid": 972004536,
+   "cid": 309023346,
+   "bvid": "BV1Dp4y1H7Jk",
+   "vocaloid": 0,
+   "utau": 3
+  },
+  {
+   "title": "週刊UTAU Ranking #3（画質向上版）",
+   "aid": 82405712,
+   "cid": 140989204,
+   "bvid": "BV1SJ411V7CL",
+   "vocaloid": 0,
+   "utau": 3
+  },
+  {
+   "title": "週刊UTAU Ranking #4",
+   "aid": 83308130,
+   "cid": 142522269,
+   "bvid": "BV17J411H7Z2",
+   "vocaloid": 0,
+   "utau": 4
+  },
+  {
+   "title": "週刊VOCAL CharacterとUTAU RANKING 703・645",
+   "aid": 332334090,
+   "cid": 316473570,
+   "bvid": "BV1NA411K71N",
+   "vocaloid": 0,
+   "utau": 5
+  },
+  {
+   "title": "週刊UTAU Ranking #5",
+   "aid": 84401702,
+   "cid": 144369209,
+   "bvid": "BV1L7411i752",
+   "vocaloid": 0,
+   "utau": 5
+  },
+  {
+   "title": "週刊VOCAL CharacterとUTAU RANKING 704・646",
+   "aid": 417484281,
+   "cid": 318760613,
+   "bvid": "BV1QV411n7uY",
+   "vocaloid": 0,
+   "utau": 6
+  },
+  {
+   "title": "週刊UTAU Ranking #6",
+   "aid": 85634024,
+   "cid": 222996368,
+   "bvid": "BV1A741167ok",
+   "vocaloid": 0,
+   "utau": 6
+  },
+  {
+   "title": "週刊UTAU Ranking #7",
+   "aid": 85718941,
+   "cid": 225779328,
+   "bvid": "BV1n741167N1",
+   "vocaloid": 0,
+   "utau": 7
+  },
+  {
+   "title": "週刊UTAU Ranking #8",
+   "aid": 86670339,
+   "cid": 229138503,
+   "bvid": "BV1r7411p7ZM",
+   "vocaloid": 0,
+   "utau": 8
+  },
+  {
+   "title": "週刊UTAU Ranking #9",
+   "aid": 88969248,
+   "cid": 151974331,
+   "bvid": "BV187411g75t",
+   "vocaloid": 0,
+   "utau": 9
+  },
+  {
+   "title": "週刊UTAU Ranking #10",
+   "aid": 88969975,
+   "cid": 151976064,
+   "bvid": "BV187411g7JC",
+   "vocaloid": 0,
+   "utau": 10
+  },
+  {
+   "title": "週刊UTAU Ranking #11",
+   "aid": 88970583,
+   "cid": 151977293,
+   "bvid": "BV1b7411g7fE",
+   "vocaloid": 0,
+   "utau": 11
+  },
+  {
+   "title": "週刊UTAU Ranking #12",
+   "aid": 88971037,
+   "cid": 151978516,
+   "bvid": "BV187411g7uM",
+   "vocaloid": 0,
+   "utau": 12
+  },
+  {
+   "title": "週刊UTAU Ranking #13",
+   "aid": 90126042,
+   "cid": 153926109,
+   "bvid": "BV1s7411j7pH",
+   "vocaloid": 0,
+   "utau": 13
+  },
+  {
+   "title": "週刊UTAU Ranking #14",
+   "aid": 90126901,
+   "cid": 153928046,
+   "bvid": "BV1s7411j7Mm",
+   "vocaloid": 0,
+   "utau": 14
+  },
+  {
+   "title": "週刊UTAU Ranking #15",
+   "aid": 90127853,
+   "cid": 153929814,
+   "bvid": "BV1W7411j7kY",
+   "vocaloid": 0,
+   "utau": 15
+  },
+  {
+   "title": "週刊UTAU Ranking #16(和谐版)",
+   "aid": 90129856,
+   "cid": 154197175,
+   "bvid": "BV1L7411j7mA",
+   "vocaloid": 0,
+   "utau": 16
+  },
+  {
+   "title": "週刊UTAU Ranking #17",
+   "aid": 92322958,
+   "cid": 157638057,
+   "bvid": "BV1kE411n7tX",
+   "vocaloid": 0,
+   "utau": 17
+  },
+  {
+   "title": "週刊UTAU Ranking #18",
+   "aid": 92323547,
+   "cid": 157639088,
+   "bvid": "BV1kE411n7i5",
+   "vocaloid": 0,
+   "utau": 18
+  },
+  {
+   "title": "週刊UTAU Ranking #19",
+   "aid": 92324126,
+   "cid": 157640053,
+   "bvid": "BV1eE411n7ZD",
+   "vocaloid": 0,
+   "utau": 19
+  },
+  {
+   "title": "週刊UTAU Ranking #20",
+   "aid": 93398746,
+   "cid": 159465035,
+   "bvid": "BV15E41147xU",
+   "vocaloid": 0,
+   "utau": 20
+  },
+  {
+   "title": "週刊UTAU Ranking #21",
+   "aid": 93400001,
+   "cid": 159468111,
+   "bvid": "BV15E41147VF",
+   "vocaloid": 0,
+   "utau": 21
+  },
+  {
+   "title": "週刊UTAU Ranking #22",
+   "aid": 93400931,
+   "cid": 159470649,
+   "bvid": "BV1VE41147ZP",
+   "vocaloid": 0,
+   "utau": 22
+  },
+  {
+   "title": "週刊UTAU Ranking #23",
+   "aid": 95183254,
+   "cid": 162495616,
+   "bvid": "BV16E411N74N",
+   "vocaloid": 0,
+   "utau": 23
+  },
+  {
+   "title": "週刊UTAU Ranking #24",
+   "aid": 95184632,
+   "cid": 162498272,
+   "bvid": "BV16E411N7GT",
+   "vocaloid": 0,
+   "utau": 24
+  },
+  {
+   "title": "週刊UTAU Ranking #25",
+   "aid": 95185452,
+   "cid": 162500288,
+   "bvid": "BV1zE411N7ZT",
+   "vocaloid": 0,
+   "utau": 25
+  },
+  {
+   "title": "週刊UTAU Ranking #26",
+   "aid": 95186190,
+   "cid": 162501655,
+   "bvid": "BV1zE411N7et",
+   "vocaloid": 0,
+   "utau": 26
+  },
+  {
+   "title": "週刊UTAU Ranking #27(和谐版)",
+   "aid": 98730148,
+   "cid": 168536880,
+   "bvid": "BV1N7411U7b3",
+   "vocaloid": 0,
+   "utau": 27
+  },
+  {
+   "title": "週刊UTAU Ranking #28",
+   "aid": 97001137,
+   "cid": 165601458,
+   "bvid": "BV1E7411d72S",
+   "vocaloid": 0,
+   "utau": 28
+  },
+  {
+   "title": "週刊UTAU Ranking #29",
+   "aid": 97001886,
+   "cid": 165602551,
+   "bvid": "BV1n7411d7SH",
+   "vocaloid": 0,
+   "utau": 29
+  },
+  {
+   "title": "週刊UTAU Ranking #30",
+   "aid": 97002547,
+   "cid": 165603954,
+   "bvid": "BV1n7411d78K",
+   "vocaloid": 0,
+   "utau": 30
+  },
+  {
+   "title": "週刊UTAU Ranking #31",
+   "aid": 98703589,
+   "cid": 168491696,
+   "bvid": "BV1d7411m7Js",
+   "vocaloid": 0,
+   "utau": 31
+  },
+  {
+   "title": "週刊UTAU Ranking #32",
+   "aid": 98704694,
+   "cid": 168493826,
+   "bvid": "BV1d7411m7u3",
+   "vocaloid": 0,
+   "utau": 32
+  },
+  {
+   "title": "週刊UTAU Ranking #33",
+   "aid": 98705331,
+   "cid": 168495636,
+   "bvid": "BV1d7411m7LC",
+   "vocaloid": 0,
+   "utau": 33
+  },
+  {
+   "title": "週刊UTAU Ranking #34",
+   "aid": 98705959,
+   "cid": 168496644,
+   "bvid": "BV1Z7411m7H4",
+   "vocaloid": 0,
+   "utau": 34
+  },
+  {
+   "title": "週刊UTAU Ranking #35",
+   "aid": 242550935,
+   "cid": 171605402,
+   "bvid": "BV1te411x7Q9",
+   "vocaloid": 0,
+   "utau": 35
+  },
+  {
+   "title": "週刊UTAU Ranking #36",
+   "aid": 667594156,
+   "cid": 171607065,
+   "bvid": "BV1Ya4y1t7gy",
+   "vocaloid": 0,
+   "utau": 36
+  },
+  {
+   "title": "週刊UTAU Ranking #37",
+   "aid": 497536215,
+   "cid": 171610655,
+   "bvid": "BV1eK411772m",
+   "vocaloid": 0,
+   "utau": 37
+  },
+  {
+   "title": "週刊UTAU Ranking #38",
+   "aid": 327596613,
+   "cid": 171612761,
+   "bvid": "BV1gA411h7gE",
+   "vocaloid": 0,
+   "utau": 38
+  },
+  {
+   "title": "週刊UTAU Ranking #39",
+   "aid": 582605913,
+   "cid": 171707716,
+   "bvid": "BV1g64y1u7A9",
+   "vocaloid": 0,
+   "utau": 39
+  },
+  {
+   "title": "週刊UTAU Ranking #40",
+   "aid": 200015834,
+   "cid": 171709253,
+   "bvid": "BV1az411h7Kf",
+   "vocaloid": 0,
+   "utau": 40
+  },
+  {
+   "title": "週刊UTAU Ranking #41",
+   "aid": 582547742,
+   "cid": 171710722,
+   "bvid": "BV1X64y1M7sx",
+   "vocaloid": 0,
+   "utau": 41
+  },
+  {
+   "title": "週刊UTAU Ranking #42",
+   "aid": 540094430,
+   "cid": 171711985,
+   "bvid": "BV1Si4y1b75k",
+   "vocaloid": 0,
+   "utau": 42
+  },
+  {
+   "title": "週刊UTAU Ranking #43",
+   "aid": 837719746,
+   "cid": 174686556,
+   "bvid": "BV1qg4y187JX",
+   "vocaloid": 0,
+   "utau": 43
+  },
+  {
+   "title": "週刊UTAU Ranking #44",
+   "aid": 412660951,
+   "cid": 174688219,
+   "bvid": "BV14V411o7Pn",
+   "vocaloid": 0,
+   "utau": 44
+  },
+  {
+   "title": "週刊UTAU Ranking #45",
+   "aid": 327663745,
+   "cid": 174689549,
+   "bvid": "BV1HA411h7eG",
+   "vocaloid": 0,
+   "utau": 45
+  },
+  {
+   "title": "週刊UTAU Ranking #46",
+   "aid": 925132523,
+   "cid": 174690383,
+   "bvid": "BV1dT4y13741",
+   "vocaloid": 0,
+   "utau": 46
+  },
+  {
+   "title": "週刊UTAU Ranking #47",
+   "aid": 752715277,
+   "cid": 174878385,
+   "bvid": "BV1Tk4y1R7Ch",
+   "vocaloid": 0,
+   "utau": 47
+  },
+  {
+   "title": "週刊UTAU Ranking #48",
+   "aid": 882706983,
+   "cid": 174879320,
+   "bvid": "BV1yK4y1r7yQ",
+   "vocaloid": 0,
+   "utau": 48
+  },
+  {
+   "title": "週刊UTAU Ranking #49",
+   "aid": 540178092,
+   "cid": 174880686,
+   "bvid": "BV1Ki4y187BB",
+   "vocaloid": 0,
+   "utau": 49
+  },
+  {
+   "title": "週刊UTAU Ranking #50",
+   "aid": 837631044,
+   "cid": 174881731,
+   "bvid": "BV1Mg4y187SW",
+   "vocaloid": 0,
+   "utau": 50
+  },
+  {
+   "title": "週刊UTAU Ranking #51",
+   "aid": 752693624,
+   "cid": 177816568,
+   "bvid": "BV1ck4y1R7D2",
+   "vocaloid": 0,
+   "utau": 51
+  },
+  {
+   "title": "週刊UTAU Ranking #52(和谐版)",
+   "aid": 370187140,
+   "cid": 177841194,
+   "bvid": "BV1GZ4y1x7Zo",
+   "vocaloid": 0,
+   "utau": 52
+  },
+  {
+   "title": "週刊UTAU Ranking #53",
+   "aid": 242642095,
+   "cid": 177819317,
+   "bvid": "BV11e411x7qq",
+   "vocaloid": 0,
+   "utau": 53
+  },
+  {
+   "title": "週刊UTAU Ranking #54",
+   "aid": 327726741,
+   "cid": 177820255,
+   "bvid": "BV1uA411b7eF",
+   "vocaloid": 0,
+   "utau": 54
+  },
+  {
+   "title": "週刊UTAU Ranking #55",
+   "aid": 285247836,
+   "cid": 177987944,
+   "bvid": "BV1Uf4y1U73B",
+   "vocaloid": 0,
+   "utau": 55
+  },
+  {
+   "title": "週刊UTAU Ranking #56",
+   "aid": 242747498,
+   "cid": 177989580,
+   "bvid": "BV1me411W7bf",
+   "vocaloid": 0,
+   "utau": 56
+  },
+  {
+   "title": "週刊UTAU Ranking #57",
+   "aid": 540225305,
+   "cid": 177991041,
+   "bvid": "BV18i4y187LS",
+   "vocaloid": 0,
+   "utau": 57
+  },
+  {
+   "title": "週刊UTAU Ranking #58",
+   "aid": 200134825,
+   "cid": 177992285,
+   "bvid": "BV1bz411b78S",
+   "vocaloid": 0,
+   "utau": 58
+  },
+  {
+   "title": "週刊UTAU Ranking #59",
+   "aid": 370325109,
+   "cid": 180929544,
+   "bvid": "BV1dZ4y1x7qz",
+   "vocaloid": 0,
+   "utau": 59
+  },
+  {
+   "title": "週刊UTAU Ranking #60",
+   "aid": 412782077,
+   "cid": 180931163,
+   "bvid": "BV1wV411Z7D9",
+   "vocaloid": 0,
+   "utau": 60
+  },
+  {
+   "title": "週刊UTAU Ranking #61",
+   "aid": 285322111,
+   "cid": 180932464,
+   "bvid": "BV13f4y1S7jM",
+   "vocaloid": 0,
+   "utau": 61
+  },
+  {
+   "title": "週刊UTAU Ranking #62",
+   "aid": 455291418,
+   "cid": 180934338,
+   "bvid": "BV1D5411t7zk",
+   "vocaloid": 0,
+   "utau": 62
+  },
+  {
+   "title": "週刊UTAU Ranking #63",
+   "aid": 625258842,
+   "cid": 180935463,
+   "bvid": "BV17t4y127P8",
+   "vocaloid": 0,
+   "utau": 63
+  },
+  {
+   "title": "週刊UTAU Ranking #64",
+   "aid": 455282693,
+   "cid": 180936254,
+   "bvid": "BV1U5411t7NM",
+   "vocaloid": 0,
+   "utau": 64
+  },
+  {
+   "title": "週刊UTAU Ranking #65",
+   "aid": 497804651,
+   "cid": 180937244,
+   "bvid": "BV17K411j7cQ",
+   "vocaloid": 0,
+   "utau": 65
+  },
+  {
+   "title": "週刊UTAU Ranking #66",
+   "aid": 242852960,
+   "cid": 180937991,
+   "bvid": "BV1ne411s74o",
+   "vocaloid": 0,
+   "utau": 66
+  },
+  {
+   "title": "週刊UTAU Ranking #67",
+   "aid": 327918112,
+   "cid": 184394433,
+   "bvid": "BV1uA41187MU",
+   "vocaloid": 0,
+   "utau": 67
+  },
+  {
+   "title": "週刊UTAU Ranking #68",
+   "aid": 200480836,
+   "cid": 184396380,
+   "bvid": "BV1tz411z7by",
+   "vocaloid": 0,
+   "utau": 68
+  },
+  {
+   "title": "週刊UTAU Ranking #69",
+   "aid": 497928901,
+   "cid": 184397272,
+   "bvid": "BV1VK41157xj",
+   "vocaloid": 0,
+   "utau": 69
+  },
+  {
+   "title": "週刊UTAU Ranking #70",
+   "aid": 967926967,
+   "cid": 184398248,
+   "bvid": "BV1Dp4y1X79M",
+   "vocaloid": 0,
+   "utau": 70
+  },
+  {
+   "title": "週刊UTAU Ranking #71",
+   "aid": 540426760,
+   "cid": 184399164,
+   "bvid": "BV1ki4y1t7W7",
+   "vocaloid": 0,
+   "utau": 71
+  },
+  {
+   "title": "週刊UTAU Ranking #72",
+   "aid": 925459284,
+   "cid": 184400904,
+   "bvid": "BV1dT4y1g7s6",
+   "vocaloid": 0,
+   "utau": 72
+  },
+  {
+   "title": "週刊UTAU Ranking #73",
+   "aid": 200391574,
+   "cid": 184401742,
+   "bvid": "BV1Fz411z79R",
+   "vocaloid": 0,
+   "utau": 73
+  },
+  {
+   "title": "週刊UTAU Ranking #74",
+   "aid": 370624319,
+   "cid": 187201817,
+   "bvid": "BV1qZ4y1s7F9",
+   "vocaloid": 0,
+   "utau": 74
+  },
+  {
+   "title": "週刊UTAU Ranking #75",
+   "aid": 668018047,
+   "cid": 187203188,
+   "bvid": "BV1Ta4y1i7Mj",
+   "vocaloid": 0,
+   "utau": 75
+  },
+  {
+   "title": "週刊UTAU Ranking #76",
+   "aid": 753106173,
+   "cid": 187204271,
+   "bvid": "BV18k4y1k7vK",
+   "vocaloid": 0,
+   "utau": 76
+  },
+  {
+   "title": "週刊UTAU Ranking #77",
+   "aid": 540536569,
+   "cid": 187205783,
+   "bvid": "BV15i4y1b7Ns",
+   "vocaloid": 0,
+   "utau": 77
+  },
+  {
+   "title": "週刊UTAU Ranking #78",
+   "aid": 625526705,
+   "cid": 187207240,
+   "bvid": "BV1mt4y1y7tG",
+   "vocaloid": 0,
+   "utau": 78
+  },
+  {
+   "title": "週刊UTAU Ranking #79",
+   "aid": 840544474,
+   "cid": 187208231,
+   "bvid": "BV1L54y1X78t",
+   "vocaloid": 0,
+   "utau": 79
+  },
+  {
+   "title": "週刊UTAU Ranking #80",
+   "aid": 625540143,
+   "cid": 187209827,
+   "bvid": "BV1Dt4y1y7E9",
+   "vocaloid": 0,
+   "utau": 80
+  },
+  {
+   "title": "週刊UTAU Ranking #81",
+   "aid": 968040720,
+   "cid": 187210821,
+   "bvid": "BV1qp4y197M3",
+   "vocaloid": 0,
+   "utau": 81
+  },
+  {
+   "title": "週刊UTAUランキング #82",
+   "aid": 9204,
+   "cid": 13951,
+   "bvid": "BV1bx411c7sW",
+   "vocaloid": 0,
+   "utau": 82
+  },
+  {
+   "title": "週刊UTAUランキング #83",
+   "aid": 9847,
+   "cid": 16301,
+   "bvid": "BV1bx411c7Pb",
+   "vocaloid": 0,
+   "utau": 83
+  },
+  {
+   "title": "週刊UTAU Ranking #84",
+   "aid": 668157329,
+   "cid": 189809882,
+   "bvid": "BV1za4y1i71Q",
+   "vocaloid": 0,
+   "utau": 84
+  },
+  {
+   "title": "週刊UTAU Ranking #85",
+   "aid": 710724412,
+   "cid": 189811607,
+   "bvid": "BV1BQ4y1A7GA",
+   "vocaloid": 0,
+   "utau": 85
+  },
+  {
+   "title": "週刊UTAU Ranking #86",
+   "aid": 540676690,
+   "cid": 189812840,
+   "bvid": "BV1ti4y147aW",
+   "vocaloid": 0,
+   "utau": 86
+  },
+  {
+   "title": "週刊UTAU Ranking #87",
+   "aid": 838205341,
+   "cid": 189814255,
+   "bvid": "BV17g4y1B74d",
+   "vocaloid": 0,
+   "utau": 87
+  },
+  {
+   "title": "週刊UTAU Ranking #88",
+   "aid": 753130232,
+   "cid": 189815813,
+   "bvid": "BV1Bk4y1k7nL",
+   "vocaloid": 0,
+   "utau": 88
+  },
+  {
+   "title": "週刊UTAU Ranking #89",
+   "aid": 370632862,
+   "cid": 189816608,
+   "bvid": "BV1BZ4y1s7Q8",
+   "vocaloid": 0,
+   "utau": 89
+  },
+  {
+   "title": "週刊UTAU Ranking #90",
+   "aid": 243137301,
+   "cid": 189817347,
+   "bvid": "BV1de411p7Uj",
+   "vocaloid": 0,
+   "utau": 90
+  },
+  {
+   "title": "週刊UTAU Ranking #91",
+   "aid": 838232033,
+   "cid": 189817965,
+   "bvid": "BV14g4y1B7vp",
+   "vocaloid": 0,
+   "utau": 91
+  },
+  {
+   "title": "週刊UTAU Ranking #92",
+   "aid": 838212954,
+   "cid": 192709559,
+   "bvid": "BV18g4y1B78J",
+   "vocaloid": 0,
+   "utau": 92
+  },
+  {
+   "title": "週刊UTAU Ranking #93",
+   "aid": 200677853,
+   "cid": 192710303,
+   "bvid": "BV1mz411q7KQ",
+   "vocaloid": 0,
+   "utau": 93
+  },
+  {
+   "title": "週刊UTAU Ranking #94",
+   "aid": 498197922,
+   "cid": 192711672,
+   "bvid": "BV16K411W7iW",
+   "vocaloid": 0,
+   "utau": 94
+  },
+  {
+   "title": "週刊UTAU Ranking #95",
+   "aid": 583195947,
+   "cid": 192712825,
+   "bvid": "BV1Pz4y1d7p9",
+   "vocaloid": 0,
+   "utau": 95
+  },
+  {
+   "title": "週刊UTAU Ranking #96",
+   "aid": 200719122,
+   "cid": 192714055,
+   "bvid": "BV1Fz411B78L",
+   "vocaloid": 0,
+   "utau": 96
+  },
+  {
+   "title": "週刊UTAU Ranking #97",
+   "aid": 925746137,
+   "cid": 192714785,
+   "bvid": "BV1kT4y1u715",
+   "vocaloid": 0,
+   "utau": 97
+  },
+  {
+   "title": "週刊UTAU Ranking #98",
+   "aid": 243168255,
+   "cid": 192715421,
+   "bvid": "BV1Te411W7Kq",
+   "vocaloid": 0,
+   "utau": 98
+  },
+  {
+   "title": "週刊UTAU Ranking #99",
+   "aid": 668215862,
+   "cid": 192716169,
+   "bvid": "BV1xa4y1e7hB",
+   "vocaloid": 0,
+   "utau": 99
+  },
+  {
+   "title": "週刊UTAU Ranking #100",
+   "aid": 370825309,
+   "cid": 195533711,
+   "bvid": "BV1oZ4y1p7Ln",
+   "vocaloid": 0,
+   "utau": 100
+  },
+  {
+   "title": "週刊UTAU Ranking #101",
+   "aid": 413316189,
+   "cid": 195534611,
+   "bvid": "BV16V411C7UP",
+   "vocaloid": 0,
+   "utau": 101
+  },
+  {
+   "title": "週刊UTAU Ranking #102",
+   "aid": 285755533,
+   "cid": 195535404,
+   "bvid": "BV1Qf4y117Bb",
+   "vocaloid": 0,
+   "utau": 102
+  },
+  {
+   "title": "週刊UTAU Ranking #103",
+   "aid": 840799503,
+   "cid": 195535749,
+   "bvid": "BV1Q54y1D7Z9",
+   "vocaloid": 0,
+   "utau": 103
+  },
+  {
+   "title": "週刊UTAU Ranking #104",
+   "aid": 838281967,
+   "cid": 195536299,
+   "bvid": "BV1Qg4y1B7Yq",
+   "vocaloid": 0,
+   "utau": 104
+  },
+  {
+   "title": "週刊UTAU Ranking #105(和谐版)",
+   "aid": 753297742,
+   "cid": 195581506,
+   "bvid": "BV1Uk4y167HU",
+   "vocaloid": 0,
+   "utau": 105
+  },
+  {
+   "title": "週刊UTAUランキング #106",
+   "aid": 38411,
+   "cid": 63948,
+   "bvid": "BV1qx411c7i4",
+   "vocaloid": 0,
+   "utau": 106
+  },
+  {
+   "title": "週刊UTAUランキング #107",
+   "aid": 39856,
+   "cid": 66914,
+   "bvid": "BV1qx411c7nt",
+   "vocaloid": 0,
+   "utau": 107
+  },
+  {
+   "title": "週刊UTAUランキング #108",
+   "aid": 41159,
+   "cid": 69207,
+   "bvid": "BV1Bx411c7Rm",
+   "vocaloid": 0,
+   "utau": 108
+  },
+  {
+   "title": "週刊UTAUランキング #109",
+   "aid": 42787,
+   "cid": 71912,
+   "bvid": "BV1Bx411c7Rg",
+   "vocaloid": 0,
+   "utau": 109
+  },
+  {
+   "title": "週刊UTAUランキング #110",
+   "aid": 44712,
+   "cid": 75207,
+   "bvid": "BV1Bx411c73u",
+   "vocaloid": 0,
+   "utau": 110
+  },
+  {
+   "title": "週刊UTAUランキング #111",
+   "aid": 45522,
+   "cid": 76420,
+   "bvid": "BV16x411c7G8",
+   "vocaloid": 0,
+   "utau": 111
+  },
+  {
+   "title": "週刊UTAUランキング #112",
+   "aid": 47243,
+   "cid": 81638,
+   "bvid": "BV1zx411c7YF",
+   "vocaloid": 0,
+   "utau": 112
+  },
+  {
+   "title": "週刊UTAU Ranking #113",
+   "aid": 455815416,
+   "cid": 195536932,
+   "bvid": "BV1u5411x7ik",
+   "vocaloid": 0,
+   "utau": 113
+  },
+  {
+   "title": "週刊UTAU Ranking #114",
+   "aid": 840857507,
+   "cid": 195537077,
+   "bvid": "BV1F54y1Q7WQ",
+   "vocaloid": 0,
+   "utau": 114
+  },
+  {
+   "title": "週刊UTAU Ranking #115",
+   "aid": 200882249,
+   "cid": 197789474,
+   "bvid": "BV1uz411i7K4",
+   "vocaloid": 0,
+   "utau": 115
+  },
+  {
+   "title": "週刊UTAUランキング #116",
+   "aid": 56033,
+   "cid": 95261,
+   "bvid": "BV1ax411c7pC",
+   "vocaloid": 0,
+   "utau": 116
+  },
+  {
+   "title": "週刊UTAUランキング #117",
+   "aid": 58349,
+   "cid": 97475,
+   "bvid": "BV1ex411c77F",
+   "vocaloid": 0,
+   "utau": 117
+  },
+  {
+   "title": "週刊UTAUランキング #118",
+   "aid": 61624,
+   "cid": 102218,
+   "bvid": "BV1vx411c77u",
+   "vocaloid": 0,
+   "utau": 118
+  },
+  {
+   "title": "週刊UTAUランキング #119",
+   "aid": 64486,
+   "cid": 106285,
+   "bvid": "BV1ex411c79x",
+   "vocaloid": 0,
+   "utau": 119
+  },
+  {
+   "title": "週刊UTAUランキング #120",
+   "aid": 66512,
+   "cid": 109766,
+   "bvid": "BV12x411c74t",
+   "vocaloid": 0,
+   "utau": 120
+  },
+  {
+   "title": "週刊UTAUランキング #121",
+   "aid": 68612,
+   "cid": 112735,
+   "bvid": "BV11x411c7HR",
+   "vocaloid": 0,
+   "utau": 121
+  },
+  {
+   "title": "週刊UTAUランキング #122",
+   "aid": 71167,
+   "cid": 116322,
+   "bvid": "BV1mx411c7Vw",
+   "vocaloid": 0,
+   "utau": 122
+  },
+  {
+   "title": "週刊UTAUランキング #123",
+   "aid": 73214,
+   "cid": 119458,
+   "bvid": "BV12x411c7iy",
+   "vocaloid": 0,
+   "utau": 123
+  },
+  {
+   "title": "週刊UTAUランキング #124",
+   "aid": 75162,
+   "cid": 122605,
+   "bvid": "BV1Ux411c74u",
+   "vocaloid": 0,
+   "utau": 124
+  },
+  {
+   "title": "週刊UTAUランキング #125",
+   "aid": 78122,
+   "cid": 130555,
+   "bvid": "BV1Dx411c7ct",
+   "vocaloid": 0,
+   "utau": 125
+  },
+  {
+   "title": "週刊UTAUランキング #126",
+   "aid": 80654,
+   "cid": 135341,
+   "bvid": "BV1Sx411c7Y8",
+   "vocaloid": 0,
+   "utau": 126
+  },
+  {
+   "title": "週刊UTAUランキング #127",
+   "aid": 83317,
+   "cid": 139699,
+   "bvid": "BV1rx411c7gE",
+   "vocaloid": 0,
+   "utau": 127
+  },
+  {
+   "title": "週刊UTAUランキング #128",
+   "aid": 85405,
+   "cid": 143018,
+   "bvid": "BV16x411c7aG",
+   "vocaloid": 0,
+   "utau": 128
+  },
+  {
+   "title": "週刊UTAUランキング #129",
+   "aid": 88417,
+   "cid": 147715,
+   "bvid": "BV1kx411c7Nb",
+   "vocaloid": 0,
+   "utau": 129
+  },
+  {
+   "title": "週刊UTAUランキング #130",
+   "aid": 90660,
+   "cid": 151032,
+   "bvid": "BV1yx411c7cc",
+   "vocaloid": 0,
+   "utau": 130
+  },
+  {
+   "title": "週刊UTAUランキング #131",
+   "aid": 94383,
+   "cid": 157197,
+   "bvid": "BV11x411c7ws",
+   "vocaloid": 0,
+   "utau": 131
+  },
+  {
+   "title": "週刊UTAUランキング #132",
+   "aid": 95821,
+   "cid": 159595,
+   "bvid": "BV1yx411c79g",
+   "vocaloid": 0,
+   "utau": 132
+  },
+  {
+   "title": "週刊UTAUランキング #133",
+   "aid": 97278,
+   "cid": 161998,
+   "bvid": "BV1yx411c7qf",
+   "vocaloid": 0,
+   "utau": 133
+  },
+  {
+   "title": "週刊UTAUランキング #134",
+   "aid": 99709,
+   "cid": 166172,
+   "bvid": "BV1dx411c72q",
+   "vocaloid": 0,
+   "utau": 134
+  },
+  {
+   "title": "週刊UTAUランキング #135",
+   "aid": 103261,
+   "cid": 171417,
+   "bvid": "BV1Zx411c74g",
+   "vocaloid": 0,
+   "utau": 135
+  },
+  {
+   "title": "週刊UTAUランキング #136",
+   "aid": 105557,
+   "cid": 175053,
+   "bvid": "BV1ox411c7EK",
+   "vocaloid": 0,
+   "utau": 136
+  },
+  {
+   "title": "週刊UTAUランキング #137",
+   "aid": 108044,
+   "cid": 179651,
+   "bvid": "BV1fx411c7ET",
+   "vocaloid": 0,
+   "utau": 137
+  },
+  {
+   "title": "週刊UTAUランキング #138",
+   "aid": 111128,
+   "cid": 184957,
+   "bvid": "BV1Fx411w7SA",
+   "vocaloid": 0,
+   "utau": 138
+  },
+  {
+   "title": "週刊UTAUランキング #139",
+   "aid": 113892,
+   "cid": 189525,
+   "bvid": "BV1fx411c7kf",
+   "vocaloid": 0,
+   "utau": 139
+  },
+  {
+   "title": "週刊UTAUランキング #140～#145",
+   "aid": 137165,
+   "cid": 228379,
+   "bvid": "BV1Tx411w7DY",
+   "vocaloid": 0,
+   "utau": 145
+  },
+  {
+   "title": "週刊UTAUランキング #146",
+   "aid": 137699,
+   "cid": 229350,
+   "bvid": "BV1Tx411w7Wz",
+   "vocaloid": 0,
+   "utau": 146
+  },
+  {
+   "title": "週刊UTAUランキング #147",
+   "aid": 141081,
+   "cid": 234333,
+   "bvid": "BV1ux411w7TM",
+   "vocaloid": 0,
+   "utau": 147
+  },
+  {
+   "title": "週刊UTAUランキング #148",
+   "aid": 143276,
+   "cid": 237721,
+   "bvid": "BV1Mx411w7ba",
+   "vocaloid": 0,
+   "utau": 148
+  },
+  {
+   "title": "週刊UTAUランキング #149",
+   "aid": 150988,
+   "cid": 250143,
+   "bvid": "BV1cx411w7FJ",
+   "vocaloid": 0,
+   "utau": 149
+  },
+  {
+   "title": "週刊UTAUランキング #150",
+   "aid": 151251,
+   "cid": 250603,
+   "bvid": "BV1cx411w7Pb",
+   "vocaloid": 0,
+   "utau": 150
+  },
+  {
+   "title": "週刊UTAUランキング #151",
+   "aid": 151903,
+   "cid": 251430,
+   "bvid": "BV1Ax411w7um",
+   "vocaloid": 0,
+   "utau": 151
+  },
+  {
+   "title": "週刊UTAUランキング #152",
+   "aid": 155353,
+   "cid": 257163,
+   "bvid": "BV1wx411w77F",
+   "vocaloid": 0,
+   "utau": 152
+  },
+  {
+   "title": " 週刊UTAUランキング #153",
+   "aid": 158715,
+   "cid": 262288,
+   "bvid": "BV1Ax411w79G",
+   "vocaloid": 0,
+   "utau": 153
+  },
+  {
+   "title": "週刊UTAUランキング #154",
+   "aid": 161629,
+   "cid": 266915,
+   "bvid": "BV1Nx411w745",
+   "vocaloid": 0,
+   "utau": 154
+  },
+  {
+   "title": "週刊UTAUランキング #155",
+   "aid": 165048,
+   "cid": 272294,
+   "bvid": "BV1jx411w7uf",
+   "vocaloid": 0,
+   "utau": 155
+  },
+  {
+   "title": "週刊UTAUランキング #156",
+   "aid": 169190,
+   "cid": 278570,
+   "bvid": "BV17x411w7Ho",
+   "vocaloid": 0,
+   "utau": 156
+  },
+  {
+   "title": "週刊UTAUランキング #157",
+   "aid": 171971,
+   "cid": 283126,
+   "bvid": "BV1jx411w7f5",
+   "vocaloid": 0,
+   "utau": 157
+  },
+  {
+   "title": "週刊UTAUランキング #158",
+   "aid": 175705,
+   "cid": 288437,
+   "bvid": "BV1Ex411w7uj",
+   "vocaloid": 0,
+   "utau": 158
+  },
+  {
+   "title": "週刊UTAUランキング #159",
+   "aid": 180117,
+   "cid": 294966,
+   "bvid": "BV1Jx411w7xs",
+   "vocaloid": 0,
+   "utau": 159
+  },
+  {
+   "title": "週刊UTAUランキング #160",
+   "aid": 182222,
+   "cid": 298088,
+   "bvid": "BV13x411w78W",
+   "vocaloid": 0,
+   "utau": 160
+  },
+  {
+   "title": "週刊UTAUランキング #161",
+   "aid": 185375,
+   "cid": 302553,
+   "bvid": "BV1Gx411w7am",
+   "vocaloid": 0,
+   "utau": 161
+  },
+  {
+   "title": "週刊UTAUランキング #162",
+   "aid": 188144,
+   "cid": 306852,
+   "bvid": "BV1Gx411w7w6",
+   "vocaloid": 0,
+   "utau": 162
+  },
+  {
+   "title": "週刊UTAUランキング #163",
+   "aid": 190934,
+   "cid": 311308,
+   "bvid": "BV1Vx411w7bc",
+   "vocaloid": 0,
+   "utau": 163
+  },
+  {
+   "title": "週刊UTAUランキング #164",
+   "aid": 194517,
+   "cid": 317071,
+   "bvid": "BV1Lx411w7uM",
+   "vocaloid": 0,
+   "utau": 164
+  },
+  {
+   "title": "週刊UTAUランキング #165",
+   "aid": 196720,
+   "cid": 320434,
+   "bvid": "BV14x411w7VD",
+   "vocaloid": 0,
+   "utau": 165
+  },
+  {
+   "title": "週刊UTAUランキング #166",
+   "aid": 200776,
+   "cid": 326474,
+   "bvid": "BV1tx411w74A",
+   "vocaloid": 0,
+   "utau": 166
+  },
+  {
+   "title": "週刊UTAUランキング #167",
+   "aid": 203762,
+   "cid": 331509,
+   "bvid": "BV1tx411w7wu",
+   "vocaloid": 0,
+   "utau": 167
+  },
+  {
+   "title": "週刊UTAUランキング #168",
+   "aid": 207239,
+   "cid": 336819,
+   "bvid": "BV1bx411w7KS",
+   "vocaloid": 0,
+   "utau": 168
+  },
+  {
+   "title": "週刊UTAUランキング #169",
+   "aid": 211539,
+   "cid": 343356,
+   "bvid": "BV18x411w7sq",
+   "vocaloid": 0,
+   "utau": 169
+  },
+  {
+   "title": "週刊UTAUランキング #170",
+   "aid": 215841,
+   "cid": 350227,
+   "bvid": "BV1Hx411w7Fz",
+   "vocaloid": 0,
+   "utau": 170
+  },
+  {
+   "title": "週刊UTAUランキング #171",
+   "aid": 220916,
+   "cid": 358549,
+   "bvid": "BV1Hx411w72k",
+   "vocaloid": 0,
+   "utau": 171
+  },
+  {
+   "title": "週刊UTAUランキング #172",
+   "aid": 222477,
+   "cid": 361072,
+   "bvid": "BV1Wx411w7vK",
+   "vocaloid": 0,
+   "utau": 172
+  },
+  {
+   "title": "週刊UTAUランキング #173",
+   "aid": 226352,
+   "cid": 366964,
+   "bvid": "BV1sx411w7C6",
+   "vocaloid": 0,
+   "utau": 173
+  },
+  {
+   "title": "週刊UTAUランキング #174",
+   "aid": 229577,
+   "cid": 371983,
+   "bvid": "BV1ix411w7dg",
+   "vocaloid": 0,
+   "utau": 174
+  },
+  {
+   "title": "週刊UTAUランキング #175",
+   "aid": 233511,
+   "cid": 377904,
+   "bvid": "BV1Bx411w7GS",
+   "vocaloid": 0,
+   "utau": 175
+  },
+  {
+   "title": "週刊UTAUランキング #176",
+   "aid": 237867,
+   "cid": 384096,
+   "bvid": "BV1zx411w78z",
+   "vocaloid": 0,
+   "utau": 176
+  },
+  {
+   "title": "週刊UTAUランキング #177",
+   "aid": 242209,
+   "cid": 390543,
+   "bvid": "BV16x411w7mQ",
+   "vocaloid": 0,
+   "utau": 177
+  },
+  {
+   "title": "週刊UTAUランキング #178",
+   "aid": 245826,
+   "cid": 395447,
+   "bvid": "BV1ax411w7Kc",
+   "vocaloid": 0,
+   "utau": 178
+  },
+  {
+   "title": "週刊UTAUランキング #179",
+   "aid": 249101,
+   "cid": 399983,
+   "bvid": "BV1hx411w7jh",
+   "vocaloid": 0,
+   "utau": 179
+  },
+  {
+   "title": "週刊UTAUランキング #180",
+   "aid": 253811,
+   "cid": 406477,
+   "bvid": "BV1ax411w7Bg",
+   "vocaloid": 0,
+   "utau": 180
+  },
+  {
+   "title": "週刊UTAUランキング #181",
+   "aid": 260637,
+   "cid": 416372,
+   "bvid": "BV1vx411w7Eg",
+   "vocaloid": 0,
+   "utau": 181
+  },
+  {
+   "title": "週刊UTAUランキング #182",
+   "aid": 262405,
+   "cid": 418885,
+   "bvid": "BV1Nx411F7oq",
+   "vocaloid": 0,
+   "utau": 182
+  },
+  {
+   "title": "週刊UTAUランキング #183",
+   "aid": 267836,
+   "cid": 426211,
+   "bvid": "BV1Kx411F7ou",
+   "vocaloid": 0,
+   "utau": 183
+  },
+  {
+   "title": "Weekly UTAU Ranking #184",
+   "aid": 273314,
+   "cid": 434062,
+   "bvid": "BV1Tx411F79B",
+   "vocaloid": 0,
+   "utau": 184
+  },
+  {
+   "title": "Weekly UTAU Ranking #185",
+   "aid": 276844,
+   "cid": 440744,
+   "bvid": "BV1Mx411F7f8",
+   "vocaloid": 0,
+   "utau": 185
+  },
+  {
+   "title": "Weekly UTAU Ranking #186",
+   "aid": 280505,
+   "cid": 446185,
+   "bvid": "BV1Fx411F79g",
+   "vocaloid": 0,
+   "utau": 186
+  },
+  {
+   "title": "週刊UTAU Ranking #187",
+   "aid": 285647,
+   "cid": 453869,
+   "bvid": "BV1cx411F72m",
+   "vocaloid": 0,
+   "utau": 187
+  },
+  {
+   "title": "週刊UTAU Ranking #188",
+   "aid": 290188,
+   "cid": 460032,
+   "bvid": "BV1wx411F7eN",
+   "vocaloid": 0,
+   "utau": 188
+  },
+  {
+   "title": "週刊UTAUranking #189",
+   "aid": 297161,
+   "cid": 469916,
+   "bvid": "BV15x411F7on",
+   "vocaloid": 0,
+   "utau": 189
+  },
+  {
+   "title": "週刊UTAUranking #190",
+   "aid": 301856,
+   "cid": 476754,
+   "bvid": "BV1jx411F7tV",
+   "vocaloid": 0,
+   "utau": 190
+  },
+  {
+   "title": "週刊UTAUranking #191",
+   "aid": 306845,
+   "cid": 483561,
+   "bvid": "BV17x411F75z",
+   "vocaloid": 0,
+   "utau": 191
+  },
+  {
+   "title": "週刊UTAUranking #192",
+   "aid": 311759,
+   "cid": 490624,
+   "bvid": "BV1gx411F71q",
+   "vocaloid": 0,
+   "utau": 192
+  },
+  {
+   "title": "週刊UTAUranking #193",
+   "aid": 319742,
+   "cid": 501726,
+   "bvid": "BV1Vx411F7Ty",
+   "vocaloid": 0,
+   "utau": 193
+  },
+  {
+   "title": "週刊UTAUranking #194",
+   "aid": 325035,
+   "cid": 508949,
+   "bvid": "BV15x411F7Ms",
+   "vocaloid": 0,
+   "utau": 194
+  },
+  {
+   "title": "週刊UTAU曲Ranking #195",
+   "aid": 330367,
+   "cid": 516176,
+   "bvid": "BV1sx411F7Xz",
+   "vocaloid": 0,
+   "utau": 195
+  },
+  {
+   "title": "週刊UTAUranking #196",
+   "aid": 335416,
+   "cid": 523401,
+   "bvid": "BV1xx411F7Uk",
+   "vocaloid": 0,
+   "utau": 196
+  },
+  {
+   "title": "週刊UTAUranking #197",
+   "aid": 343385,
+   "cid": 534005,
+   "bvid": "BV1bx411F7MQ",
+   "vocaloid": 0,
+   "utau": 197
+  },
+  {
+   "title": "週刊UTAUranking #198",
+   "aid": 350868,
+   "cid": 542590,
+   "bvid": "BV1Hx411F7GJ",
+   "vocaloid": 0,
+   "utau": 198
+  },
+  {
+   "title": "週刊UTAUranking #199",
+   "aid": 355435,
+   "cid": 548498,
+   "bvid": "BV1px411F7FM",
+   "vocaloid": 0,
+   "utau": 199
+  },
+  {
+   "title": "週刊UTAU曲Ranking #200【最终回】",
+   "aid": 357502,
+   "cid": 551066,
+   "bvid": "BV1Wx411F7UX",
+   "vocaloid": 0,
+   "utau": 200
+  },
+  {
+   "title": "週刊UTAU排行榜Digest #328・#329",
+   "aid": 2070384,
+   "cid": 3206600,
+   "bvid": "BV1fx411A7wy",
+   "vocaloid": 0,
+   "utau": 329
+  },
+  {
+   "title": "週刊UTAU排行榜Digest #330・#331",
+   "aid": 2113340,
+   "cid": 3279353,
+   "bvid": "BV1ys411S7Hx",
+   "vocaloid": 0,
+   "utau": 331
+  },
+  {
+   "title": "週刊UTAU排行榜Digest #332・#333",
+   "aid": 2159771,
+   "cid": 3358600,
+   "bvid": "BV1Ss411S7eK",
+   "vocaloid": 0,
+   "utau": 333
+  },
+  {
+   "title": "週刊UTAU排行榜Digest #334・#335",
+   "aid": 2218156,
+   "cid": 3446582,
+   "bvid": "BV1Ts411D7JN",
+   "vocaloid": 0,
+   "utau": 335
+  },
+  {
+   "title": "【週刊】UTAU排行榜Digest【 #336・#337】",
+   "aid": 2273741,
+   "cid": 3544659,
+   "bvid": "BV1vs411D71m",
+   "vocaloid": 0,
+   "utau": 337
+  },
+  {
+   "title": "【週刊】UTAU排行榜Digest【 #338・#339】",
+   "aid": 2313501,
+   "cid": 3609481,
+   "bvid": "BV1is411D7Tb",
+   "vocaloid": 0,
+   "utau": 339
+  },
+  {
+   "title": "【週刊】UTAU排行榜Digest【 #340・#341】",
+   "aid": 2368160,
+   "cid": 3702082,
+   "bvid": "BV1Ws411U7c2",
+   "vocaloid": 0,
+   "utau": 341
+  },
+  {
+   "title": "【週刊】UTAU排行榜Digest【 #342・#343】",
+   "aid": 2433522,
+   "cid": 3809118,
+   "bvid": "BV1Cs411U7WX",
+   "vocaloid": 0,
+   "utau": 343
+  }
+ ],
  "vocaloid_and_utau": [
   {
    "title": "週刊VOCALOID Ranking #10(9)",

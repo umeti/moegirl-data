@@ -7,8 +7,8 @@ async function main(){
   bake(data)
  
   let arranged = arrange(data)
-  show(arranged)
-  fs.writeFile('bilimap.json',JSON.stringify(arranged,2,' '))
+  //show(arranged)
+  fs.writeFile('data/bilimap.json',JSON.stringify(arranged,2,' '))
 }
 
 function arrange(data){
@@ -24,6 +24,7 @@ function arrange(data){
       vau.push(_)
     }
   }
+
   v.sort((a,b)=>(a.vocaloid-b.vocaloid))
   vau.sort((a,b)=>(a.vocaloid-b.vocaloid))
   u.sort((a,b)=>(a.utau-b.utau))
@@ -37,7 +38,8 @@ function arrange(data){
 
 function bake(data){
   for(_ of data){
-    let v,u = null
+    let v = 0
+    let u = 0
     let t = _.title
     let i = t.lastIndexOf('#')
     t = t.substr(i)
@@ -46,7 +48,7 @@ function bake(data){
       v = m[0]
       u = m[1]
     }else if(m.length == 1){
-      if(/UTAU/i.test(t)){
+      if(/UTAU/i.test(_.title)){
         u = m[0]
       }else{
         v = m[0]
