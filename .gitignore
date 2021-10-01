@@ -5,3 +5,4 @@ tmp.*
 .*.sw*
 vc.yml
 *.wiki
+out/
