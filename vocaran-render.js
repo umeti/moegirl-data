@@ -126,6 +126,7 @@ function render(data,no,lastdata){
   }
 
   // 历史榜单
+  out += `\n<!-- 历史榜单(来自${$.history_no}) -->`
   for(let _ of $.history){
     
     let name = takeName(_.title)
@@ -171,7 +172,12 @@ function render(data,no,lastdata){
 }
 
 function takeName(title){
-  return title.replace(/\s*【.*?】\s*/g,'')
+  let t =  title.replace(/\s*【.*?】\s*/g,'')
+  let m = t.match(/「(.+?)」/)
+  if(m){
+    t = m[1]
+  }
+  return t
 }
 
 function fmt(date,_=null,add9h=true){
