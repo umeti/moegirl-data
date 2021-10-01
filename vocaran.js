@@ -123,6 +123,12 @@ async function makeData(html) {
     if (_.rank == "10") {
       $history = $(e).parent().next().next()
     }
+
+    _.rank = parseInt(_.rank)
+    _.rank0 = parseInt(_.rank0)
+    if(isNaN(_.rank0)){
+      _.rank0 = 999
+    }
   })
   // 处理历史榜单
   let history_no = $("a",$history).first().text()

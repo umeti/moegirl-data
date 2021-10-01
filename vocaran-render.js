@@ -4,12 +4,14 @@ const fs = require('fs/promises')
 async function main(arg){
   let no = arg[0] || 61
   let data =JSON.parse(await fs.readFile(`data/vocaran${no}.json`,"utf-8"))
-  let wikitext = render(data,no)
+  let listdata =JSON.parse(await fs.readFile(`data/vocaran${parseInt(no)-1}.json`,"utf-8"))
+  let wikitext = render(data,no,listdata)
  
-  console.log(wikitext)
+  //console.log(wikitext)
+  fs.writeFile(`out/vocaran${no}.wikitext`,wikitext)
 }
 
-function render(data,no){
+function render(data,no,lastdata){
   let $ = data
 
   // 获取统计时间
@@ -39,7 +41,7 @@ function render(data,no){
     
   }
 
-  let s = `{{VOCALOID Ranking
+  let out = `{{VOCALOID Ranking
 |id = ${$.nicovideo.id.substr(2)}
 |index = ${no}
 |image = 
@@ -60,10 +62,122 @@ function render(data,no){
 ==榜单==
 `
 
-  return s
+  //OP
+  let op = lastdata.ranklist[0]
+  op.name = takeName(op.title)
+
+  out += `
+{{VOCALOID_&_UTAU_Ranking/bricks
+|id = ${op.sm.substr(2)}
+|曲名 = ${op.name}
+|标题 = <!-- ${op.title} (用于复核曲名)--> 
+|时间 = 20${op.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
+|本周 = OP
+|color = #AA0000
+|bottom-column = {{color|#AA0000|上周冠军}}
+}}
+ `
+  for(let i=0; i < 30; i++){
+    let _ = $.ranklist[i]
+    let name = takeName(_.title)
+    out += `
+{{VOCALOID_&_UTAU_Ranking/bricks
+|id = ${_.sm.substr(2)}
+|曲名 = ${name}
+|标题 = <!-- ${_.title} (用于复核曲名)-->
+|翻唱 = 
+|本周 = ${_.rank}
+|上周 = ${_.rank0 == 999? 'NEW': _.rank0}
+|走势 = ${_.rank < _.rank0?1:_.rank == _.rank0?2:3}
+|得点 = ${_.point}
+|时间 = 20${_.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
+|再生 = ${_.watch}
+|评论 = ${_.comment}
+|评论权重 = ${_.comment_weight}
+|收藏 = ${_.collect}
+}}
+` 
+  }
+
+  //pick up
+  for(let _ of $.ranklist){
+    if(_.pickup){
+      let name = takeName(_.title)
+      out += `
+{{VOCALOID_&_UTAU_Ranking/bricks
+|id = ${_.sm.substr(2)}
+|曲名 = ${name}
+|标题 = <!-- ${_.title} (用于复核曲名)-->
+|翻唱 = 
+|本周 = ${_.rank}
+|上周 = ${_.rank0 == 999? 'NEW': _.rank0}
+|走势 = ${_.rank < _.rank0?1:_.rank == _.rank0?2:3}
+|得点 = ${_.point}
+|时间 = 20${_.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
+|再生 = ${_.watch}
+|评论 = ${_.comment}
+|评论权重 = ${_.comment_weight}
+|收藏 = ${_.collect}
+|color = #FF9999
+|bottom-column = {{color|#FF9999|P I C K U P}}
+}}
+` 
+    }
+  }
+
+  // 历史榜单
+  for(let _ of $.history){
+    
+    let name = takeName(_.title)
+    out += `
+{{VOCALOID_&_UTAU_Ranking/bricks
+|id = ${_.sm.substr(2)}
+|曲名 = ${name}
+|标题 = <!-- ${_.title} (用于复核曲名)-->
+|翻唱 = 
+|本周 = ${_.rank}
+|时间 = ${fmt(_.time,'-')}
+|color = #663300
+|bottom-column = {{color|#663300|H I S T O R Y}}
+}}
+`
+  }
+
+  //ED
+  let ed = $.ranklist[$.ranklist.length-1]
+  ed.name = takeName(ed.title)
+
+  out += `
+{{VOCALOID_&_UTAU_Ranking/bricks
+|id = ${ed.sm.substr(2)}
+|曲名 = ${ed.name}
+|标题 = <!-- ${ed.title} (用于复核曲名)--> 
+|时间 = 20${ed.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
+|本周 = ED
+|color = #4FC1E9
+|bottom-column = {{color|#4FC1E9|岁落遗尘}}
+}}
+ `
+
+  return out +=`
+==杂谈==
+（待补）
+
+== 注释 ==
+<references/>
+{{周刊VOCALOID RANKING|2008}}
+[[Category:周刊VOCAL Character & UTAU RANKING]]
+`
+}
+
+function takeName(title){
+  return title.replace(/\s*【.*?】\s*/g,'')
 }
 
 function fmt(date,_=null,add9h=true){
+  if(!date){
+    return 'D E L E T E D'
+  }
   let d = new Date(date)
   add9h && d.setTime(d.getTime()+3600000*9)
   let Y = d.getUTCFullYear()

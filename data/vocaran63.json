@@ -1,8 +1,8 @@
 {
  "ranklist": [
   {
-   "rank": "1",
-   "rank0": "new",
+   "rank": 1,
+   "rank0": -1,
    "point": "531,459",
    "sm": "sm5524166",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5524166",
@@ -19,8 +19,8 @@
    "producer_id": "317063"
   },
   {
-   "rank": "2",
-   "rank0": "6",
+   "rank": 2,
+   "rank0": 6,
    "point": "158,515",
    "sm": "sm5462015",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5462015",
@@ -37,8 +37,8 @@
    "producer_id": "304210"
   },
   {
-   "rank": "3",
-   "rank0": "new",
+   "rank": 3,
+   "rank0": -1,
    "point": "158,169",
    "sm": "sm5474655",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5474655",
@@ -55,8 +55,8 @@
    "producer_id": "781719"
   },
   {
-   "rank": "4",
-   "rank0": "new",
+   "rank": 4,
+   "rank0": -1,
    "point": "142,443",
    "sm": "sm5525531",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5525531",
@@ -73,8 +73,8 @@
    "producer_id": "7032706"
   },
   {
-   "rank": "5",
-   "rank0": "new",
+   "rank": 5,
+   "rank0": -1,
    "point": "105,170",
    "sm": "sm5511779",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5511779",
@@ -91,8 +91,8 @@
    "producer_id": "334765"
   },
   {
-   "rank": "6",
-   "rank0": "5",
+   "rank": 6,
+   "rank0": 5,
    "point": "88,400",
    "sm": "sm5461058",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5461058",
@@ -109,8 +109,8 @@
    "producer_id": "1353089"
   },
   {
-   "rank": "7",
-   "rank0": "10",
+   "rank": 7,
+   "rank0": 10,
    "point": "84,301",
    "sm": "sm1097445",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=1097445",
@@ -127,8 +127,8 @@
    "producer_id": "70391"
   },
   {
-   "rank": "8",
-   "rank0": "new",
+   "rank": 8,
+   "rank0": -1,
    "point": "73,088",
    "sm": "nm5482638",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5482638",
@@ -145,8 +145,8 @@
    "producer_id": "1508346"
   },
   {
-   "rank": "9",
-   "rank0": "8",
+   "rank": 9,
+   "rank0": 8,
    "point": "72,475",
    "sm": "sm3504435",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=3504435",
@@ -163,8 +163,8 @@
    "producer_id": "317063"
   },
   {
-   "rank": "10",
-   "rank0": "4",
+   "rank": 10,
+   "rank0": 4,
    "point": "69,966",
    "sm": "sm1715919",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=1715919",
@@ -181,8 +181,8 @@
    "producer_id": "317063"
   },
   {
-   "rank": "11",
-   "rank0": "new",
+   "rank": 11,
+   "rank0": -1,
    "point": "64,461",
    "sm": "sm5508956",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5508956",
@@ -199,8 +199,8 @@
    "producer_id": "2523470"
   },
   {
-   "rank": "12",
-   "rank0": "1",
+   "rank": 12,
+   "rank0": 1,
    "point": "55,711",
    "sm": "sm5378862",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5378862",
@@ -217,8 +217,8 @@
    "producer_id": "5068720"
   },
   {
-   "rank": "13",
-   "rank0": "16",
+   "rank": 13,
+   "rank0": 16,
    "point": "55,215",
    "sm": "sm5461502",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5461502",
@@ -235,8 +235,8 @@
    "producer_id": "5461502"
   },
   {
-   "rank": "14",
-   "rank0": "52,213",
+   "rank": 14,
+   "rank0": 52,
    "point": "",
    "sm": "sm3945173",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=3945173",
@@ -253,8 +253,8 @@
    "producer_id": "2523470"
   },
   {
-   "rank": "15",
-   "rank0": "42",
+   "rank": 15,
+   "rank0": 42,
    "point": "52,036",
    "sm": "sm5463116",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5463116",
@@ -271,8 +271,8 @@
    "producer_id": "1809435"
   },
   {
-   "rank": "16",
-   "rank0": "15",
+   "rank": 16,
+   "rank0": 15,
    "point": "44,136",
    "sm": "sm3645817",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=3645817",
@@ -289,8 +289,8 @@
    "producer_id": "317063"
   },
   {
-   "rank": "17",
-   "rank0": "3",
+   "rank": 17,
+   "rank0": 3,
    "point": "42,353",
    "sm": "sm5463462",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5463462",
@@ -307,8 +307,8 @@
    "producer_id": "7032706"
   },
   {
-   "rank": "18",
-   "rank0": "new",
+   "rank": 18,
+   "rank0": -1,
    "point": "40,429",
    "sm": "sm5482733",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5482733",
@@ -325,8 +325,8 @@
    "producer_id": "6899051"
   },
   {
-   "rank": "19",
-   "rank0": "new",
+   "rank": 19,
+   "rank0": -1,
    "point": "40,005",
    "sm": "nm5519699",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5519699",
@@ -343,8 +343,8 @@
    "producer_id": "6716293"
   },
   {
-   "rank": "20",
-   "rank0": "new",
+   "rank": 20,
+   "rank0": -1,
    "point": "38,915",
    "sm": "sm5540957",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5540957",
@@ -361,8 +361,8 @@
    "producer_id": "6230346"
   },
   {
-   "rank": "21",
-   "rank0": "37,354",
+   "rank": 21,
+   "rank0": 37,
    "point": "",
    "sm": "sm1826238",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=1826238",
@@ -379,8 +379,8 @@
    "producer_id": "500242"
   },
   {
-   "rank": "22",
-   "rank0": "new",
+   "rank": 22,
+   "rank0": -1,
    "point": "35,921",
    "sm": "nm5510112",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5510112",
@@ -397,8 +397,8 @@
    "producer_id": "1414235"
   },
   {
-   "rank": "23",
-   "rank0": "new",
+   "rank": 23,
+   "rank0": -1,
    "point": "34,711",
    "sm": "sm5482734",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5482734",
@@ -415,8 +415,8 @@
    "producer_id": "5482734"
   },
   {
-   "rank": "24",
-   "rank0": "21",
+   "rank": 24,
+   "rank0": 21,
    "point": "32,247",
    "sm": "sm2397344",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=2397344",
@@ -433,8 +433,8 @@
    "producer_id": "317063"
   },
   {
-   "rank": "25",
-   "rank0": "39",
+   "rank": 25,
+   "rank0": 39,
    "point": "29,920",
    "sm": "sm3143714",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=3143714",
@@ -451,8 +451,8 @@
    "producer_id": "800035"
   },
   {
-   "rank": "26",
-   "rank0": "30",
+   "rank": 26,
+   "rank0": 30,
    "point": "29,714",
    "sm": "sm1639267",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=1639267",
@@ -469,8 +469,8 @@
    "producer_id": "2197196"
   },
   {
-   "rank": "27",
-   "rank0": "new",
+   "rank": 27,
+   "rank0": -1,
    "point": "29,486",
    "sm": "sm5520743",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5520743",
@@ -487,8 +487,8 @@
    "producer_id": "96361"
   },
   {
-   "rank": "28",
-   "rank0": "23",
+   "rank": 28,
+   "rank0": 23,
    "point": "27,015",
    "sm": "sm2937784",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=2937784",
@@ -505,8 +505,8 @@
    "producer_id": "1091989"
   },
   {
-   "rank": "29",
-   "rank0": "31",
+   "rank": 29,
+   "rank0": 31,
    "point": "26,632",
    "sm": "sm2406770",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=2406770",
@@ -523,8 +523,8 @@
    "producer_id": "1101042"
   },
   {
-   "rank": "30",
-   "rank0": "new",
+   "rank": 30,
+   "rank0": -1,
    "point": "25,803",
    "sm": "sm5476556",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5476556",
@@ -541,8 +541,8 @@
    "producer_id": "1476248"
   },
   {
-   "rank": "31",
-   "rank0": "25",
+   "rank": 31,
+   "rank0": 25,
    "point": "23,933",
    "sm": "sm3133304",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=3133304",
@@ -559,8 +559,8 @@
    "producer_id": "907343"
   },
   {
-   "rank": "32",
-   "rank0": "2",
+   "rank": 32,
+   "rank0": 2,
    "point": "23,310",
    "sm": "sm5383558",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5383558",
@@ -577,8 +577,8 @@
    "producer_id": "529223"
   },
   {
-   "rank": "33",
-   "rank0": "27",
+   "rank": 33,
+   "rank0": 27,
    "point": "23,209",
    "sm": "sm5147989",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5147989",
@@ -595,8 +595,8 @@
    "producer_id": "608468"
   },
   {
-   "rank": "34",
-   "rank0": "new",
+   "rank": 34,
+   "rank0": -1,
    "point": "22,325",
    "sm": "sm5509285",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5509285",
@@ -613,8 +613,8 @@
    "producer_id": "2566558"
   },
   {
-   "rank": "35",
-   "rank0": "21,186",
+   "rank": 35,
+   "rank0": 21,
    "point": "",
    "sm": "sm3498204",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=3498204",
@@ -631,8 +631,8 @@
    "producer_id": "6716293"
   },
   {
-   "rank": "36",
-   "rank0": "18",
+   "rank": 36,
+   "rank0": 18,
    "point": "19,669",
    "sm": "sm5361038",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5361038",
@@ -649,8 +649,8 @@
    "producer_id": "2476652"
   },
   {
-   "rank": "37",
-   "rank0": "12",
+   "rank": 37,
+   "rank0": 12,
    "point": "18,702",
    "sm": "sm5378871",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5378871",
@@ -667,8 +667,8 @@
    "producer_id": "907343"
   },
   {
-   "rank": "38",
-   "rank0": "17,730",
+   "rank": 38,
+   "rank0": 17,
    "point": "",
    "sm": "sm5066725",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5066725",
@@ -685,8 +685,8 @@
    "producer_id": "2476652"
   },
   {
-   "rank": "39",
-   "rank0": "new",
+   "rank": 39,
+   "rank0": -1,
    "point": "16,998",
    "sm": "sm5514532",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5514532",
@@ -703,8 +703,8 @@
    "producer_id": "1313476"
   },
   {
-   "rank": "40",
-   "rank0": "11",
+   "rank": 40,
+   "rank0": 11,
    "point": "15,762",
    "sm": "sm5411776",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5411776",
@@ -721,8 +721,8 @@
    "producer_id": "308936"
   },
   {
-   "rank": "41",
-   "rank0": "48",
+   "rank": 41,
+   "rank0": 48,
    "point": "15,594",
    "sm": "sm1274898",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=1274898",
@@ -739,8 +739,8 @@
    "producer_id": "273443"
   },
   {
-   "rank": "42",
-   "rank0": "14",
+   "rank": 42,
+   "rank0": 14,
    "point": "15,270",
    "sm": "sm5430271",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5430271",
@@ -757,8 +757,8 @@
    "producer_id": "8052556"
   },
   {
-   "rank": "43",
-   "rank0": "new",
+   "rank": 43,
+   "rank0": -1,
    "point": "15,089",
    "sm": "sm5539536",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5539536",
@@ -775,8 +775,8 @@
    "producer_id": "286745"
   },
   {
-   "rank": "44",
-   "rank0": "59",
+   "rank": 44,
+   "rank0": 59,
    "point": "14,816",
    "sm": "sm2053548",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=2053548",
@@ -793,8 +793,8 @@
    "producer_id": "4062522"
   },
   {
-   "rank": "45",
-   "rank0": "new",
+   "rank": 45,
+   "rank0": -1,
    "point": "14,687",
    "sm": "sm5480427",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5480427",
@@ -811,8 +811,8 @@
    "producer_id": "1297415"
   },
   {
-   "rank": "46",
-   "rank0": "new",
+   "rank": 46,
+   "rank0": -1,
    "point": "14,323",
    "sm": "sm5489785",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5489785",
@@ -829,8 +829,8 @@
    "producer_id": "5489785"
   },
   {
-   "rank": "47",
-   "rank0": "29",
+   "rank": 47,
+   "rank0": 29,
    "point": "13,928",
    "sm": "sm5387156",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5387156",
@@ -847,8 +847,8 @@
    "producer_id": "3397653"
   },
   {
-   "rank": "48",
-   "rank0": "44",
+   "rank": 48,
+   "rank0": 44,
    "point": "13,770",
    "sm": "sm4468648",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=4468648",
@@ -865,8 +865,8 @@
    "producer_id": "1353089"
   },
   {
-   "rank": "49",
-   "rank0": "new",
+   "rank": 49,
+   "rank0": -1,
    "point": "13,379",
    "sm": "sm5513850",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5513850",
@@ -883,8 +883,8 @@
    "producer_id": "8705101"
   },
   {
-   "rank": "50",
-   "rank0": "49",
+   "rank": 50,
+   "rank0": 49,
    "point": "13,121",
    "sm": "sm982882",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=982882",
@@ -901,8 +901,8 @@
    "producer_id": "85430"
   },
   {
-   "rank": "51",
-   "rank0": "9",
+   "rank": 51,
+   "rank0": 9,
    "point": "12,821",
    "sm": "sm5432615",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5432615",
@@ -919,8 +919,8 @@
    "producer_id": "6630202"
   },
   {
-   "rank": "52",
-   "rank0": "50",
+   "rank": 52,
+   "rank0": 50,
    "point": "12,759",
    "sm": "sm2651288",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=2651288",
@@ -937,8 +937,8 @@
    "producer_id": "101303"
   },
   {
-   "rank": "53",
-   "rank0": "new",
+   "rank": 53,
+   "rank0": -1,
    "point": "12,721",
    "sm": "sm5477402",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5477402",
@@ -955,8 +955,8 @@
    "producer_id": "165381"
   },
   {
-   "rank": "54",
-   "rank0": "43",
+   "rank": 54,
+   "rank0": 43,
    "point": "12,681",
    "sm": "sm2916956",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=2916956",
@@ -973,8 +973,8 @@
    "producer_id": "907343"
   },
   {
-   "rank": "55",
-   "rank0": "new",
+   "rank": 55,
+   "rank0": -1,
    "point": "12,539",
    "sm": "sm5515040",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5515040",
@@ -991,8 +991,8 @@
    "producer_id": "1562793"
   },
   {
-   "rank": "56",
-   "rank0": "new",
+   "rank": 56,
+   "rank0": -1,
    "point": "12,516",
    "sm": "sm5531755",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5531755",
@@ -1009,8 +1009,8 @@
    "producer_id": "7098424"
   },
   {
-   "rank": "57",
-   "rank0": "52",
+   "rank": 57,
+   "rank0": 52,
    "point": "12,344",
    "sm": "sm2393562",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=2393562",
@@ -1027,8 +1027,8 @@
    "producer_id": "449061"
   },
   {
-   "rank": "58",
-   "rank0": "46",
+   "rank": 58,
+   "rank0": 46,
    "point": "12,235",
    "sm": "sm5094908",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5094908",
@@ -1045,8 +1045,8 @@
    "producer_id": "308936"
   },
   {
-   "rank": "59",
-   "rank0": "13",
+   "rank": 59,
+   "rank0": 13,
    "point": "12,231",
    "sm": "sm5449467",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5449467",
@@ -1063,8 +1063,8 @@
    "producer_id": "582229"
   },
   {
-   "rank": "60",
-   "rank0": "11,485",
+   "rank": 60,
+   "rank0": 11,
    "point": "",
    "sm": "sm4800134",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=4800134",
@@ -1081,8 +1081,8 @@
    "producer_id": "2523470"
   },
   {
-   "rank": "61",
-   "rank0": "7",
+   "rank": 61,
+   "rank0": 7,
    "point": "11,161",
    "sm": "nm5368919",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5368919",
@@ -1099,8 +1099,8 @@
    "producer_id": "1146669"
   },
   {
-   "rank": "62",
-   "rank0": "37",
+   "rank": 62,
+   "rank0": 37,
    "point": "11,144",
    "sm": "sm4136912",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=4136912",
@@ -1117,8 +1117,8 @@
    "producer_id": "1741662"
   },
   {
-   "rank": "63",
-   "rank0": "64",
+   "rank": 63,
+   "rank0": 64,
    "point": "11,084",
    "sm": "sm2085047",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=2085047",
@@ -1135,8 +1135,8 @@
    "producer_id": "655340"
   },
   {
-   "rank": "64",
-   "rank0": "new",
+   "rank": 64,
+   "rank0": -1,
    "point": "9,986",
    "sm": "sm5467905",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5467905",
@@ -1153,8 +1153,8 @@
    "producer_id": "1778661"
   },
   {
-   "rank": "65",
-   "rank0": "24",
+   "rank": 65,
+   "rank0": 24,
    "point": "9,662",
    "sm": "sm3499041",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=3499041",
@@ -1171,8 +1171,8 @@
    "producer_id": "2200819"
   },
   {
-   "rank": "66",
-   "rank0": "69",
+   "rank": 66,
+   "rank0": 69,
    "point": "9,528",
    "sm": "sm3604990",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=3604990",
@@ -1189,8 +1189,8 @@
    "producer_id": "1353089"
   },
   {
-   "rank": "67",
-   "rank0": "81",
+   "rank": 67,
+   "rank0": 81,
    "point": "9,476",
    "sm": "sm5462439",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5462439",
@@ -1207,8 +1207,8 @@
    "producer_id": "1254532"
   },
   {
-   "rank": "68",
-   "rank0": "9,457",
+   "rank": 68,
+   "rank0": 9,
    "point": "",
    "sm": "sm3582790",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=3582790",
@@ -1225,8 +1225,8 @@
    "producer_id": "781719"
   },
   {
-   "rank": "69",
-   "rank0": "32",
+   "rank": 69,
+   "rank0": 32,
    "point": "9,371",
    "sm": "sm5367859",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5367859",
@@ -1243,8 +1243,8 @@
    "producer_id": "143455"
   },
   {
-   "rank": "70",
-   "rank0": "19",
+   "rank": 70,
+   "rank0": 19,
    "point": "9,306",
    "sm": "sm5436079",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5436079",
@@ -1261,8 +1261,8 @@
    "producer_id": "2393707"
   },
   {
-   "rank": "71",
-   "rank0": "new",
+   "rank": 71,
+   "rank0": -1,
    "point": "8,911",
    "sm": "sm5526533",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5526533",
@@ -1279,8 +1279,8 @@
    "producer_id": "854047"
   },
   {
-   "rank": "72",
-   "rank0": "75",
+   "rank": 72,
+   "rank0": 75,
    "point": "8,734",
    "sm": "sm2234368",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=2234368",
@@ -1297,8 +1297,8 @@
    "producer_id": "1074454"
   },
   {
-   "rank": "73",
-   "rank0": "new",
+   "rank": 73,
+   "rank0": -1,
    "point": "8,481",
    "sm": "sm5529171",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5529171",
@@ -1315,8 +1315,8 @@
    "producer_id": "2642368"
   },
   {
-   "rank": "74",
-   "rank0": "62",
+   "rank": 74,
+   "rank0": 62,
    "point": "8,455",
    "sm": "sm4410647",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=4410647",
@@ -1333,8 +1333,8 @@
    "producer_id": "4632758"
   },
   {
-   "rank": "75",
-   "rank0": "new",
+   "rank": 75,
+   "rank0": -1,
    "point": "8,297",
    "sm": "sm5522463",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5522463",
@@ -1351,8 +1351,8 @@
    "producer_id": "414685"
   },
   {
-   "rank": "76",
-   "rank0": "67",
+   "rank": 76,
+   "rank0": 67,
    "point": "8,074",
    "sm": "sm3212446",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=3212446",
@@ -1369,8 +1369,8 @@
    "producer_id": "1264536"
   },
   {
-   "rank": "77",
-   "rank0": "89",
+   "rank": 77,
+   "rank0": 89,
    "point": "8,014",
    "sm": "nm5466500",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5466500",
@@ -1387,8 +1387,8 @@
    "producer_id": "4767623"
   },
   {
-   "rank": "78",
-   "rank0": "new",
+   "rank": 78,
+   "rank0": -1,
    "point": "7,978",
    "sm": "sm5511056",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5511056",
@@ -1405,8 +1405,8 @@
    "producer_id": "3637673"
   },
   {
-   "rank": "79",
-   "rank0": "7,913",
+   "rank": 79,
+   "rank0": 7,
    "point": "",
    "sm": "sm1656992",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=1656992",
@@ -1423,8 +1423,8 @@
    "producer_id": "317063"
   },
   {
-   "rank": "80",
-   "rank0": "new",
+   "rank": 80,
+   "rank0": -1,
    "point": "7,752",
    "sm": "nm5532794",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5532794",
@@ -1441,8 +1441,8 @@
    "producer_id": "257145"
   },
   {
-   "rank": "81",
-   "rank0": "7,739",
+   "rank": 81,
+   "rank0": 7,
    "point": "",
    "sm": "sm4842234",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=4842234",
@@ -1459,8 +1459,8 @@
    "producer_id": "325945"
   },
   {
-   "rank": "82",
-   "rank0": "new",
+   "rank": 82,
+   "rank0": -1,
    "point": "7,565",
    "sm": "sm5524983",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5524983",
@@ -1477,8 +1477,8 @@
    "producer_id": "361309"
   },
   {
-   "rank": "83",
-   "rank0": "84",
+   "rank": 83,
+   "rank0": 84,
    "point": "7,565",
    "sm": "sm5451711",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5451711",
@@ -1495,8 +1495,8 @@
    "producer_id": "1796300"
   },
   {
-   "rank": "84",
-   "rank0": "73",
+   "rank": 84,
+   "rank0": 73,
    "point": "7,551",
    "sm": "sm2302776",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=2302776",
@@ -1513,8 +1513,8 @@
    "producer_id": "2514606"
   },
   {
-   "rank": "85",
-   "rank0": "new",
+   "rank": 85,
+   "rank0": -1,
    "point": "7,352",
    "sm": "nm4483730",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=4483730",
@@ -1531,8 +1531,8 @@
    "producer_id": "6716293"
   },
   {
-   "rank": "86",
-   "rank0": "93",
+   "rank": 86,
+   "rank0": 93,
    "point": "7,188",
    "sm": "sm5408980",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5408980",
@@ -1549,8 +1549,8 @@
    "producer_id": "989911"
   },
   {
-   "rank": "87",
-   "rank0": "new",
+   "rank": 87,
+   "rank0": -1,
    "point": "7,021",
    "sm": "nm5518096",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5518096",
@@ -1567,8 +1567,8 @@
    "producer_id": "989911"
   },
   {
-   "rank": "88",
-   "rank0": "new",
+   "rank": 88,
+   "rank0": -1,
    "point": "6,858",
    "sm": "sm5492898",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5492898",
@@ -1585,8 +1585,8 @@
    "producer_id": "1648939"
   },
   {
-   "rank": "89",
-   "rank0": "new",
+   "rank": 89,
+   "rank0": -1,
    "point": "6,815",
    "sm": "sm5269869",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5269869",
@@ -1603,8 +1603,8 @@
    "producer_id": "1135460"
   },
   {
-   "rank": "90",
-   "rank0": "58",
+   "rank": 90,
+   "rank0": 58,
    "point": "6,714",
    "sm": "sm4977896",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=4977896",
@@ -1621,8 +1621,8 @@
    "producer_id": "3397653"
   },
   {
-   "rank": "91",
-   "rank0": "6,517",
+   "rank": 91,
+   "rank0": 6,
    "point": "",
    "sm": "sm1771019",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=1771019",
@@ -1639,8 +1639,8 @@
    "producer_id": "2092917"
   },
   {
-   "rank": "92",
-   "rank0": "new",
+   "rank": 92,
+   "rank0": -1,
    "point": "6,260",
    "sm": "sm5486732",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5486732",
@@ -1657,8 +1657,8 @@
    "producer_id": "4113108"
   },
   {
-   "rank": "93",
-   "rank0": "82",
+   "rank": 93,
+   "rank0": 82,
    "point": "6,073",
    "sm": "sm1860373",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=1860373",
@@ -1675,8 +1675,8 @@
    "producer_id": "263910"
   },
   {
-   "rank": "94",
-   "rank0": "new",
+   "rank": 94,
+   "rank0": -1,
    "point": "5,910",
    "sm": "sm5471008",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5471008",
@@ -1693,8 +1693,8 @@
    "producer_id": "393138"
   },
   {
-   "rank": "95",
-   "rank0": "new",
+   "rank": 95,
+   "rank0": -1,
    "point": "5,880",
    "sm": "sm5498374",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5498374",
@@ -1711,8 +1711,8 @@
    "producer_id": "914579"
   },
   {
-   "rank": "96",
-   "rank0": "new",
+   "rank": 96,
+   "rank0": -1,
    "point": "5,763",
    "sm": "sm5547287",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5547287",
@@ -1729,8 +1729,8 @@
    "producer_id": "6288544"
   },
   {
-   "rank": "97",
-   "rank0": "5,045",
+   "rank": 97,
+   "rank0": 5,
    "point": "",
    "sm": "sm1221609",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=1221609",
@@ -1747,8 +1747,8 @@
    "producer_id": "744907"
   },
   {
-   "rank": "98",
-   "rank0": "new",
+   "rank": 98,
+   "rank0": -1,
    "point": "5,010",
    "sm": "sm5523151",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5523151",
@@ -1765,8 +1765,8 @@
    "producer_id": "9108805"
   },
   {
-   "rank": "99",
-   "rank0": "new",
+   "rank": 99,
+   "rank0": -1,
    "point": "4,555",
    "sm": "sm5536615",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5536615",
@@ -1783,8 +1783,8 @@
    "producer_id": "2259916"
   },
   {
-   "rank": "100",
-   "rank0": "new",
+   "rank": 100,
+   "rank0": -1,
    "point": "4,515",
    "sm": "sm5536185",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5536185",
@@ -1801,8 +1801,8 @@
    "producer_id": "3950831"
   },
   {
-   "rank": "101",
-   "rank0": "new",
+   "rank": 101,
+   "rank0": -1,
    "point": "4,281",
    "sm": "sm5488850",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5488850",
@@ -1819,8 +1819,8 @@
    "producer_id": "1745804"
   },
   {
-   "rank": "102",
-   "rank0": "96",
+   "rank": 102,
+   "rank0": 96,
    "point": "4,109",
    "sm": "sm3798833",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=3798833",
@@ -1837,8 +1837,8 @@
    "producer_id": "6230346"
   },
   {
-   "rank": "103",
-   "rank0": "new",
+   "rank": 103,
+   "rank0": -1,
    "point": "3,982",
    "sm": "sm5479033",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5479033",
@@ -1855,8 +1855,8 @@
    "producer_id": "965968"
   },
   {
-   "rank": "104",
-   "rank0": "new",
+   "rank": 104,
+   "rank0": -1,
    "point": "2,881",
    "sm": "sm5483151",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5483151",
@@ -1873,8 +1873,8 @@
    "producer_id": "506385"
   },
   {
-   "rank": "105",
-   "rank0": "99",
+   "rank": 105,
+   "rank0": 99,
    "point": "1,687",
    "sm": "sm4306301",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=4306301",
@@ -1891,8 +1891,8 @@
    "producer_id": "506385"
   },
   {
-   "rank": "106",
-   "rank0": "95",
+   "rank": 106,
+   "rank0": 95,
    "point": "1,543",
    "sm": "sm1848517",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=1848517",
@@ -1909,8 +1909,8 @@
    "producer_id": "965968"
   },
   {
-   "rank": "107",
-   "rank0": "100",
+   "rank": 107,
+   "rank0": 100,
    "point": "1,258",
    "sm": "sm2129043",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=2129043",
@@ -1927,8 +1927,8 @@
    "producer_id": "2197196"
   },
   {
-   "rank": "ED",
-   "rank0": "",
+   "rank": null,
+   "rank0": -1,
    "point": "",
    "sm": "sm5305357",
    "pic_archive": "http://web.archive.org/web/20180328034358im_/http://tn-skr.smilevideo.jp/smile?i=5305357",
