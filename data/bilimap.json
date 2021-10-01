@@ -15,7 +15,7 @@
    "cid": 112766,
    "bvid": "BV11x411c7H8",
    "error": "",
-   "vocaloid": 0,
+   "vocaloid": 179,
    "utau": 0
   },
   {
@@ -25,6 +25,29 @@
    "bvid": "BV1Wx411c7wp",
    "error": "",
    "vocaloid": 0,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #10(9) //这标题离谱",
+   "aid": 78697977,
+   "cid": 134655220,
+   "bvid": "BV1GJ411y7s4",
+   "vocaloid": 109,
+   "utau": 0 
+  },{
+   "title": "週刊VOCALOID排行 #119-120",
+   "aid": 1391,
+   "cid": 3806240,
+   "bvid": "BV1xx411c7YZ",
+   "vocaloid": 119,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID排行 #119-120",
+   "aid": 1391,
+   "cid": 3806240,
+   "bvid": "BV1xx411c7YZ",
+   "vocaloid": 120,
    "utau": 0
   },
   {
@@ -1433,7 +1456,23 @@
    "aid": 106137,
    "cid": 176088,
    "bvid": "BV1ox411c7xq",
-   "vocaloid": 183,
+   "vocaloid": 180,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #180～#183 Result",
+   "aid": 106137,
+   "cid": 176088,
+   "bvid": "BV1ox411c7xq",
+   "vocaloid": 181,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #180～#183 Result",
+   "aid": 106137,
+   "cid": 176088,
+   "bvid": "BV1ox411c7xq",
+   "vocaloid": 182,
    "utau": 0
   },
   {
@@ -1449,7 +1488,55 @@
    "aid": 801389944,
    "cid": 291942384,
    "bvid": "BV1Zy4y1J7X2",
+   "vocaloid": 184,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #184～#187 Result",
+   "aid": 801389944,
+   "cid": 291942384,
+   "bvid": "BV1Zy4y1J7X2",
+   "vocaloid": 185,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #184～#187 Result",
+   "aid": 801389944,
+   "cid": 291942384,
+   "bvid": "BV1Zy4y1J7X2",
+   "vocaloid": 186,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOID Ranking #184～#187 Result",
+   "aid": 801389944,
+   "cid": 291942384,
+   "bvid": "BV1Zy4y1J7X2",
    "vocaloid": 187,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #188～#191 Result",
+   "aid": 228693,
+   "cid": 370717,
+   "bvid": "BV1sx411w7gg",
+   "vocaloid": 188,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #188～#191 Result",
+   "aid": 228693,
+   "cid": 370717,
+   "bvid": "BV1sx411w7gg",
+   "vocaloid": 189,
+   "utau": 0
+  },
+  {
+   "title": "週刊VOCALOIDランキング #188～#191 Result",
+   "aid": 228693,
+   "cid": 370717,
+   "bvid": "BV1sx411w7gg",
+   "vocaloid": 190,
    "utau": 0
   },
   {
@@ -3656,22 +3743,6 @@
   }
  ],
  "vocaloid_and_utau": [
-  {
-   "title": "週刊VOCALOID Ranking #10(9)",
-   "aid": 78697977,
-   "cid": 134655220,
-   "bvid": "BV1GJ411y7s4",
-   "vocaloid": 10,
-   "utau": 9
-  },
-  {
-   "title": "週刊VOCALOID排行 #119-120",
-   "aid": 1391,
-   "cid": 3806240,
-   "bvid": "BV1xx411c7YZ",
-   "vocaloid": 119,
-   "utau": 120
-  },
   {
    "title": "週刊VOCALOID & UTAU RANKING #259・201",
    "aid": 358785,

@@ -8,7 +8,22 @@ const bilimap = require('./data/bilimap.json')
 async function main(arg) {
   if (arg[0] == 'live') {
     return live(arg[1])
+  }else if(arg[0] == 'nicofix'){
+    return nicofix()
   }
+
+  //93(无简介)
+  //109(标题格式错乱)
+  //119,120(连体)
+  //154(缺少)
+  //179-191(连体)
+  //259-500(未抓取)
+  for(let i = 179; i < 192; i++){
+    await live(i)
+  }
+
+  return
+
   const html = await fs.readFile("assets/vocaran61.html", "utf-8")
   let data = await makeData(html)
   data.bilivideo = await biliget(61)
@@ -21,6 +36,11 @@ async function main(arg) {
 }
 
 async function live(no) {
+  if(no < 259){
+    console.log('#'+no+' is locked')
+    return
+  }
+
   console.log("Fetch vocaran "+no)
   let res = await fetch('http://web.archive.org/web/20180323041737/http://vocaran.jpn.org/vocaran/' + no)
   let html = await res.text()
@@ -31,13 +51,28 @@ async function live(no) {
   data.bilivideo = await biliget(no)
   let m = data.bilivideo.desc.match(/sm\d+/)
   console.log("  fetch niconico data...")
-  data.nicovideo = await nicometa(m[0])
-  for(let his of data.history){
+  data.nicovideo = await nicometa(no == 93?'sm7634428':m[0])
+
+  /*for(let his of data.history){
     let meta = await nicometa(his.sm)
     his.time = meta.time
-  }
+  }*/
   console.log("  save local data...")
   fs.writeFile(`data/vocaran${no}.json`, JSON.stringify(data, 2, ' '))
+}
+
+async function nicofix(){
+  for(let f of await fs.readdir('data')){
+    if(/^vocaran/.test(f)){
+      let _ = JSON.parse(await fs.readFile('data/'+f,'utf-8'))
+      if(!_.nicovideo.desc){
+        let m = _.bilivideo.desc.match(/sm\d+/)
+        console.log(`fix ${f} ${m[0]}`)
+        _.nicovideo = await nicometa(m[0])
+        fs.writeFile(`data/${f}`, JSON.stringify(_, 2, ' '))
+      }
+    }
+  }
 }
 
 async function nicometa(sm){
