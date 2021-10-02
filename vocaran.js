@@ -15,10 +15,12 @@ async function main(arg) {
   //93(无简介)
   //109(标题格式错乱)
   //119,120(连体)
-  //154(缺少)
+  //154(缺少/已处理)
   //179-191(连体)
   //259-500(未抓取)
-  for(let i = 179; i < 192; i++){
+  //386-393(连体)
+  //394-401(缺少)
+  for(let i = 402; i <= 500; i++){
     await live(i)
   }
 
@@ -36,7 +38,7 @@ async function main(arg) {
 }
 
 async function live(no) {
-  if(no < 259 && no != 154){
+  if(no < 259){
     console.log('#'+no+' is locked')
     return
   }
@@ -89,7 +91,8 @@ async function nicometa(sm){
 }
 
 async function biliget(no) {
-  for (let _ of bilimap.vocaloid) {
+  let key = no < 259? "vocaloid":"vocaloid_and_utau"
+  for (let _ of bilimap[key]) {
     if (_.vocaloid == no) {
       return { ..._, ...(await bilimeta(_.aid)) }
     }
