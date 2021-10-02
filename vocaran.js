@@ -36,7 +36,7 @@ async function main(arg) {
 }
 
 async function live(no) {
-  if(no < 259){
+  if(no < 259 && no != 154){
     console.log('#'+no+' is locked')
     return
   }
@@ -92,6 +92,13 @@ async function biliget(no) {
   for (let _ of bilimap.vocaloid) {
     if (_.vocaloid == no) {
       return { ..._, ...(await bilimeta(_.aid)) }
+    }
+  }
+  if(no == 154){
+    return {
+      id:0,
+      title:'这期搬运视频未找到',
+      desc: 'sm12100064 手动贴上sm号'
     }
   }
   return null
