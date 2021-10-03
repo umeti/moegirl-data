@@ -11,15 +11,15 @@ async function main(arg){
 
 async function makeNameMap(){
   let list = JSON.parse(await fs.readFile("data/namemap.json","utf-8"))
-  let s = ''
+  let s = '', i = 0
   for(let {sm,title,name,count} of list){
     if(title)
-      s += `=== ${title} ===
-{{ptl|use=f
-|name = ${name}
-|sm= ${sm}
-|count= ${count}
-}}
+      s += `
+#${i++}
+- sm: ${sm}
+  count: ${count}
+  title: ${title}
+  name:  ${name}
 `
   }
   console.log(s.replace(/\[/g,"【").replace(/\]/g,"】"))
