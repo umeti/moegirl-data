@@ -69,8 +69,8 @@ function render(data,no,lastdata){
   out += `
 {{VOCALOID_&_UTAU_Ranking/bricks
 |id = ${op.sm.substr(2)}
-|曲名 = ${op.name}
-|标题 = <!-- ${op.title} (用于复核曲名)--> 
+|曲名 = ${op.name}<!--
+|标题 = ${op.title}--> 
 |时间 = 20${op.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
 |本周 = OP
 |color = #AA0000
@@ -83,8 +83,8 @@ function render(data,no,lastdata){
     out += `
 {{VOCALOID_&_UTAU_Ranking/bricks
 |id = ${_.sm.substr(2)}
-|曲名 = ${name}
-|标题 = <!-- ${_.title} (用于复核曲名)-->
+|曲名 = ${name}<!--
+|标题 = ${_.title} (用于复核曲名)-->
 |翻唱 = 
 |本周 = ${_.rank}
 |上周 = ${_.rank0 == 999? 'NEW': _.rank0}
@@ -106,8 +106,8 @@ function render(data,no,lastdata){
       out += `
 {{VOCALOID_&_UTAU_Ranking/bricks
 |id = ${_.sm.substr(2)}
-|曲名 = ${name}
-|标题 = <!-- ${_.title} (用于复核曲名)-->
+|曲名 = ${name}<!--
+|标题 = ${_.title} (用于复核曲名)-->
 |翻唱 = 
 |本周 = ${_.rank}
 |上周 = ${_.rank0 == 999? 'NEW': _.rank0}
@@ -133,11 +133,11 @@ function render(data,no,lastdata){
     out += `
 {{VOCALOID_&_UTAU_Ranking/bricks
 |id = ${_.sm.substr(2)}
-|曲名 = ${name}
-|标题 = <!-- ${_.title} (用于复核曲名)-->
+|曲名 = ${name}<!--
+|标题 = ${_.title} (用于复核曲名)-->
 |翻唱 = 
 |本周 = ${_.rank}
-|时间 = ${fmt(_.time,'-')}
+|时间 = 20${_.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
 |color = #663300
 |bottom-column = {{color|#663300|H I S T O R Y}}
 }}
@@ -151,8 +151,8 @@ function render(data,no,lastdata){
   out += `
 {{VOCALOID_&_UTAU_Ranking/bricks
 |id = ${ed.sm.substr(2)}
-|曲名 = ${ed.name}
-|标题 = <!-- ${ed.title} (用于复核曲名)--> 
+|曲名 = ${ed.name}<!--
+|标题 = ${ed.title} (用于复核曲名)--> 
 |时间 = 20${ed.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
 |本周 = ED
 |color = #4FC1E9

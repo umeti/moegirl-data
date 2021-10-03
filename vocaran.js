@@ -10,8 +10,12 @@ async function main(arg) {
     return live(arg[1])
   }else if(arg[0] == 'nicofix'){
     return nicofix()
+  }else if(arg[0] == 'pack'){
+    return packdata()
+  }else if(arg[0] == 'fixhis'){
+    return fixhistory() // TODO
   }
-
+  //return '抓取阶段先告一段落'
   //93(无简介)
   //109(标题格式错乱)
   //119,120(连体)
@@ -20,7 +24,7 @@ async function main(arg) {
   //259-500(未抓取)
   //386-393(连体)
   //394-401(缺少)
-  for(let i = 402; i <= 500; i++){
+  for(let i = 1; i <= 60; i++){
     await live(i)
   }
 
@@ -37,8 +41,9 @@ async function main(arg) {
   fs.writeFile('data/vocaran61.json', JSON.stringify(data, 2, ' '))
 }
 
+
 async function live(no) {
-  if(no < 259){
+  if(no > 60 && no < 394 || no > 401){
     console.log('#'+no+' is locked')
     return
   }
@@ -63,8 +68,62 @@ async function live(no) {
   fs.writeFile(`data/vocaran${no}.json`, JSON.stringify(data, 2, ' '))
 }
 
-async function nicofix(){
+async function packdata(){
+  let db = []
   for(let f of await fs.readdir('data')){
+    if(/^vocaran\d+/.test(f)){
+      let _ = JSON.parse(await fs.readFile('data/'+f,'utf-8'))
+      let no = f.match(/\d+/)[0]
+
+      _.no = parseInt(no)
+      db.push(_)
+      console.log('process: '+no)
+    }
+  }
+  db.sort((a,b)=>a.no-b.no)
+  fs.writeFile(`data/vocarandb.json`, JSON.stringify(db, 2, ' '))
+}
+
+async function fixhistory(){
+  let dir =  await fs.readdir('data')
+  dir = dir.sort((a,b)=>{
+    if(a == b){
+      return 0
+    }
+    if(a.length < b.length){
+      return -1
+    }else if(a < b){
+      return -1
+    }
+    return 1
+  })
+  //return console.log(dir)
+  for(let i = 62; i < 70; i++){
+    let f = "vocaran"+i+".json"
+    if(/^vocaran\d+/.test(f)){
+      let _ = JSON.parse(await fs.readFile('data/'+f,'utf-8'))
+      if(_.history.length > 0){
+        console.log('process: '+f)
+        let real_his = JSON.parse(await fs.readFile(`data/vocaran${_.history_no.substr(1)}.json`))
+        let timemap = {}
+        for (let his_item of real_his.ranklist){
+          timemap[his_item.sm] = his_item.time
+        }
+        for(let his of _.history){
+          his.time = timemap[his.sm]
+        }
+        if(!_.history[0].time){
+          console.log(`${f}  ${_.history_no}`)
+        }
+        //console.log(_.history)
+        //console.log(timemap)
+        //await fs.writeFile(`data/${f}`, JSON.stringify(_, 2, ' '))
+      }
+    }
+  }
+}
+async function nicofix(){
+  for(let f of dir){
     if(/^vocaran/.test(f)){
       let _ = JSON.parse(await fs.readFile('data/'+f,'utf-8'))
       if(!_.nicovideo.desc){

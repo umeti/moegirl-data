@@ -6,3 +6,5 @@ tmp.*
 vc.yml
 *.wiki
 out/
+data/vocarandb.json
+clip
