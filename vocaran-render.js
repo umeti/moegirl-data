@@ -2,6 +2,30 @@
 const fs = require('fs/promises')
 
 async function main(arg){
+  if(/^\d+$/.test(arg[0]||'')){
+    render(arg)
+  }else {
+    makeNameMap()
+  }
+}
+
+async function makeNameMap(){
+  let list = JSON.parse(await fs.readFile("data/namemap.json","utf-8"))
+  let s = ''
+  for(let {sm,title,name,count} of list){
+    if(title)
+      s += `=== ${title} ===
+{{ptl|use=f
+|name = ${name}
+|sm= ${sm}
+|count= ${count}
+}}
+`
+  }
+  console.log(s.replace(/\[/g,"【").replace(/\]/g,"】"))
+}
+
+async function render(arg){
   let no = arg[0] || 61
   let data =JSON.parse(await fs.readFile(`data/vocaran${no}.json`,"utf-8"))
   let listdata =JSON.parse(await fs.readFile(`data/vocaran${parseInt(no)-1}.json`,"utf-8"))

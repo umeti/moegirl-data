@@ -14,8 +14,10 @@ async function main(arg) {
     return packdata()
   }else if(arg[0] == 'fixhis'){
     return fixhistory() // TODO
+  }else if(arg[0] == 'namemap'){
+    return namemap() 
   }
-  //return '抓取阶段先告一段落'
+  return '抓取阶段先告一段落'
   //93(无简介)
   //109(标题格式错乱)
   //119,120(连体)
@@ -66,6 +68,51 @@ async function live(no) {
   }*/
   console.log("  save local data...")
   fs.writeFile(`data/vocaran${no}.json`, JSON.stringify(data, 2, ' '))
+}
+
+async function namemap(){
+  let map = {}
+  let dir =  await fs.readdir('data')
+  for(let f of dir){
+    if(/^vocaran\d+/.test(f)){
+      let _ = JSON.parse(await fs.readFile('data/'+f,'utf-8'))
+      for(let item of _.ranklist){
+        let {sm,title} =  item;
+        let name = takeName(title)
+        if(map[sm] && item.rank <= 30){
+          map[sm].count ++
+          if(map[sm].title == ''){
+            map[sm].title = title
+            map[sm].name = name
+          }
+        }else{
+          map[sm] = {
+            sm,
+            title,
+            name,
+            count:1
+          }
+        }
+      }
+    }
+  }
+  
+  let arr = []
+  for(let o of Object.values(map)){
+    if(o.count > 1)
+      arr.push(o)
+  }
+  arr.sort((a,b)=>b.count-a.count)
+  fs.writeFile(`data/namemap.json`, JSON.stringify(arr, 2, ' '))
+}
+
+function takeName(title){
+  let t =  title.replace(/\s*【.*?】\s*/g,'')
+  let m = t.match(/「(.+?)」/)
+  if(m){
+    t = m[1]
+  }
+  return t
 }
 
 async function packdata(){
