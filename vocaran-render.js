@@ -28,7 +28,7 @@ function takeName(item){
     }
     return out
   }
-  return takeNameFromTitle(item.title) +`<!--待复核\n${item.title} -->`
+  return takeNameFromTitle(item.title) +`<!--\n????? ${item.title} -->`
 }
 
 async function main(arg){
@@ -180,7 +180,6 @@ function render(data,no,lastdata){
   }
 
   // 历史榜单
-  out += `\n<!-- 历史榜单(来自${$.history_no}) -->`
   for(let _ of $.history){
     
     let name = takeName(_)
@@ -211,7 +210,7 @@ function render(data,no,lastdata){
 |bottom-column = {{color|#4FC1E9|岁落遗尘}}
 }}
  `
-
+  out += `<!-- 历史榜单(来自${$.history_no}) -->`
   return out +=`
 ==杂谈==
 （待补）
