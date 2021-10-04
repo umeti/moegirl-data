@@ -16,6 +16,8 @@ async function main(arg) {
     return fixhistory() // TODO
   } else if (arg[0] == 'namemap') {
     return namemap()
+  } else if (arg[0] == 'check') {
+    return check()
   }
   return '抓取阶段先告一段落'
   //93(无简介)
@@ -43,7 +45,6 @@ async function main(arg) {
   fs.writeFile('data/vocaran61.json', JSON.stringify(data, 2, ' '))
 }
 
-
 async function live(no) {
   if (no > 60 && no < 394 || no > 401) {
     console.log('#' + no + ' is locked')
@@ -68,6 +69,24 @@ async function live(no) {
   }*/
   console.log("  save local data...")
   fs.writeFile(`data/vocaran${no}.json`, JSON.stringify(data, 2, ' '))
+}
+
+async function check(){
+  let map = {}
+  let dir = await fs.readdir('data')
+  let list = []
+  for (let f of dir) {
+    if (/^vocaran\d+/.test(f)) {
+      let _ = JSON.parse(await fs.readFile('data/' + f, 'utf-8'))
+      for (let item of _.ranklist) {
+        if(!item.point){
+          console.log(`${f}:${item.rank}`);
+          list.push(item)
+        }
+      }
+    }
+  }
+  console.log(list.length);
 }
 
 async function namemap() {
