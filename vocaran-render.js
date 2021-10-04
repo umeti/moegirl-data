@@ -1,9 +1,43 @@
 
 const fs = require('fs/promises')
+const yaml = require("yaml")
+let namemap = {}
+
+
+function takeName(item){
+  let m = namemap[item.sm]
+  if(m){
+    let s = ''+(m.page || m.name)
+    let name = s
+    let sfix = ''
+    let href = ''
+    let p = s.indexOf("(")
+    if(p != -1){
+      name = s.substr(0,p)
+      sfix = s.substr(p)
+    }
+    let out = name
+    if(sfix){
+      out += "\n|后缀 = "+sfix
+    }
+    if(m.path){
+      out += '\n|条目 = '+m.path 
+    }
+    if(name == '炉心融解'){
+      out += '\n|image link = https://tn-skr.smilevideo.jp/smile?i=8089993'
+    }
+    return out
+  }
+  return takeNameFromTitle(item.title) +`<!--待复核\n${item.title} -->`
+}
 
 async function main(arg){
   if(/^\d+$/.test(arg[0]||'')){
-    render(arg)
+    let text = await fs.readFile("data/namemap-bake.yml","utf-8")
+    for(let item of yaml.parse(text)){
+      namemap[item.sm] = item
+    }
+    makePage(arg)
   }else {
     makeNameMap()
   }
@@ -25,7 +59,7 @@ async function makeNameMap(){
   console.log(s.replace(/\[/g,"【").replace(/\]/g,"】"))
 }
 
-async function render(arg){
+async function makePage(arg){
   let no = arg[0] || 61
   let data =JSON.parse(await fs.readFile(`data/vocaran${no}.json`,"utf-8"))
   let listdata =JSON.parse(await fs.readFile(`data/vocaran${parseInt(no)-1}.json`,"utf-8"))
@@ -85,16 +119,14 @@ function render(data,no,lastdata){
 
 ==榜单==
 `
-
   //OP
   let op = lastdata.ranklist[0]
-  op.name = takeName(op.title)
+  op.name = takeName(op)
 
   out += `
 {{VOCALOID_&_UTAU_Ranking/bricks
 |id = ${op.sm.substr(2)}
-|曲名 = ${op.name}<!--
-|标题 = ${op.title}--> 
+|曲名 = ${op.name}
 |时间 = 20${op.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
 |本周 = OP
 |color = #AA0000
@@ -103,12 +135,11 @@ function render(data,no,lastdata){
  `
   for(let i=0; i < 30; i++){
     let _ = $.ranklist[i]
-    let name = takeName(_.title)
+    let name = takeName(_)
     out += `
 {{VOCALOID_&_UTAU_Ranking/bricks
 |id = ${_.sm.substr(2)}
-|曲名 = ${name}<!--
-|标题 = ${_.title} (用于复核曲名)-->
+|曲名 = ${name}
 |翻唱 = 
 |本周 = ${_.rank}
 |上周 = ${_.rank0 == 999? 'NEW': _.rank0}
@@ -126,12 +157,11 @@ function render(data,no,lastdata){
   //pick up
   for(let _ of $.ranklist){
     if(_.pickup){
-      let name = takeName(_.title)
+      let name = takeName(_)
       out += `
 {{VOCALOID_&_UTAU_Ranking/bricks
 |id = ${_.sm.substr(2)}
-|曲名 = ${name}<!--
-|标题 = ${_.title} (用于复核曲名)-->
+|曲名 = ${name}
 |翻唱 = 
 |本周 = ${_.rank}
 |上周 = ${_.rank0 == 999? 'NEW': _.rank0}
@@ -153,12 +183,11 @@ function render(data,no,lastdata){
   out += `\n<!-- 历史榜单(来自${$.history_no}) -->`
   for(let _ of $.history){
     
-    let name = takeName(_.title)
+    let name = takeName(_)
     out += `
 {{VOCALOID_&_UTAU_Ranking/bricks
 |id = ${_.sm.substr(2)}
-|曲名 = ${name}<!--
-|标题 = ${_.title} (用于复核曲名)-->
+|曲名 = ${name}
 |翻唱 = 
 |本周 = ${_.rank}
 |时间 = 20${_.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
@@ -170,13 +199,12 @@ function render(data,no,lastdata){
 
   //ED
   let ed = $.ranklist[$.ranklist.length-1]
-  ed.name = takeName(ed.title)
+  ed.name = takeName(ed)
 
   out += `
 {{VOCALOID_&_UTAU_Ranking/bricks
 |id = ${ed.sm.substr(2)}
-|曲名 = ${ed.name}<!--
-|标题 = ${ed.title} (用于复核曲名)--> 
+|曲名 = ${ed.name} 
 |时间 = 20${ed.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
 |本周 = ED
 |color = #4FC1E9
@@ -195,7 +223,8 @@ function render(data,no,lastdata){
 `
 }
 
-function takeName(title){
+function takeNameFromTitle(title){
+
   let t =  title.replace(/\s*【.*?】\s*/g,'')
   let m = t.match(/「(.+?)」/)
   if(m){
