@@ -61,8 +61,8 @@ async function makeNameMap(){
 
 async function makePage(arg){
   let no = arg[0] || 61
-  let data =JSON.parse(await fs.readFile(`data/vocaran${no}.json`,"utf-8"))
-  let listdata =JSON.parse(await fs.readFile(`data/vocaran${parseInt(no)-1}.json`,"utf-8"))
+  let data =JSON.parse(await fs.readFile(`data/vocaran/${no}.json`,"utf-8"))
+  let listdata =JSON.parse(await fs.readFile(`data/vocaran/${parseInt(no)-1}.json`,"utf-8"))
   let wikitext = render(data,no,listdata)
  
   //console.log(wikitext)
@@ -142,8 +142,8 @@ function render(data,no,lastdata){
 |曲名 = ${name}
 |翻唱 = 
 |本周 = ${_.rank}
-|上周 = ${_.rank0 == 999? 'NEW': _.rank0}
-|走势 = ${_.rank < _.rank0?1:_.rank == _.rank0?2:3}
+|上周 = ${_.rank0 == 999? 'NEW':_.rank0 == 0?'--': _.rank0}
+|走势 = ${_.rank0 == 999 || _.rank0 == 0?'':_.rank < _.rank0?1:_.rank == _.rank0?2:3}
 |得点 = ${_.point}
 |时间 = 20${_.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
 |再生 = ${_.watch}
@@ -210,7 +210,7 @@ function render(data,no,lastdata){
 |bottom-column = {{color|#4FC1E9|岁落遗尘}}
 }}
  `
-  out += `<!-- 历史榜单(来自${$.history_no}) -->`
+  out += `<!-- 历史回顾${$.history_no} -->`
   return out +=`
 ==杂谈==
 （待补）

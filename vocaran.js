@@ -1,4 +1,4 @@
-
+const axios = require("axios")
 const fs = require('fs/promises')
 const cheerio = require('cheerio')
 const fetch = require('node-fetch')
@@ -31,6 +31,8 @@ async function main(arg) {
     return check()
   } else if (arg[0] == 'test') {
     return test()
+  } else if (arg[0] == 'fixpoint') {
+    return await fixpoint()
   }
   return '抓取阶段先告一段落'
   //93(无简介)
@@ -100,6 +102,42 @@ async function check(){
     }
   }
   console.log(list.length);
+}
+
+async function fixpoint(){
+  let dir = await fs.readdir('data')
+  for (let no = 116; no <= 500;) {
+    await later(500)
+    let _
+    try {
+    _ = JSON.parse(await fs.readFile(`data/vocaran${no}.json`, 'utf-8'))
+    }catch(e){
+      console.log('缺省 #'+no)
+      no ++
+      continue
+    }
+    //  重新抓取榜单数据
+    let res
+    try{
+      console.log("Fetch vocaran " + no)
+      // fetch用得我很郁闷...，要什么缺什么....
+      res = await axios.get('http://web.archive.org/web/20180323041737/http://vocaran.jpn.org/vocaran/' + no,{
+        timeout: 3000
+      })
+      
+    }catch(e){
+      console.log("  "+e)
+      continue
+    }
+    let html = await res.data
+
+    console.log("  make local data...")
+    let data = await makeData(html)
+    console.log("  mix old data...")
+    _.ranklist = data.ranklist
+    await fs.writeFile(`data/vocaran/${no}.json`, JSON.stringify(_, 2, ' '))
+    no ++
+  }
 }
 
 async function namemap() {
@@ -343,6 +381,12 @@ function getWeight(text) {
 
 function trim(str) {
   return str ? str.replace(/^\s+|\s+$/g, '') : ''
+}
+
+function later(delay) {
+  return new Promise(function(resolve) {
+    setTimeout(resolve, delay);
+  });
 }
 
 main(process.argv.slice(2))
