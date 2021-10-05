@@ -5,6 +5,17 @@ const fetch = require('node-fetch')
 
 const bilimap = require('./data/bilimap.json')
 
+async function test(){
+  let html = await fs.readFile("assets/vocaran67.html","utf-8")
+  let data = await makeData(html)
+  for(let _ of data.ranklist){
+    if(_.rank == 13 || _.rank == 14){
+      console.log(_)
+    }
+  }
+}
+
+
 async function main(arg) {
   if (arg[0] == 'live') {
     return live(arg[1])
@@ -18,6 +29,8 @@ async function main(arg) {
     return namemap()
   } else if (arg[0] == 'check') {
     return check()
+  } else if (arg[0] == 'test') {
+    return test()
   }
   return '抓取阶段先告一段落'
   //93(无简介)
@@ -295,7 +308,10 @@ async function makeData(html) {
     if (_.rank == "10") {
       $history = $(e).parent().next().next()
     }
-
+    if(!_.point){
+      _.point = _.rank0
+      _.rank0 = 0
+    } 
     _.rank = parseInt(_.rank)
     _.rank0 = parseInt(_.rank0)
     if (isNaN(_.rank0)) {
