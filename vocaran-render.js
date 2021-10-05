@@ -144,7 +144,7 @@ function render(data,no,lastdata){
 |翻唱 = 
 |本周 = ${_.rank}
 |上周 = ${_.rank0 == 999? 'NEW':_.rank0 == 0?'--': _.rank0}
-|走势 = ${_.rank0 == 999 || _.rank0 == 0?'':_.rank < _.rank0?1:_.rank == _.rank0?2:3}
+|走势 = ${_.rank0 == 999?'':_.rank0 == 0?1:_.rank < _.rank0?1:_.rank == _.rank0?2:3}
 |得点 = ${_.point}
 |时间 = 20${_.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
 |再生 = ${_.watch}
@@ -167,7 +167,7 @@ function render(data,no,lastdata){
 |翻唱 = 
 |本周 = ${_.rank}
 |上周 = ${_.rank0 == 999? 'NEW': _.rank0}
-|走势 = ${_.rank < _.rank0?1:_.rank == _.rank0?2:3}
+|走势 = ${_.rank0 == 999?'':_.rank0 == 0?1:_.rank < _.rank0?1:_.rank == _.rank0?2:3}
 |得点 = ${_.point}
 |时间 = 20${_.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
 |再生 = ${_.watch}
