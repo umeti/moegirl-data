@@ -137,7 +137,7 @@ function render(data,no,lastdata){
     let _ = $.ranklist[i]
     let name = takeName(_)
     out += `
-{{VOCALOID_&_UTAU_Ranking/bricks
+{{VOCALOID_&_UTAU_Ranking/bricks${_.sm.substr(0,2)=='nm'?'-nm':''}
 |id = ${_.sm.substr(2)}
 |曲名 = ${name}
 |翻唱 = 
