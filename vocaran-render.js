@@ -124,7 +124,8 @@ function render(data,no,lastdata){
   op.name = takeName(op)
 
   out += `
-{{VOCALOID_&_UTAU_Ranking/bricks
+{{VOCALOID_&_UTAU_Ranking/bricks${op.sm.substr(0,2)=='nm'?'-nm':''}
+
 |id = ${op.sm.substr(2)}
 |曲名 = ${op.name}
 |时间 = 20${op.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
@@ -159,7 +160,8 @@ function render(data,no,lastdata){
     if(_.pickup){
       let name = takeName(_)
       out += `
-{{VOCALOID_&_UTAU_Ranking/bricks
+{{VOCALOID_&_UTAU_Ranking/bricks${_.sm.substr(0,2)=='nm'?'-nm':''}
+
 |id = ${_.sm.substr(2)}
 |曲名 = ${name}
 |翻唱 = 
@@ -184,7 +186,8 @@ function render(data,no,lastdata){
     
     let name = takeName(_)
     out += `
-{{VOCALOID_&_UTAU_Ranking/bricks
+{{VOCALOID_&_UTAU_Ranking/bricks${_.sm.substr(0,2)=='nm'?'-nm':''}
+
 |id = ${_.sm.substr(2)}
 |曲名 = ${name}
 |翻唱 = 
@@ -201,7 +204,8 @@ function render(data,no,lastdata){
   ed.name = takeName(ed)
 
   out += `
-{{VOCALOID_&_UTAU_Ranking/bricks
+{{VOCALOID_&_UTAU_Ranking/bricks${ed.sm.substr(0,2)=='nm'?'-nm':''}
+
 |id = ${ed.sm.substr(2)}
 |曲名 = ${ed.name} 
 |时间 = 20${ed.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
