@@ -1,8 +1,47 @@
-
+const axios = require("axios")
 const fs = require('fs/promises')
 const yaml = require("yaml")
 let namemap = {}
 
+async function get_history(no){
+  console.log("Fetch history "+no)
+  no = no.match(/\d+/)[0]
+  let res = await axios.get('https://mzh.moegirl.org.cn/%E5%91%A8%E5%88%8AVOCALOID_RANKING'+no+"?action=raw",{
+    headers:{
+      "user-agent":"Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7"
+    }
+  })
+  //let text = await fs.readFile("assets/28.wikitext","utf-8")
+  let text = res.data
+  let tag = "{{VOCALOID_&_UTAU_Ranking/bricks"
+  let blocks = text.split(tag)
+  let s=""
+  for(let i = 1; i <= 5; i++){
+    s += tag
+    let b = blocks[i].split('\n')
+    s+=b[0]+"\n"
+    for(let line of b){
+      let m =  line.match(/(\|id\s*\=\s*\d+)/)
+      m = m || line.match(/(\|曲名\s*\=\s*.+)/)
+      m = m || line.match(/(\|后缀\s*\=\s*.+)/)
+      m = m || line.match(/(\|条目\s*\=\s*.+)/)
+      m = m || line.match(/(\|翻唱\s*\=\s*.+)/)
+      m = m || line.match(/(\|时间\s*\=\s*.+)/)
+      m = m || line.match(/(\|本周\s*\=\s*.+)/)
+
+      if(m){
+        s += m[0]+"\n"
+      }
+    }
+    s+=`|color = #663300
+|bottom-column = {{color|#663300|H I S T O R Y}}
+}}
+
+`
+  }
+  
+  return s
+}
 
 function takeName(item){
   let m = namemap[item.sm]
@@ -37,9 +76,9 @@ async function main(arg){
     for(let item of yaml.parse(text)){
       namemap[item.sm] = item
     }
-    makePage(arg)
+    await makePage(arg)
   }else {
-    makeNameMap()
+    test()
   }
 }
 
@@ -63,13 +102,13 @@ async function makePage(arg){
   let no = arg[0] || 61
   let data =JSON.parse(await fs.readFile(`data/vocaran/${no}.json`,"utf-8"))
   let listdata =JSON.parse(await fs.readFile(`data/vocaran/${parseInt(no)-1}.json`,"utf-8"))
-  let wikitext = render(data,no,listdata)
+  let wikitext = await render(data,no,listdata)
  
   //console.log(wikitext)
   fs.writeFile(`out/vocaran${no}.wikitext`,wikitext)
 }
 
-function render(data,no,lastdata){
+async function render(data,no,lastdata){
   let $ = data
 
   // 获取统计时间
@@ -175,11 +214,13 @@ function render(data,no,lastdata){
 |color = #FF9999
 |bottom-column = {{color|#FF9999|P I C K U P}}
 }}
+
 ` 
     }
   }
 
   // 历史榜单
+  /*
   for(let _ of $.history){
     
     let name = takeName(_)
@@ -195,13 +236,12 @@ function render(data,no,lastdata){
 }}
 `
   }
-
+  */
   //ED
   let ed = $.ranklist[$.ranklist.length-1]
   ed.name = takeName(ed)
 
-  out += `
-{{VOCALOID_&_UTAU_Ranking/bricks${ed.sm.substr(0,2)=='nm'?'-nm':''}
+  out += await get_history($.history_no)+`{{VOCALOID_&_UTAU_Ranking/bricks${ed.sm.substr(0,2)=='nm'?'-nm':''}
 |id = ${ed.sm.substr(2)}
 |曲名 = ${ed.name} 
 |时间 = 20${ed.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
