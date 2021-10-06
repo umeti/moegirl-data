@@ -16,7 +16,7 @@ async function get_history(no){
   let tag = "{{VOCALOID_&_UTAU_Ranking/bricks"
   let blocks = text.split(tag)
   let s=""
-  for(let i = 1; i <= 5; i++){
+  for(let i = 2; i <= 6; i++){
     s += tag
     let b = blocks[i].split('\n')
     s+=b[0]+"\n"
