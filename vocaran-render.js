@@ -3,13 +3,47 @@ const fs = require('fs/promises')
 const yaml = require("yaml")
 let namemap = {}
 
+
+async function checkpic(arg){
+  let n = parseInt(arg[1])
+  let m = parseInt(arg[2])
+  let a = []
+  for(;n<=m;n++){
+    console.log('#test '+n);
+    let res = await axios.get(`https://commons.moegirl.org.cn/File:V%2B%E5%91%A8%E5%88%8A${n}.png`,{
+      method:'HEAD',
+      validateStatus: null,
+      headers:{
+        "user-agent":"Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7"
+      }
+    })
+    console.log(`${res.status} - ${n}`)
+    if(res.status == 404){
+      let data = JSON.parse(await fs.readFile(`data/vocaran/${n}.json`,"utf-8"))
+      let id = data.nicovideo.id.substr(2)
+      console.log(`download - ${n} - ${id}`);
+      let res = await axios.get(`https://nicovideo.cdn.nimg.jp/thumbnails/${id}/${id}`,{
+        //responseEncoding:'binary',
+        responseType: 'arraybuffer',
+        headers:{
+          "user-agent":"Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_0 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8A293 Safari/6531.22.7"
+        }
+      })
+      await fs.writeFile(`tmp/image/pic${n}.jpg`,res.data)
+      a.push(n)
+    }
+    await later(500)
+  }
+  console.log('---------');
+  console.log(a);
+}
+
 function fixNewFlag(st,item){
   if(item.rank0 == 999 && st > item.time){
     console.log('Fix NEW flag: '+item.rank)
     item.rank0 = 0
   }
 }
-
 
 async function get_history(no){
   console.log("Fetch history "+no)
@@ -85,8 +119,11 @@ async function main(arg){
       namemap[item.sm] = item
     }
     await makePage(arg)
+  }else if(arg[0] == 'pic'){
+    await checkpic(arg)
+  
   }else {
-    test()
+    await test(arg)
   }
 }
 
@@ -303,6 +340,12 @@ function fmt(date,_=null,add9h=true){
   if(h < 10)h='0'+h
   if(m < 10)m='0'+m
   return `${Y}${_||'年'}${M}${_||'月'}${D}${_?'':'日'} ${h}:${m}`
+}
+
+function later(delay) {
+  return new Promise(function(resolve) {
+    setTimeout(resolve, delay);
+  });
 }
 
 main(process.argv.slice(2))
