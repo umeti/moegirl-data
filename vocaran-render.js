@@ -3,6 +3,14 @@ const fs = require('fs/promises')
 const yaml = require("yaml")
 let namemap = {}
 
+function fixNewFlag(st,item){
+  if(item.rank0 == 999 && st > item.time){
+    console.log('Fix NEW flag: '+item.rank)
+    item.rank0 = 0
+  }
+}
+
+
 async function get_history(no){
   console.log("Fetch history "+no)
   no = no.match(/\d+/)[0]
@@ -171,10 +179,13 @@ async function render(data,no,lastdata){
 |color = #AA0000
 |bottom-column = {{color|#AA0000|上周冠军}}
 }}
- `
+`
+  let st = fmt(start_time,'-',false).substr(2)
   for(let i=0; i < 30; i++){
     let _ = $.ranklist[i]
     let name = takeName(_)
+    _.time = _.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')
+    fixNewFlag(st,_)
     out += `
 {{VOCALOID_&_UTAU_Ranking/bricks${_.sm.substr(0,2)=='nm'?'-nm':''}
 |id = ${_.sm.substr(2)}
@@ -184,7 +195,7 @@ async function render(data,no,lastdata){
 |上周 = ${_.rank0 == 999? 'NEW':_.rank0 == 0?'--': _.rank0}
 |走势 = ${_.rank0 == 999?'':_.rank0 == 0?1:_.rank < _.rank0?1:_.rank == _.rank0?2:3}
 |得点 = ${_.point}
-|时间 = 20${_.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
+|时间 = 20${_.time}
 |再生 = ${_.watch}
 |评论 = ${_.comment}
 |评论权重 = ${_.comment_weight}
@@ -197,6 +208,8 @@ async function render(data,no,lastdata){
   for(let _ of $.ranklist){
     if(_.pickup){
       let name = takeName(_)
+      _.time = _.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')
+      fixNewFlag(st,_)
       out += `
 {{VOCALOID_&_UTAU_Ranking/bricks${_.sm.substr(0,2)=='nm'?'-nm':''}
 |id = ${_.sm.substr(2)}
@@ -218,8 +231,10 @@ async function render(data,no,lastdata){
 ` 
     }
   }
-
+  
   // 历史榜单
+  out += await get_history($.history_no)
+  
   /*
   for(let _ of $.history){
     
@@ -241,7 +256,7 @@ async function render(data,no,lastdata){
   let ed = $.ranklist[$.ranklist.length-1]
   ed.name = takeName(ed)
 
-  out += await get_history($.history_no)+`{{VOCALOID_&_UTAU_Ranking/bricks${ed.sm.substr(0,2)=='nm'?'-nm':''}
+  out += `{{VOCALOID_&_UTAU_Ranking/bricks${ed.sm.substr(0,2)=='nm'?'-nm':''}
 |id = ${ed.sm.substr(2)}
 |曲名 = ${ed.name} 
 |时间 = 20${ed.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
