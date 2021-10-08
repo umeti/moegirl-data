@@ -7,9 +7,9 @@ async function main(){
   // console.log(data)
  // console.log(report.overview)
   showReport(report)
-  for (let p of report.pages.keys()) {
+  /*for (let p of report.pages.keys()) {
     console.log(JSON.stringify(p)+",")
-  }
+  }*/
 }
 
 function showReport(report){
