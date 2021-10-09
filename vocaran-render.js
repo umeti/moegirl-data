@@ -206,6 +206,7 @@ async function render(data, no, lastdata) {
   .replace(/\n([　 ]*週刊)/g,'$1')
   .replace(/PL：Closed\n?/,'\n\nPL：Closed')
   .replace(/(mylist\/\d+)/,'$1\n\n')
+  .replace(/(訂正)/,'\n\n$1')
 }}-</poem>
 
 ==榜单==
