@@ -34,6 +34,11 @@ async function main(arg) {
   } else if (arg[0] == 'fixpoint') {
     return await fixpoint()
   }
+
+  let bug_item = JSON.parse(await fs.readFile(`data/vocaran/120.json`, 'utf-8'))
+  bug_item.nicovideo = await nicometa("sm9430036")
+  fs.writeFile('data/vocaran/120.json', JSON.stringify(bug_item, 2, ' '))
+
   return '抓取阶段先告一段落'
   //93(无简介)
   //109(标题格式错乱)
