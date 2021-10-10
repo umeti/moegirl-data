@@ -1,4 +1,4 @@
-const LOCAL_TEST = true
+const LOCAL_TEST = false
 const axios = require("axios")
 const fs = require('fs/promises')
 const yaml = require("yaml")
@@ -113,8 +113,8 @@ function takeName(item) {
     if (m.path) {
       out += '\n|条目 = ' + m.path
     }
-    if (name == '炉心融解') {
-      out += '\n|image link = https://tn-skr.smilevideo.jp/smile?i=8089993'
+    if (item.sm == 'sm8619805') {
+      out += '\n|image link = https://nicovideo.cdn.nimg.jp/thumbnails/8619805/8619805.51422.M'
     }
     return out
   }
@@ -338,7 +338,7 @@ function calc_rate(item, lastrankmap) {
   if (item.rank0 == 999) {
     return 'NEW'
   }
-  if (item.rank0 == 0 && !lastrankmap.has(item.sm)) {
+  if (item.rank0 == 0 || !lastrankmap.has(item.sm)) {
     return '--'
   }
 
@@ -351,7 +351,7 @@ function calc_rate(item, lastrankmap) {
   )
   
   let rate = (n-p)/p
-  // rate = Math.abs(rate)
+  //console.log([item.rank0,item.rank,p,n,rate]);
   let s = rate.toFixed(4).split('.')
   s[0] += s[1].substr(0,2)
   s[0] += '.'
