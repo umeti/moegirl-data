@@ -1,3 +1,4 @@
+const LOCAL_TEST = true
 const axios = require("axios")
 const fs = require('fs/promises')
 const yaml = require("yaml")
@@ -42,6 +43,13 @@ function fixNewFlag(st, item) {
   if (item.rank0 == 999 && st > item.time) {
     console.log('Fix NEW flag: ' + item.rank)
     item.rank0 = 0
+  }
+  // 修复收藏权重（補正値B　上限40まで）
+  if( parseFloat(item.collect_weight) > 40){
+    console.log('Fix collect weight:  '
+    + item.rank + '  *' +item.collect_weight)
+    
+    item.collect_weight = '40.00'
   }
 }
 
@@ -282,7 +290,7 @@ async function render(data, no, lastdata) {
   }
 
   // 历史榜单
-  out += await get_history($.history_no)
+  out += LOCAL_TEST ?'\n':await get_history($.history_no)
 
   /*
   for(let _ of $.history){
