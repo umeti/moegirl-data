@@ -223,8 +223,7 @@ async function render(data, no, lastdata) {
   let op = lastdata.ranklist[0]
   op.name = takeName(op)
 
-  out += `
-{{VOCALOID_&_UTAU_Ranking/bricks${op.sm.substr(0, 2) == 'nm' ? '-nm' : ''}
+  out += `{{VOCALOID_&_UTAU_Ranking/bricks${op.sm.substr(0, 2) == 'nm' ? '-nm' : ''}
 |id = ${op.sm.substr(2)}
 |曲名 = ${op.name}
 |时间 = 20${op.time.replace(/[\/]/g, '-').replace(/\(.+?\)/g, '')}
@@ -339,7 +338,7 @@ function calc_rate(item, lastrankmap) {
     return 'NEW'
   }
   if (item.rank0 == 0 || !lastrankmap.has(item.sm)) {
-    return '--'
+    return 'NEW'
   }
 
   let p = parseInt(
