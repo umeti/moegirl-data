@@ -35,9 +35,9 @@ async function main(arg) {
     return await fixpoint()
   }
 
-  let bug_item = JSON.parse(await fs.readFile(`data/vocaran/162.json`, 'utf-8'))
-  bug_item.nicovideo = await nicometa("sm12692734")
-  fs.writeFile('data/vocaran/162.json', JSON.stringify(bug_item, 2, ' '))
+  let bug_item = JSON.parse(await fs.readFile(`data/vocaran/177.json`, 'utf-8'))
+  bug_item.nicovideo = await nicometa("sm13678185")
+  fs.writeFile('data/vocaran/177.json', JSON.stringify(bug_item, 2, ' '))
 
   return '抓取阶段先告一段落'
   //93(无简介)

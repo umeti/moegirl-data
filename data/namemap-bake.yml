@@ -1856,7 +1856,7 @@
   count: 5
   title: 【GUMI】ポーカーフェイス【オリジナル曲PV付】
   name:  ポーカーフェイス
-  page:  扑克脸
+  page:  Poker Face(VOCALOID)
 
 #265
 - sm: sm2121170
@@ -1883,7 +1883,7 @@
 - sm: sm13452778
   count: 5
   title: 【初音ミク】神曲【オリジナル・PV付き】
-  name:  神曲
+  name:  神曲(おにゅうP)
   page:  
 
 #269
@@ -2471,8 +2471,9 @@
 - sm: sm13590883
   count: 4
   title: 【第6回MMD杯本選】#51
-  name:  #51
-  page:  
+  name:  第6届MMD杯决赛 No51
+  page:  '#51'
+  path: No.51
 
 #353
 - sm: sm14398575
@@ -7903,7 +7904,7 @@
 - sm: sm13422411
   count: 2
   title: Lilyオリジナル曲　『Marie-Luise』
-  name:  Lilyオリジナル曲　『Marie-Luise』
+  name:  Marie-Luise
   page:  
 
 #1129
@@ -7974,7 +7975,7 @@
   count: 2
   title: 【初音ミク】memory【PV付オリジナル】
   name:  memory
-  page:  回忆
+  page:  memory(164)
 
 #1139
 - sm: sm13648617
