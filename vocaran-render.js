@@ -4,6 +4,16 @@ const fs = require('fs/promises')
 const yaml = require("yaml")
 let namemap = {}
 
+function getPeriod(no){
+  no = parseInt(no) 
+  const week_ms = 7*24*3600*1000
+  const n100 = new Date('2009-08-24T05:00Z')
+  
+  let t1 = new Date(n100.getTime()+(no-100)*week_ms)
+  let t2 = new Date(t1.getTime()+week_ms)
+
+  return [t1,t2]
+}
 
 async function checkpic(arg) {
   let n = parseInt(arg[1])
@@ -171,6 +181,8 @@ async function render(data, no, lastdata) {
 
   let desc = $.nicovideo.desc
   // 获取统计时间
+  let [start_time,end_time] = getPeriod(no)
+  /*
   let end_time = new Date($.nicovideo.time)
   let start_time = new Date(end_time)
 
@@ -189,7 +201,7 @@ async function render(data, no, lastdata) {
     //console.log(end_time)
     //console.log(start_time)
   }
-
+  */
 
   let out = `{{VOCALOID Ranking
 |id = ${$.nicovideo.id.substr(2)}
