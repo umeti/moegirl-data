@@ -206,7 +206,7 @@ async function render(data, no, lastdata) {
   let out = `{{VOCALOID Ranking
 |id = ${$.nicovideo.id.substr(2)}
 |index = ${no}
-|image = 
+|image = v+周刊2011.png 
 |title-color = 
 |发布时间 = ${fmt($.nicovideo.time)} 
 |起始时间 = ${fmt(start_time, false, false)}
@@ -214,8 +214,9 @@ async function render(data, no, lastdata) {
 |统计规则 = 2010
 }}
 
-'''周刊VOCALOID RANKING #${no}'''是${fmt($.nicovideo.time).substr(0, 11)}由'''sippotan'''投稿于niconico的VOCALOID周刊。
+'''周刊VOCALOID RANKING #${no}'''是${fmt($.nicovideo.time).substr(0, 11)}由'''sippotan'''投稿于niconico的VOCALOID周刊仅列结果补档。
 
+本条目中按正常周刊期数的主榜列出本期前三十名作为主榜以及上周冠军、历史回顾。此外，停刊期间的期数没有PICKUP、ED。
 ==视频本体==
 {{BilibiliVideo|id=${$.bilivideo.aid}}}
 ;视频简介
@@ -322,6 +323,7 @@ async function render(data, no, lastdata) {
   }
   */
   //ED
+/*临时取消
   let ed = $.ranklist[$.ranklist.length - 1]
   ed.name = takeName(ed)
 
@@ -334,6 +336,7 @@ async function render(data, no, lastdata) {
 |bottom-column = {{color|#4FC1E9|岁落遗尘}}
 }}
  `
+ */
   out += `<!-- 历史回顾${$.history_no} -->`
   return out += `
 ==杂谈==
