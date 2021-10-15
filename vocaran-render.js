@@ -1,4 +1,6 @@
-const LOCAL_TEST = false
+const LOCAL_TEST = true
+const LOOP_L = 259
+const LOOP_R = 500
 const axios = require("axios")
 const fs = require('fs/promises')
 const yaml = require("yaml")
@@ -11,8 +13,10 @@ function getPeriod(no){
   
   let t1 = new Date(n100.getTime()+(no-100)*week_ms)
   let t2 = new Date(t1.getTime()+week_ms)
+  let u1 = new Date(t1.getTime() - 190800000)
+  let u2 = new Date(u1.getTime()+week_ms)
 
-  return [t1,t2]
+  return [t1,t2,u1,u2]
 }
 
 async function checkpic(arg) {
@@ -49,17 +53,23 @@ async function checkpic(arg) {
   console.log(a);
 }
 
-function fixNewFlag(st, item) {
+function fixNewFlag(st, item,no=0) {
   if (item.rank0 == 999 && st > item.time) {
     console.log('Fix NEW flag: ' + item.rank)
     item.rank0 = 0
   }
   // 修复收藏权重（補正値B　上限40まで）
-  if( parseFloat(item.collect_weight) > 40){
+  if(no < 223 && parseFloat(item.collect_weight) > 40){
     console.log('Fix collect weight:  '
     + item.rank + '  *' +item.collect_weight)
     
     item.collect_weight = '40.00'
+  }
+
+  // 顺便验证数据
+  if(!(item.time||item.title||item.watch)){
+    console.log('数据损坏');
+    process.exit(1)
   }
 }
 
@@ -163,13 +173,190 @@ async function makeNameMap() {
 }
 
 async function makePage(arg) {
-  let no = arg[0] || 61
+  let no = parseInt(arg[0] || 61)
+  if(no == 0){
+    for(let i = LOOP_L; i <= LOOP_R; i++){
+      await makePage([i])
+    }
+  }
   let data = JSON.parse(await fs.readFile(`data/vocaran/${no}.json`, "utf-8"))
   let listdata = JSON.parse(await fs.readFile(`data/vocaran/${parseInt(no) - 1}.json`, "utf-8"))
-  let wikitext = await render(data, no, listdata)
+  let wikitext = no < 259 ? 
+    await render(data, no, listdata) :
+    await renderUTAU(data, no, listdata) 
 
   //console.log(wikitext)
   fs.writeFile(`out/vocaran${no}.wikitext`, wikitext)
+}
+
+async function renderUTAU(data, no, lastdata) {
+  let $ = data
+  let utau_no = no - 58
+  let lastrankmap = new Map()
+  for (let _ of lastdata.ranklist) {
+    lastrankmap.set(_.sm, _)
+  }
+
+  let desc = $.nicovideo.desc
+  // 获取统计时间
+  let [start_time,end_time,utau_start_time,utau_end_time] = getPeriod(no)
+
+  let out = `{{VOCALOID & UTAU Ranking
+|id = ${$.nicovideo.id.substr(2)}
+|index = ${no}
+|image = V+周刊${start_time.getUTCFullYear()}.png
+|title-color = 
+|发布时间 = ${fmt($.nicovideo.time)} 
+|V起始时间 = ${fmt(start_time, false, false)}
+|V终止时间 = ${fmt(end_time, false, false)}
+|U起始时间 = ${fmt(utau_start_time, false, false)}
+|U终止时间 = ${fmt(utau_start_time, false, false)}
+|统计规则 = 2012
+}}
+
+'''周刊VOCALOID & UTAU RANKING #${no}•${utau_no}'''是${
+  fmt($.nicovideo.time).substr(0, 11)
+}由'''sippotan'''投稿于niconico的VOCALOID、UTAU周刊。
+
+==视频本体==
+{{BilibiliVideo|id=${$.bilivideo.aid}}}
+;视频简介
+<poem>-{${
+  desc.replace(/(.)○/g,'$1\n○')
+  .replace(/(　+)/g,'\n$1')
+  .replace(/\n([　 ]*上限40)/,'$1')
+  .replace(/\n([　 ]*週刊)/g,'$1')
+  .replace(/\n([　 ]*#\d+)/g,'$1')
+  .replace(/([^　 ])週刊/g,'$1\n\n週刊')
+  .replace(/PL：\n?/,'\n\nPL：')
+  .replace(/(?<!PL：)(mylist\/\d+)/,'$1\n\n')
+  .replace(/\n　ぼからん/,'　ぼからん')
+  .replace(/(訂正)/,'\n\n$1')
+  .replace(/UTAU\n/g,'UTAU')
+  .replace(/＊\n/g,'＊')
+  .replace(/\n　http/g,'　http')
+  .replace(/\n\n\n*/g,'\n\n')
+}}-</poem>
+
+==榜单==
+`
+  //OP
+  let op = lastdata.ranklist[0]
+  op.name = takeName(op)
+
+  out += `{{VOCALOID_&_UTAU_Ranking/bricks${op.sm.substr(0, 2) == 'nm' ? '-nm' : ''}
+|id = ${op.sm.substr(2)}
+|曲名 = ${op.name}
+|时间 = 20${op.time.replace(/[\/]/g, '-').replace(/\(.+?\)/g, '')}
+|本周 = OP
+|color = #AA0000
+|bottom-column = {{color|#AA0000|上周冠军}}
+}}
+
+===VOCALOID榜===
+`
+  let st = fmt(start_time, '-', false).substr(2)
+  for (let i = 0; i < 30; i++) {
+    let _ = $.ranklist[i]
+    let name = takeName(_)
+    _.time = _.time.replace(/[\/]/g, '-').replace(/\(.+?\)/g, '')
+    fixNewFlag(st, _,no)
+    out += `{{VOCALOID_&_UTAU_Ranking/bricks${_.sm.substr(0, 2) == 'nm' ? '-nm' : ''}
+|id = ${_.sm.substr(2)}
+|曲名 = ${name}
+|翻唱 = 
+|本周 = ${_.rank}
+|上周 = ${_.rank0 == 999 ? 'NEW' : _.rank0 == 0 ? '--' : _.rank0}
+|走势 = ${_.rank0 == 999 ? '' : _.rank0 == 0 ? 1 : _.rank < _.rank0 ? 1 : _.rank == _.rank0 ? 2 : 3}
+|得点 = ${_.point}
+|rate = ${calc_rate(_, lastrankmap)}
+|时间 = 20${_.time}
+|再生 = ${_.watch}
+|评论 = ${_.comment}
+|评论权重 = ${_.comment_weight}
+|收藏 = ${_.collect}
+|收藏权重 = ${_.collect_weight}
+}}
+`
+  }
+
+  //pick up
+  for (let _ of $.ranklist) {
+    if (_.pickup) {
+      let name = takeName(_)
+      _.time = _.time.replace(/[\/]/g, '-').replace(/\(.+?\)/g, '')
+      fixNewFlag(st, _,no)
+      out += `
+{{VOCALOID_&_UTAU_Ranking/bricks${_.sm.substr(0, 2) == 'nm' ? '-nm' : ''}
+|id = ${_.sm.substr(2)}
+|曲名 = ${name}
+|翻唱 = 
+|本周 = ${_.rank}
+|上周 = ${_.rank0 == 999 ? 'NEW' : _.rank0 == 0 ? '--' : _.rank0}
+|走势 = ${_.rank0 == 999 ? '' : _.rank0 == 0 ? 1 : _.rank < _.rank0 ? 1 : _.rank == _.rank0 ? 2 : 3}
+|得点 = ${_.point}
+|rate = ${calc_rate(_, lastrankmap)}
+|时间 = 20${_.time.replace(/[\/]/g, '-').replace(/\(.+?\)/g, '')}
+|再生 = ${_.watch}
+|评论 = ${_.comment}
+|评论权重 = ${_.comment_weight}
+|收藏 = ${_.collect}
+|收藏权重 = ${_.collect_weight}
+|color = #FF9999
+|bottom-column = {{color|#FF9999|P I C K U P}}
+}}
+`
+    }
+  }
+
+  // 历史榜单
+  //out += LOCAL_TEST ?'\n':await get_history($.history_no)
+  let history_data = JSON.parse(await fs.readFile(
+    `data/vocaran/${$.history_no.substr(1)}.json`,
+    'utf-8'
+  ))
+  for(let hi = 0; hi < 5; hi++){
+    let _ = history_data.ranklist[hi]
+    let name = takeName(_)
+    out += `
+{{VOCALOID_&_UTAU_Ranking/bricks${_.sm.substr(0,2)=='nm'?'-nm':''}
+|id = ${_.sm.substr(2)}
+|曲名 = ${name}
+|翻唱 = 
+|本周 = ${_.rank}
+|时间 = 20${_.time.replace(/[\/]/g,'-').replace(/\(.+?\)/g,'')}
+|color = #663300
+|bottom-column = {{color|#663300|H I S T O R Y}}
+}}
+`
+  }
+  
+  //ED
+  let ed = $.ranklist[$.ranklist.length - 1]
+  ed.name = takeName(ed)
+
+  out += `
+===UTAU榜===
+
+{{VOCALOID_&_UTAU_Ranking/bricks${ed.sm.substr(0, 2) == 'nm' ? '-nm' : ''}
+|id = ${ed.sm.substr(2)}
+|曲名 = ${ed.name} 
+|时间 = 20${ed.time.replace(/[\/]/g, '-').replace(/\(.+?\)/g, '')}
+|本周 = ED
+|color = #4FC1E9
+|bottom-column = {{color|#4FC1E9|岁落遗尘}}
+}}
+`
+  out += `<!-- 历史回顾${$.history_no} -->`
+  return out += `
+==杂谈==
+（待补）
+
+== 注释 ==
+<references/>
+{{周刊VOCALOID & UTAU RANKING|2012}}
+[[Category:周刊VOCAL Character & UTAU RANKING]]
+`
 }
 
 async function render(data, no, lastdata) {
@@ -206,7 +393,7 @@ async function render(data, no, lastdata) {
   let out = `{{VOCALOID Ranking
 |id = ${$.nicovideo.id.substr(2)}
 |index = ${no}
-|image = v+周刊2011.png 
+|image = 
 |title-color = 
 |发布时间 = ${fmt($.nicovideo.time)} 
 |起始时间 = ${fmt(start_time, false, false)}
@@ -214,7 +401,7 @@ async function render(data, no, lastdata) {
 |统计规则 = 2010
 }}
 
-'''周刊VOCALOID RANKING #${no}'''是${fmt($.nicovideo.time).substr(0, 11)}由'''sippotan'''投稿于niconico的VOCALOID周刊仅列结果补档。
+'''周刊VOCALOID RANKING #${no}'''是${fmt($.nicovideo.time).substr(0, 11)}由'''sippotan'''投稿于niconico的VOCALOID周刊。
 
 ==视频本体==
 {{BilibiliVideo|id=${$.bilivideo.aid}}}
@@ -250,7 +437,7 @@ async function render(data, no, lastdata) {
     let _ = $.ranklist[i]
     let name = takeName(_)
     _.time = _.time.replace(/[\/]/g, '-').replace(/\(.+?\)/g, '')
-    fixNewFlag(st, _)
+    fixNewFlag(st, _,no)
     out += `
 {{VOCALOID_&_UTAU_Ranking/bricks${_.sm.substr(0, 2) == 'nm' ? '-nm' : ''}
 |id = ${_.sm.substr(2)}
@@ -276,7 +463,7 @@ async function render(data, no, lastdata) {
     if (_.pickup) {
       let name = takeName(_)
       _.time = _.time.replace(/[\/]/g, '-').replace(/\(.+?\)/g, '')
-      fixNewFlag(st, _)
+      fixNewFlag(st, _,no)
       out += `
 {{VOCALOID_&_UTAU_Ranking/bricks${_.sm.substr(0, 2) == 'nm' ? '-nm' : ''}
 |id = ${_.sm.substr(2)}
@@ -322,7 +509,6 @@ async function render(data, no, lastdata) {
   }
   */
   //ED
-/*临时取消
   let ed = $.ranklist[$.ranklist.length - 1]
   ed.name = takeName(ed)
 
@@ -335,7 +521,6 @@ async function render(data, no, lastdata) {
 |bottom-column = {{color|#4FC1E9|岁落遗尘}}
 }}
  `
- */
   out += `<!-- 历史回顾${$.history_no} -->`
   return out += `
 ==杂谈==
@@ -347,6 +532,10 @@ async function render(data, no, lastdata) {
 [[Category:周刊VOCAL Character & UTAU RANKING]]
 `
 }
+
+
+
+
 function calc_rate(item, lastrankmap) {
 
   if (item.rank0 == 999) {
