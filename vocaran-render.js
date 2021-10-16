@@ -59,13 +59,22 @@ function fixNewFlag(st, item,no=0) {
     item.rank0 = 0
   }
   // 修复收藏权重（補正値B　上限40まで）
-  if(no < 223 && parseFloat(item.collect_weight) > 40){
+  let weight =  parseFloat(item.collect_weight.replace(/[^\d\.]/g,''))
+  if(no < 223 && weight  > 40){
     console.log('Fix collect weight:  '
     + item.rank + '  *' +item.collect_weight)
     
     item.collect_weight = '40.00'
   }
-
+  //五倍阀
+  // limit
+  item.limit = false
+  let v = parseInt(item.watch.replace(/\D/g,''))
+  let c = parseInt(item.collect.replace(/\D/g,''))
+  if(no >= 223 && c * weight > v * 5){
+    item.limit = true
+    console.log(`达到五倍阀 ${no}:${item.rank}`);
+  }
   // 顺便验证数据
   if(!(item.time||item.title||item.watch)){
     console.log('数据损坏');
@@ -276,6 +285,7 @@ async function renderUTAU(data, no, lastdata) {
 |评论权重 = ${_.comment_weight}
 |收藏 = ${_.collect}
 |收藏权重 = ${_.collect_weight}
+|五倍阀 = ${_.limit?'1':''}
 }}
 `
   }
@@ -302,6 +312,7 @@ async function renderUTAU(data, no, lastdata) {
 |评论权重 = ${_.comment_weight}
 |收藏 = ${_.collect}
 |收藏权重 = ${_.collect_weight}
+|五倍阀 = ${_.limit?'1':''}
 |color = #FF9999
 |bottom-column = {{color|#FF9999|P I C K U P}}
 }}
