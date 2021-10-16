@@ -5,11 +5,11 @@ const fetch = require('node-fetch')
 
 const bilimap = require('./data/bilimap.json')
 
-async function test(){
-  let html = await fs.readFile("assets/vocaran67.html","utf-8")
+async function test() {
+  let html = await fs.readFile("assets/vocaran67.html", "utf-8")
   let data = await makeData(html)
-  for(let _ of data.ranklist){
-    if(_.rank == 13 || _.rank == 14){
+  for (let _ of data.ranklist) {
+    if (_.rank == 13 || _.rank == 14) {
       console.log(_)
     }
   }
@@ -33,11 +33,13 @@ async function main(arg) {
     return test()
   } else if (arg[0] == 'fixpoint') {
     return await fixpoint()
+  } else if (arg[0] == 'fixdata') {
+    return await fixData()
   }
 
-  let bug_item = JSON.parse(await fs.readFile(`data/vocaran/177.json`, 'utf-8'))
-  bug_item.nicovideo = await nicometa("sm13678185")
-  fs.writeFile('data/vocaran/177.json', JSON.stringify(bug_item, 2, ' '))
+  // let bug_item = JSON.parse(await fs.readFile(`data/vocaran/177.json`, 'utf-8'))
+  // bug_item.nicovideo = await nicometa("sm13678185")
+  // fs.writeFile('data/vocaran/177.json', JSON.stringify(bug_item, 2, ' '))
 
   return '抓取阶段先告一段落'
   //93(无简介)
@@ -63,6 +65,19 @@ async function main(arg) {
 
   console.log(data.nicovideo)
   fs.writeFile('data/vocaran61.json', JSON.stringify(data, 2, ' '))
+}
+
+async function fixData() {
+  for (let no = 394; no <= 500; no++) {
+    console.log("Fetch vocaran " + no)
+    let res = await fetch('http://web.archive.org/web/20180323041737/http://vocaran.jpn.org/vocaran/' + no)
+    let html = await res.text()
+
+    console.log("  make local data...")
+    let data = await makeData(html)
+    console.log("  save local data...")
+    fs.writeFile(`data/vocaran${no}.json`, JSON.stringify(data, 2, ' '))
+  }
 }
 
 async function live(no) {
@@ -91,7 +106,7 @@ async function live(no) {
   fs.writeFile(`data/vocaran${no}.json`, JSON.stringify(data, 2, ' '))
 }
 
-async function check(){
+async function check() {
   let map = {}
   let dir = await fs.readdir('data')
   let list = []
@@ -99,7 +114,7 @@ async function check(){
     if (/^vocaran\d+/.test(f)) {
       let _ = JSON.parse(await fs.readFile('data/' + f, 'utf-8'))
       for (let item of _.ranklist) {
-        if(!item.point){
+        if (!item.point) {
           console.log(`${f}:${item.rank}`);
           list.push(item)
         }
@@ -109,29 +124,29 @@ async function check(){
   console.log(list.length);
 }
 
-async function fixpoint(){
+async function fixpoint() {
   let dir = await fs.readdir('data')
   for (let no = 116; no <= 500;) {
     await later(500)
     let _
     try {
-    _ = JSON.parse(await fs.readFile(`data/vocaran${no}.json`, 'utf-8'))
-    }catch(e){
-      console.log('缺省 #'+no)
-      no ++
+      _ = JSON.parse(await fs.readFile(`data/vocaran${no}.json`, 'utf-8'))
+    } catch (e) {
+      console.log('缺省 #' + no)
+      no++
       continue
     }
     //  重新抓取榜单数据
     let res
-    try{
+    try {
       console.log("Fetch vocaran " + no)
       // fetch用得我很郁闷...，要什么缺什么....
-      res = await axios.get('http://web.archive.org/web/20180323041737/http://vocaran.jpn.org/vocaran/' + no,{
+      res = await axios.get('http://web.archive.org/web/20180323041737/http://vocaran.jpn.org/vocaran/' + no, {
         timeout: 3000
       })
-      
-    }catch(e){
-      console.log("  "+e)
+
+    } catch (e) {
+      console.log("  " + e)
       continue
     }
     let html = await res.data
@@ -141,7 +156,7 @@ async function fixpoint(){
     console.log("  mix old data...")
     _.ranklist = data.ranklist
     await fs.writeFile(`data/vocaran/${no}.json`, JSON.stringify(_, 2, ' '))
-    no ++
+    no++
   }
 }
 
@@ -351,10 +366,10 @@ async function makeData(html) {
     if (_.rank == "10") {
       $history = $(e).parent().next().next()
     }
-    if(!_.point){
+    if (!_.point) {
       _.point = _.rank0
       _.rank0 = 0
-    } 
+    }
     _.rank = parseInt(_.rank)
     _.rank0 = parseInt(_.rank0)
     if (isNaN(_.rank0)) {
@@ -389,7 +404,7 @@ function trim(str) {
 }
 
 function later(delay) {
-  return new Promise(function(resolve) {
+  return new Promise(function (resolve) {
     setTimeout(resolve, delay);
   });
 }
