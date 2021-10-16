@@ -758,8 +758,8 @@
   },
   {
    "rank": 43,
-   "rank0": 17,
-   "point": "",
+   "rank0": 0,
+   "point": "17,702",
    "sm": "sm24024502",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=24024502",
    "time": "",
@@ -866,8 +866,8 @@
   },
   {
    "rank": 49,
-   "rank0": 15,
-   "point": "",
+   "rank0": 0,
+   "point": "15,389",
    "sm": "sm25143595",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=25143595",
    "time": "",
@@ -1100,8 +1100,8 @@
   },
   {
    "rank": 62,
-   "rank0": 12,
-   "point": "",
+   "rank0": 0,
+   "point": "12,853",
    "sm": "sm19898621",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=19898621",
    "time": "",
@@ -1424,8 +1424,8 @@
   },
   {
    "rank": 80,
-   "rank0": 11,
-   "point": "",
+   "rank0": 0,
+   "point": "11,360",
    "sm": "sm21645689",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=21645689",
    "time": "",
@@ -1748,8 +1748,8 @@
   },
   {
    "rank": 98,
-   "rank0": 9,
-   "point": "",
+   "rank0": 0,
+   "point": "9,455",
    "sm": "sm18257340",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=18257340",
    "time": "",
@@ -1874,8 +1874,8 @@
   },
   {
    "rank": 105,
-   "rank0": 8,
-   "point": "",
+   "rank0": 0,
+   "point": "8,890",
    "sm": "sm7550182",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=7550182",
    "time": "",
@@ -1892,8 +1892,8 @@
   },
   {
    "rank": 106,
-   "rank0": 8,
-   "point": "",
+   "rank0": 0,
+   "point": "8,613",
    "sm": "sm18945135",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=18945135",
    "time": "",
@@ -1964,8 +1964,8 @@
   },
   {
    "rank": 110,
-   "rank0": 7,
-   "point": "",
+   "rank0": 0,
+   "point": "7,932",
    "sm": "sm28602715",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=28602715",
    "time": "",
@@ -2054,8 +2054,8 @@
   },
   {
    "rank": 115,
-   "rank0": 6,
-   "point": "",
+   "rank0": 0,
+   "point": "6,414",
    "sm": "sm27133457",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=27133457",
    "time": "",
@@ -2144,8 +2144,8 @@
   },
   {
    "rank": 120,
-   "rank0": 5,
-   "point": "",
+   "rank0": 0,
+   "point": "5,815",
    "sm": "sm6119955",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=6119955",
    "time": "",
@@ -2306,8 +2306,8 @@
   },
   {
    "rank": 129,
-   "rank0": 4,
-   "point": "",
+   "rank0": 0,
+   "point": "4,619",
    "sm": "sm18632219",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=18632219",
    "time": "",
@@ -2396,8 +2396,8 @@
   },
   {
    "rank": 134,
-   "rank0": 4,
-   "point": "",
+   "rank0": 0,
+   "point": "4,056",
    "sm": "sm18726752",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=18726752",
    "time": "",
@@ -2432,8 +2432,8 @@
   },
   {
    "rank": 136,
-   "rank0": 3,
-   "point": "",
+   "rank0": 0,
+   "point": "3,809",
    "sm": "sm21647485",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=21647485",
    "time": "",
@@ -2504,8 +2504,8 @@
   },
   {
    "rank": 140,
-   "rank0": 2,
-   "point": "",
+   "rank0": 0,
+   "point": "2,659",
    "sm": "sm18529569",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=18529569",
    "time": "",
@@ -2558,7 +2558,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm25738828",
    "pic_archive": "http://web.archive.org/web/20170723231848im_/http://tn-skr.smilevideo.jp/smile?i=25738828",
@@ -2602,22 +2602,5 @@
    "sm": "sm26848673"
   }
  ],
- "history_no": "#410",
- "bilivideo": {
-  "title": "週刊VOCALOID · UTAU Ranking　#462・404",
-  "aid": 5748011,
-  "cid": 9333009,
-  "bvid": "BV1Gs411y7pG",
-  "vocaloid": 462,
-  "utau": 404,
-  "pubdate": 1470820510,
-  "desc": "sm29418374\r\n○ 集計期間\r\n　VOCALOID：2016年8月1日5時～8月8日5時\r\n　UTAU　　 ：2016年7月30日0時～8月6日0時（投稿2週間以内）\r\n○ 集計対象・\r\n　VOCALOID：【カテゴリ合算】各1000位内【VOCALOID】【音楽】【演奏してみた】各100位内\r\n　UTAU　　 ： UTAU・各種音源タグ付動画\r\n　計算式(共通)…動画内説明をご覧ください。",
-  "pic": "http://i2.hdslb.com/bfs/archive/5711a7e9381fc146e6bfc2889ef9e6f6681d6097.jpg"
- },
- "nicovideo": {
-  "id": "sm29418374",
-  "time": "2016-08-10T18:11:04+09:00",
-  "title": "週刊VOCALOIDとUTAUランキング　#462・404",
-  "desc": "○ 集計期間　VOCALOID：2016年8月1日5時～8月8日5時　UTAU　　 ：2016年7月30日0時～8月6日0時（投稿2週間以内）○ 集計対象・　VOCALOID：【カテゴリ合算】各1000位内【VOCALOID】【音楽】【演奏してみた】各100位内　UTAU　　 ： UTAU・各種音源タグ付動画　計算式(共通)…動画内説明をご覧ください。Songrium LINK！http://songrium.jp/map/#!/playlist?type=feed&feed_uri=nicodb.jp%252Frss%252Fsm29418374PL：mylist/3409323　直近5週：mylist/9352163週刊UTAUランキングまとめ　http://utauhirohiro.blog56.fc2.com/週刊#461・403：sm29377071　週刊#463・405：sm29471579"
- }
+ "history_no": "#410"
 }
