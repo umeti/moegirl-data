@@ -1,6 +1,6 @@
 const LOCAL_TEST = true
-const LOOP_L = 259
-const LOOP_R = 500
+const LOOP_L = 393
+const LOOP_R = 401
 const axios = require("axios")
 const fs = require('fs/promises')
 const yaml = require("yaml")
@@ -55,14 +55,14 @@ async function checkpic(arg) {
 
 function fixNewFlag(st, item,no=0) {
   if (item.rank0 == 999 && st > item.time) {
-    console.log('Fix NEW flag: ' + item.rank)
+    //console.log('Fix NEW flag: ' + item.rank)
     item.rank0 = 0
   }
   // 修复收藏权重（補正値B　上限40まで）
   let weight =  parseFloat(item.collect_weight.replace(/[^\d\.]/g,''))
   if(no < 223 && weight  > 40){
-    console.log('Fix collect weight:  '
-    + item.rank + '  *' +item.collect_weight)
+    // console.log('Fix collect weight:  '
+    // + item.rank + '  *' +item.collect_weight)
     
     item.collect_weight = '40.00'
   }
@@ -73,12 +73,12 @@ function fixNewFlag(st, item,no=0) {
   let c = parseInt(item.collect.replace(/\D/g,''))
   if(no >= 223 && c * weight > v * 5){
     item.limit = true
-    console.log(`达到五倍阀 ${no}:${item.rank}`);
+    //console.log(`达到五倍阀 ${no}:${item.rank}`);
   }
   // 顺便验证数据
   if(!(item.time||item.title||item.watch)){
-    console.log('数据损坏');
-    process.exit(1)
+    console.log(`数据损坏 ${no}:${item.rank}`);
+    //process.exit(1)
   }
 }
 
@@ -206,6 +206,11 @@ async function renderUTAU(data, no, lastdata) {
     lastrankmap.set(_.sm, _)
   }
 
+  $.bilivideo = {}
+  $.nicovideo = {}
+  $.bilivideo.aid = 0
+  $.nicovideo.desc = ''
+  $.nicovideo.id = 'sm0'
   let desc = $.nicovideo.desc
   // 获取统计时间
   let [start_time,end_time,utau_start_time,utau_end_time] = getPeriod(no)
