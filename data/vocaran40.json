@@ -542,8 +542,8 @@
   },
   {
    "rank": 31,
-   "rank0": 26,
-   "point": "",
+   "rank0": 0,
+   "point": "26,133",
    "sm": "sm1336409",
    "pic_archive": "http://web.archive.org/web/20180328034356im_/http://tn-skr.smilevideo.jp/smile?i=1336409",
    "time": "07/10/22(月) 07:11",
@@ -560,8 +560,8 @@
   },
   {
    "rank": 32,
-   "rank0": 25,
-   "point": "",
+   "rank0": 0,
+   "point": "25,841",
    "sm": "sm3143714",
    "pic_archive": "http://web.archive.org/web/20180328034356im_/http://tn-skr.smilevideo.jp/smile?i=3143714",
    "time": "08/04/30(水) 17:01",
@@ -740,8 +740,8 @@
   },
   {
    "rank": 42,
-   "rank0": 17,
-   "point": "",
+   "rank0": 0,
+   "point": "17,310",
    "sm": "sm2053548",
    "pic_archive": "http://web.archive.org/web/20180328034356im_/http://tn-skr.smilevideo.jp/smile?i=2053548",
    "time": "08/01/16(水) 18:45",
@@ -812,8 +812,8 @@
   },
   {
    "rank": 46,
-   "rank0": 15,
-   "point": "",
+   "rank0": 0,
+   "point": "15,595",
    "sm": "sm3440324",
    "pic_archive": "http://web.archive.org/web/20180328034356im_/http://tn-skr.smilevideo.jp/smile?i=3440324",
    "time": "08/05/25(日) 20:53",
@@ -956,8 +956,8 @@
   },
   {
    "rank": 54,
-   "rank0": 8,
-   "point": "",
+   "rank0": 0,
+   "point": "8,295",
    "sm": "sm1342044",
    "pic_archive": "http://web.archive.org/web/20180328034356im_/http://tn-skr.smilevideo.jp/smile?i=1342044",
    "time": "07/10/22(月) 23:44",
@@ -1136,7 +1136,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm3771261",
    "pic_archive": "http://web.archive.org/web/20180328034356im_/http://tn-skr.smilevideo.jp/smile?i=3771261",
@@ -1154,22 +1154,5 @@
   }
  ],
  "history": [],
- "history_no": "【初音ミク】「Crying Air」オリジナル曲",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #40",
-  "aid": 65501693,
-  "cid": 144371434,
-  "bvid": "BV1U441167G4",
-  "vocaloid": 40,
-  "utau": 0,
-  "pubdate": 1566833229,
-  "desc": "https://www.nicovideo.jp/watch/sm3892053\n○集計期間：6月30日6時～7月7日0時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：RSS版公式ランキングより\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\n　＊　今週よりOPは｢先週の第1位｣をお送りします。\n\nPL：Closed 週刊#39：sm3821671　週刊#41：sm3966413　ナビについてはsm3787146",
-  "pic": "http://i1.hdslb.com/bfs/archive/c0c1ee895bb7b3d8162f2a5bd3234aec105edf37.jpg"
- },
- "nicovideo": {
-  "id": "sm3892053",
-  "time": "2008-07-08T00:53:05+09:00",
-  "title": "週刊VOCALOIDランキング　#40",
-  "desc": "○集計期間：6月30日6時～7月7日0時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。　＊　今週よりOPは｢先週の第1位｣をお送りします。PL：Closed 週刊#39：sm3821671　週刊#41：sm3966413　ナビについてはsm3787146"
- }
+ "history_no": "【初音ミク】「Crying Air」オリジナル曲"
 }

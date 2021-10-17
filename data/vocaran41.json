@@ -434,8 +434,8 @@
   },
   {
    "rank": 25,
-   "rank0": 26,
-   "point": "",
+   "rank0": 0,
+   "point": "26,281",
    "sm": "sm3212446",
    "pic_archive": "http://web.archive.org/web/20180328034301im_/http://tn-skr.smilevideo.jp/smile?i=3212446",
    "time": "08/05/06(火) 05:29",
@@ -956,8 +956,8 @@
   },
   {
    "rank": 54,
-   "rank0": 8,
-   "point": "",
+   "rank0": 0,
+   "point": "8,023",
    "sm": "sm1804377",
    "pic_archive": "http://web.archive.org/web/20180328034301im_/http://tn-skr.smilevideo.jp/smile?i=1804377",
    "time": "07/12/18(火) 06:28",
@@ -1118,7 +1118,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm1986950",
    "pic_archive": "http://web.archive.org/web/20180328034301im_/http://tn-skr.smilevideo.jp/smile?i=1986950",
@@ -1136,22 +1136,5 @@
   }
  ],
  "history": [],
- "history_no": "アンインストール （VOCALOID MEIKO ver.）[H.264]",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #41",
-  "aid": 65993949,
-  "cid": 144372218,
-  "bvid": "BV1o4411q7Vs",
-  "vocaloid": 41,
-  "utau": 0,
-  "pubdate": 1567144158,
-  "desc": "https://www.nicovideo.jp/watch/sm3966413\n○集計期間：7月7日6時～7月14日0時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：RSS版公式ランキングより\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\nPL：Closed　週刊#40：sm3892053　週刊#42：sm4038334　ナビについてはsm3787146",
-  "pic": "http://i1.hdslb.com/bfs/archive/2989215bbaded39767d88b6838ed47d6f0325e07.jpg"
- },
- "nicovideo": {
-  "id": "sm3966413",
-  "time": "2008-07-15T01:14:10+09:00",
-  "title": "週刊VOCALOIDランキング　#41",
-  "desc": "○集計期間：7月7日6時～7月14日0時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。PL：Closed　週刊#40：sm3892053　週刊#42：sm4038334　ナビについてはsm3787146"
- }
+ "history_no": "アンインストール （VOCALOID MEIKO ver.）[H.264]"
 }

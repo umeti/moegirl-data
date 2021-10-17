@@ -812,8 +812,8 @@
   },
   {
    "rank": 46,
-   "rank0": 18,
-   "point": "",
+   "rank0": 0,
+   "point": "18,846",
    "sm": "sm2736134",
    "pic_archive": "http://web.archive.org/web/20180328034453im_/http://tn-skr.smilevideo.jp/smile?i=2736134",
    "time": "08/03/22(土) 05:27",
@@ -902,8 +902,8 @@
   },
   {
    "rank": 51,
-   "rank0": 15,
-   "point": "",
+   "rank0": 0,
+   "point": "15,636",
    "sm": "sm3081358",
    "pic_archive": "http://web.archive.org/web/20180328034453im_/http://tn-skr.smilevideo.jp/smile?i=3081358",
    "time": "08/04/23(水) 23:02",
@@ -938,8 +938,8 @@
   },
   {
    "rank": 53,
-   "rank0": 14,
-   "point": "",
+   "rank0": 0,
+   "point": "14,618",
    "sm": "sm2085031",
    "pic_archive": "http://web.archive.org/web/20180328034453im_/http://tn-skr.smilevideo.jp/smile?i=2085031",
    "time": "08/01/20(日) 05:34",
@@ -1082,8 +1082,8 @@
   },
   {
    "rank": 61,
-   "rank0": 5,
-   "point": "",
+   "rank0": 0,
+   "point": "5,822",
    "sm": "sm3577849",
    "pic_archive": "http://web.archive.org/web/20180328034453im_/http://tn-skr.smilevideo.jp/smile?i=3577849",
    "time": "08/06/07(土) 03:24",
@@ -1190,8 +1190,8 @@
   },
   {
    "rank": 67,
-   "rank0": 708,
-   "point": "",
+   "rank0": 0,
+   "point": "708",
    "sm": "sm1707606",
    "pic_archive": "http://web.archive.org/web/20180328034453im_/http://tn-skr.smilevideo.jp/smile?i=1707606",
    "time": "07/12/06(木) 17:16",
@@ -1208,7 +1208,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "nm3638829",
    "pic_archive": "http://web.archive.org/web/20180328034453im_/http://tn-skr.smilevideo.jp/smile?i=3638829",
@@ -1226,22 +1226,5 @@
   }
  ],
  "history": [],
- "history_no": "【VOCALOID】　PAPER　【せ、先生･･･！】",
- "bilivideo": {
-  "title": "週刊VOCALOIDランキング　#39",
-  "aid": 28327056,
-  "cid": 48986602,
-  "bvid": "BV1Ts41137uV",
-  "vocaloid": 39,
-  "utau": 0,
-  "pubdate": 1533189197,
-  "desc": "sm3821671\n从这周开始有了pick up。。\n○集計期間：7月14日6時～7月21日0時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：RSS版公式ランキングより\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。",
-  "pic": "http://i0.hdslb.com/bfs/archive/9605a71d8d916663af73984d7228026056a3e040.jpg"
- },
- "nicovideo": {
-  "id": "sm3821671",
-  "time": "2008-07-01T01:51:34+09:00",
-  "title": "週刊VOCALOIDランキング　#39",
-  "desc": "○集計期間：6月23日6時～6月30日0時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画。　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。　＊　RSS版ランキング、全数集計対応訂正：7位の先週順位が8位のものになっていました、正しくはNEWです。お詫びいたします。PL：Closed　週刊#38：sm3751018　週刊#40：sm3892053　ナビ選考SP：sm3787146"
- }
+ "history_no": "【VOCALOID】　PAPER　【せ、先生･･･！】"
 }

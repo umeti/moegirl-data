@@ -740,8 +740,8 @@
   },
   {
    "rank": 42,
-   "rank0": 21,
-   "point": "",
+   "rank0": 0,
+   "point": "21,764",
    "sm": "sm4153727",
    "pic_archive": "http://web.archive.org/web/20180328034158im_/http://tn-skr.smilevideo.jp/smile?i=4153727",
    "time": "08/08/02(土) 02:04",
@@ -992,8 +992,8 @@
   },
   {
    "rank": 56,
-   "rank0": 16,
-   "point": "",
+   "rank0": 0,
+   "point": "16,460",
    "sm": "sm1348509",
    "pic_archive": "http://web.archive.org/web/20180328034158im_/http://tn-skr.smilevideo.jp/smile?i=1348509",
    "time": "07/10/23(火) 22:57",
@@ -1208,8 +1208,8 @@
   },
   {
    "rank": 68,
-   "rank0": 7,
-   "point": "",
+   "rank0": 0,
+   "point": "7,719",
    "sm": "sm3335060",
    "pic_archive": "http://web.archive.org/web/20180328034158im_/http://tn-skr.smilevideo.jp/smile?i=3335060",
    "time": "08/05/17(土) 01:58",
@@ -1316,8 +1316,8 @@
   },
   {
    "rank": 74,
-   "rank0": 4,
-   "point": "",
+   "rank0": 0,
+   "point": "4,900",
    "sm": "sm3798833",
    "pic_archive": "http://web.archive.org/web/20180328034158im_/http://tn-skr.smilevideo.jp/smile?i=3798833",
    "time": "08/06/29(日) 01:00",
@@ -1406,8 +1406,8 @@
   },
   {
    "rank": 79,
-   "rank0": 2,
-   "point": "",
+   "rank0": 0,
+   "point": "2,150",
    "sm": "sm3904231",
    "pic_archive": "http://web.archive.org/web/20180328034158im_/http://tn-skr.smilevideo.jp/smile?i=3904231",
    "time": "08/07/09(水) 04:49",
@@ -1478,7 +1478,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm4272740",
    "pic_archive": "http://web.archive.org/web/20180328034158im_/http://tn-skr.smilevideo.jp/smile?i=4272740",
@@ -1496,22 +1496,5 @@
   }
  ],
  "history": [],
- "history_no": "【初音ミク】みくみくにしてあげる♪【してやんよ】",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #50",
-  "aid": 69760649,
-  "cid": 146517873,
-  "bvid": "BV1wE411Q7F4",
-  "vocaloid": 50,
-  "utau": 0,
-  "pubdate": 1570000983,
-  "desc": "https://www.nicovideo.jp/watch/sm4640167\n○集計期間：9月8日5時～9月15日5時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：RSS版公式ランキングより\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\nぼからんもついに50回を迎えました、という事で↓\n年間VOCALOIDランキングSP2 とくべつなぼからん 第1部：sm4638539\n\nPL：Closed　週刊#49：sm4566244 週刊#51：sm4722003",
-  "pic": "http://i1.hdslb.com/bfs/archive/33071b260272e51ad7810e590e8134e1407dea02.jpg"
- },
- "nicovideo": {
-  "id": "sm4640167",
-  "time": "2008-09-16T01:19:19+09:00",
-  "title": "週刊VOCALOIDランキング　#50",
-  "desc": "○集計期間：9月8日5時～9月15日5時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。ぼからんもついに50回を迎えました、という事で↓年間VOCALOIDランキングSP2 とくべつなぼからん 第1部：sm4638539PL：Closed　週刊#49：sm4566244 週刊#51：sm4722003"
- }
+ "history_no": "【初音ミク】みくみくにしてあげる♪【してやんよ】"
 }
