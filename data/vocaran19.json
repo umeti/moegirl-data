@@ -488,8 +488,8 @@
   },
   {
    "rank": 28,
-   "rank0": 36,
-   "point": "",
+   "rank0": 0,
+   "point": "36,195",
    "sm": "sm1876850",
    "pic_archive": "http://web.archive.org/web/20180330001718im_/http://tn-skr.smilevideo.jp/smile?i=1876850",
    "time": "07/12/26(水) 22:50",
@@ -614,8 +614,8 @@
   },
   {
    "rank": 35,
-   "rank0": 30,
-   "point": "",
+   "rank0": 0,
+   "point": "30,403",
    "sm": "sm1983502",
    "pic_archive": "http://web.archive.org/web/20180330001718im_/http://tn-skr.smilevideo.jp/smile?i=1983502",
    "time": "08/01/08(火) 21:34",
@@ -722,8 +722,8 @@
   },
   {
    "rank": 41,
-   "rank0": 18,
-   "point": "",
+   "rank0": 0,
+   "point": "18,796",
    "sm": "sm1804377",
    "pic_archive": "http://web.archive.org/web/20180330001718im_/http://tn-skr.smilevideo.jp/smile?i=1804377",
    "time": "07/12/18(火) 06:28",
@@ -884,8 +884,8 @@
   },
   {
    "rank": 50,
-   "rank0": 13,
-   "point": "",
+   "rank0": 0,
+   "point": "13,642",
    "sm": "sm1647289",
    "pic_archive": "http://web.archive.org/web/20180330001718im_/http://tn-skr.smilevideo.jp/smile?i=1647289",
    "time": "07/11/29(木) 07:48",
@@ -974,8 +974,8 @@
   },
   {
    "rank": 55,
-   "rank0": 12,
-   "point": "",
+   "rank0": 0,
+   "point": "12,543",
    "sm": "sm1588476",
    "pic_archive": "http://web.archive.org/web/20180330001718im_/http://tn-skr.smilevideo.jp/smile?i=1588476",
    "time": "07/11/22(木) 12:59",
@@ -1298,8 +1298,8 @@
   },
   {
    "rank": 73,
-   "rank0": 3,
-   "point": "",
+   "rank0": 0,
+   "point": "3,339",
    "sm": "sm346059",
    "pic_archive": "http://web.archive.org/web/20180330001718im_/http://tn-skr.smilevideo.jp/smile?i=346059",
    "time": "07/05/25(金) 05:30",
@@ -1424,8 +1424,8 @@
   },
   {
    "rank": 80,
-   "rank0": 1,
-   "point": "",
+   "rank0": 0,
+   "point": "1,479",
    "sm": "sm1904506",
    "pic_archive": "http://web.archive.org/web/20180330001718im_/http://tn-skr.smilevideo.jp/smile?i=1904506",
    "time": "07/12/30(日) 15:45",
@@ -1442,8 +1442,8 @@
   },
   {
    "rank": 81,
-   "rank0": 1,
-   "point": "",
+   "rank0": 0,
+   "point": "1,437",
    "sm": "sm1613775",
    "pic_archive": "http://web.archive.org/web/20180330001718im_/http://tn-skr.smilevideo.jp/smile?i=1613775",
    "time": "07/11/25(日) 05:50",
@@ -1478,7 +1478,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm2093893",
    "pic_archive": "http://web.archive.org/web/20180330001718im_/http://tn-skr.smilevideo.jp/smile?i=2093893",
@@ -1496,22 +1496,5 @@
   }
  ],
  "history": [],
- "history_no": "初音ミク　が　オリジナル曲を歌ってくれたよ「メルト」",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #19",
-  "aid": 62232760,
-  "cid": 134115729,
-  "bvid": "BV1Gt411M7XR",
-  "vocaloid": 19,
-  "utau": 0,
-  "pubdate": 1564932356,
-  "desc": "https://www.nicovideo.jp/watch/sm2301102\n○集計期間：2月4日6時～2月11日0時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内に入っている動画。\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\nプレイリストの公開は終了しました。\n週刊VOCALOIDランキング　#18はsm2232288\n不定期刊VOCALOIDランキング2部　#4はsm2272134\n週刊VOCALOIDランキング　#20はsm2370613",
-  "pic": "http://i0.hdslb.com/bfs/archive/e0f37913a874dbf6300078bd5195ec925889cd1e.jpg"
- },
- "nicovideo": {
-  "id": "sm2301102",
-  "time": "2008-02-12T00:06:45+09:00",
-  "title": "週刊VOCALOIDランキング　#19",
-  "desc": "○集計期間：2月4日6時～2月11日0時 ○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内に入っている動画。　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。プレイリストの公開は終了しました。週刊VOCALOIDランキング　#18はsm2232288不定期刊VOCALOIDランキング2部　#4はsm2272134週刊VOCALOIDランキング　#20はsm2370613"
- }
+ "history_no": "初音ミク　が　オリジナル曲を歌ってくれたよ「メルト」"
 }

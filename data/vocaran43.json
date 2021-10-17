@@ -812,8 +812,8 @@
   },
   {
    "rank": 46,
-   "rank0": 17,
-   "point": "",
+   "rank0": 0,
+   "point": "17,589",
    "sm": "sm982882",
    "pic_archive": "http://web.archive.org/web/20180328034355im_/http://tn-skr.smilevideo.jp/smile?i=982882",
    "time": "07/09/04(火) 12:55",
@@ -992,8 +992,8 @@
   },
   {
    "rank": 56,
-   "rank0": 8,
-   "point": "",
+   "rank0": 0,
+   "point": "8,308",
    "sm": "sm2121170",
    "pic_archive": "http://web.archive.org/web/20180328034355im_/http://tn-skr.smilevideo.jp/smile?i=2121170",
    "time": "08/01/24(木) 04:49",
@@ -1010,8 +1010,8 @@
   },
   {
    "rank": 57,
-   "rank0": 7,
-   "point": "",
+   "rank0": 0,
+   "point": "7,487",
    "sm": "sm3402781",
    "pic_archive": "http://web.archive.org/web/20180328034355im_/http://tn-skr.smilevideo.jp/smile?i=3402781",
    "time": "08/05/23(金) 18:06",
@@ -1046,8 +1046,8 @@
   },
   {
    "rank": 59,
-   "rank0": 3,
-   "point": "",
+   "rank0": 0,
+   "point": "3,154",
    "sm": "sm1609005",
    "pic_archive": "http://web.archive.org/web/20180328034355im_/http://tn-skr.smilevideo.jp/smile?i=1609005",
    "time": "07/11/24(土) 19:29",
@@ -1100,7 +1100,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm3889745",
    "pic_archive": "http://web.archive.org/web/20180328034355im_/http://tn-skr.smilevideo.jp/smile?i=3889745",
@@ -1118,22 +1118,5 @@
   }
  ],
  "history": [],
- "history_no": "【初音ミク】みくみくにしてあげる♪【してやんよ】",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #43",
-  "aid": 78044915,
-  "cid": 133527568,
-  "bvid": "BV1uJ411B7G9",
-  "vocaloid": 43,
-  "utau": 0,
-  "pubdate": 1575455459,
-  "desc": "https://www.nicovideo.jp/watch/sm4112386\n○集計期間：7月21日6時～7月28日0時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：RSS版公式ランキングより\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\nPL：Closed　週刊#42：sm4038334　週刊#44：sm4195636",
-  "pic": "http://i2.hdslb.com/bfs/archive/c1cbf424daccb4f262b46f5560863bed1f7781d5.jpg"
- },
- "nicovideo": {
-  "id": "sm4112386",
-  "time": "2008-07-29T00:56:23+09:00",
-  "title": "週刊VOCALOIDランキング　#43",
-  "desc": "○集計期間：7月21日6時～7月28日0時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。PL：Closed　週刊#42：sm4038334　週刊#44：sm4195636"
- }
+ "history_no": "【初音ミク】みくみくにしてあげる♪【してやんよ】"
 }

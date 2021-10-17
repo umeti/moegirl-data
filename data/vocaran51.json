@@ -722,8 +722,8 @@
   },
   {
    "rank": 41,
-   "rank0": 18,
-   "point": "",
+   "rank0": 0,
+   "point": "18,001",
    "sm": "sm2916956",
    "pic_archive": "http://web.archive.org/web/20180328034122im_/http://tn-skr.smilevideo.jp/smile?i=2916956",
    "time": "08/04/06(日) 20:26",
@@ -812,8 +812,8 @@
   },
   {
    "rank": 46,
-   "rank0": 15,
-   "point": "",
+   "rank0": 0,
+   "point": "15,969",
    "sm": "sm2393562",
    "pic_archive": "http://web.archive.org/web/20180328034122im_/http://tn-skr.smilevideo.jp/smile?i=2393562",
    "time": "08/02/21(木) 19:29",
@@ -830,8 +830,8 @@
   },
   {
    "rank": 47,
-   "rank0": 15,
-   "point": "",
+   "rank0": 0,
+   "point": "15,879",
    "sm": "sm2234368",
    "pic_archive": "http://web.archive.org/web/20180328034122im_/http://tn-skr.smilevideo.jp/smile?i=2234368",
    "time": "08/02/05(火) 11:29",
@@ -992,8 +992,8 @@
   },
   {
    "rank": 56,
-   "rank0": 12,
-   "point": "",
+   "rank0": 0,
+   "point": "12,207",
    "sm": "sm1848517",
    "pic_archive": "http://web.archive.org/web/20180328034122im_/http://tn-skr.smilevideo.jp/smile?i=1848517",
    "time": "07/12/23(日) 19:34",
@@ -1172,8 +1172,8 @@
   },
   {
    "rank": 66,
-   "rank0": 7,
-   "point": "",
+   "rank0": 0,
+   "point": "7,249",
    "sm": "sm1971028",
    "pic_archive": "http://web.archive.org/web/20180328034122im_/http://tn-skr.smilevideo.jp/smile?i=1971028",
    "time": "08/01/07(月) 07:15",
@@ -1352,8 +1352,8 @@
   },
   {
    "rank": 76,
-   "rank0": 2,
-   "point": "",
+   "rank0": 0,
+   "point": "2,433",
    "sm": "sm3882258",
    "pic_archive": "http://web.archive.org/web/20180328034122im_/http://tn-skr.smilevideo.jp/smile?i=3882258",
    "time": "08/07/07(月) 02:15",
@@ -1442,7 +1442,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm4028470",
    "pic_archive": "http://web.archive.org/web/20180328034122im_/http://tn-skr.smilevideo.jp/smile?i=4028470",
@@ -1460,22 +1460,5 @@
   }
  ],
  "history": [],
- "history_no": "【がくっぽいど・鏡音リン】夢みることり【カバー】",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #51",
-  "aid": 69802450,
-  "cid": 120960591,
-  "bvid": "BV1WE411Q7h7",
-  "vocaloid": 51,
-  "utau": 0,
-  "pubdate": 1570020323,
-  "desc": "https://www.nicovideo.jp/watch/sm4722003\n○集計期間：9月15日5時～9月22日5時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：RSS版公式ランキングより\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\n年間VOCALOIDランキングSP2　とくべつなぼからん　第1部はsm4638539\nPL：Closed　週刊#50：sm4640167　週刊#52：sm4783296",
-  "pic": "http://i0.hdslb.com/bfs/archive/3aff0c79e6eec1734a56a00d4869d349b69ad753.jpg"
- },
- "nicovideo": {
-  "id": "sm4722003",
-  "time": "2008-09-23T23:24:59+09:00",
-  "title": "週刊VOCALOIDランキング　#51",
-  "desc": "○集計期間：9月15日5時～9月22日5時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。年間VOCALOIDランキングSP2　とくべつなぼからん　第1部はsm4638539PL：Closed　週刊#50：sm4640167　週刊#52：sm4783296"
- }
+ "history_no": "【がくっぽいど・鏡音リン】夢みることり【カバー】"
 }

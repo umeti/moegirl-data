@@ -380,8 +380,8 @@
   },
   {
    "rank": 22,
-   "rank0": 34,
-   "point": "",
+   "rank0": 0,
+   "point": "34,803",
    "sm": "sm2700265",
    "pic_archive": "http://web.archive.org/web/20180328034605im_/http://tn-skr.smilevideo.jp/smile?i=2700265",
    "time": "08/03/19(水) 04:21",
@@ -398,8 +398,8 @@
   },
   {
    "rank": 23,
-   "rank0": 34,
-   "point": "",
+   "rank0": 0,
+   "point": "34,696",
    "sm": "sm2651288",
    "pic_archive": "http://web.archive.org/web/20180328034605im_/http://tn-skr.smilevideo.jp/smile?i=2651288",
    "time": "08/03/15(土) 05:06",
@@ -614,8 +614,8 @@
   },
   {
    "rank": 35,
-   "rank0": 23,
-   "point": "",
+   "rank0": 0,
+   "point": "23,940",
    "sm": "sm2053548",
    "pic_archive": "http://web.archive.org/web/20180328034605im_/http://tn-skr.smilevideo.jp/smile?i=2053548",
    "time": "08/01/16(水) 18:45",
@@ -1046,8 +1046,8 @@
   },
   {
    "rank": 59,
-   "rank0": 6,
-   "point": "",
+   "rank0": 0,
+   "point": "6,230",
    "sm": "sm3742710",
    "pic_archive": "http://web.archive.org/web/20180328034605im_/http://tn-skr.smilevideo.jp/smile?i=3742710",
    "time": "08/06/23(月) 05:55",
@@ -1064,8 +1064,8 @@
   },
   {
    "rank": 60,
-   "rank0": 4,
-   "point": "",
+   "rank0": 0,
+   "point": "4,248",
    "sm": "sm2268739",
    "pic_archive": "http://web.archive.org/web/20180328034605im_/http://tn-skr.smilevideo.jp/smile?i=2268739",
    "time": "08/02/09(土) 03:48",
@@ -1172,7 +1172,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm2692058",
    "pic_archive": "http://web.archive.org/web/20180328034605im_/http://tn-skr.smilevideo.jp/smile?i=2692058",
@@ -1190,22 +1190,5 @@
   }
  ],
  "history": [],
- "history_no": "【初音ミクオリジナル】妄想ドライブ",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #42",
-  "aid": 66213924,
-  "cid": 144372883,
-  "bvid": "BV1M4411m7RV",
-  "vocaloid": 42,
-  "utau": 0,
-  "pubdate": 1567271098,
-  "desc": "https://www.nicovideo.jp/watch/sm4038334\n○集計期間：7月14日6時～7月21日0時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：RSS版公式ランキングより\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\nPL：Closed　週刊#41：sm3966413 週刊#43：sm4112386",
-  "pic": "http://i2.hdslb.com/bfs/archive/bec334f664ad75996d9446501ad06ebd1d3eef7e.jpg"
- },
- "nicovideo": {
-  "id": "sm4038334",
-  "time": "2008-07-22T00:42:26+09:00",
-  "title": "週刊VOCALOIDランキング　#42",
-  "desc": "○集計期間：7月14日6時～7月21日0時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。PL：Closed　週刊#41：sm3966413 週刊#43：sm4112386"
- }
+ "history_no": "【初音ミクオリジナル】妄想ドライブ"
 }

@@ -1010,8 +1010,8 @@
   },
   {
    "rank": 57,
-   "rank0": 10,
-   "point": "",
+   "rank0": 0,
+   "point": "10,929",
    "sm": "sm2085047",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=2085047",
    "time": "08/01/20(日) 05:34",
@@ -1082,8 +1082,8 @@
   },
   {
    "rank": 61,
-   "rank0": 9,
-   "point": "",
+   "rank0": 0,
+   "point": "9,661",
    "sm": "sm1342044",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=1342044",
    "time": "07/10/22(月) 23:44",
@@ -1190,8 +1190,8 @@
   },
   {
    "rank": 67,
-   "rank0": 8,
-   "point": "",
+   "rank0": 0,
+   "point": "8,984",
    "sm": "sm1810054",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=1810054",
    "time": "07/12/19(水) 00:21",
@@ -1280,8 +1280,8 @@
   },
   {
    "rank": 72,
-   "rank0": 7,
-   "point": "",
+   "rank0": 0,
+   "point": "7,654",
    "sm": "nm3526467",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=3526467",
    "time": "08/06/02(月) 05:20",
@@ -1352,8 +1352,8 @@
   },
   {
    "rank": 76,
-   "rank0": 7,
-   "point": "",
+   "rank0": 0,
+   "point": "7,285",
    "sm": "sm2651288",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=2651288",
    "time": "08/03/15(土) 05:06",
@@ -1406,8 +1406,8 @@
   },
   {
    "rank": 79,
-   "rank0": 6,
-   "point": "",
+   "rank0": 0,
+   "point": "6,706",
    "sm": "sm3212446",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=3212446",
    "time": "08/05/06(火) 05:29",
@@ -1424,8 +1424,8 @@
   },
   {
    "rank": 80,
-   "rank0": 6,
-   "point": "",
+   "rank0": 0,
+   "point": "6,646",
    "sm": "sm3718300",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=3718300",
    "time": "08/06/21(土) 10:34",
@@ -1532,8 +1532,8 @@
   },
   {
    "rank": 86,
-   "rank0": 5,
-   "point": "",
+   "rank0": 0,
+   "point": "5,311",
    "sm": "sm4271779",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=4271779",
    "time": "08/08/13(水) 02:13",
@@ -1676,8 +1676,8 @@
   },
   {
    "rank": 94,
-   "rank0": 2,
-   "point": "",
+   "rank0": 0,
+   "point": "2,254",
    "sm": "sm4538055",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=4538055",
    "time": "08/09/06(土) 17:03",
@@ -1730,7 +1730,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm1284033",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=1284033",
@@ -1748,22 +1748,5 @@
   }
  ],
  "history": [],
- "history_no": "【ＫＡＩＴＯ】なぜに買ったし【鏡音リン・レン】",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #53",
-  "aid": 69808014,
-  "cid": 187212053,
-  "bvid": "BV1sE411Q7iW",
-  "vocaloid": 53,
-  "utau": 0,
-  "pubdate": 1573230667,
-  "desc": "https://www.nicovideo.jp/watch/sm4851760\n○集計期間：9月29日5時～10月6日5時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：RSS版公式ランキングより\n　総合　　　　再生・コメント・マイリスト各1000位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\n公式総合ランキングが1000位まで拡張されたため、ランクイン数が増加しております。\n\nPL：Closed　週刊#52：sm4783296（秋味)：sm4817913　年間SP2 第1部： 週刊#54：sm4917986",
-  "pic": "http://i1.hdslb.com/bfs/archive/ec005766b7085792d823e897f27d44624345abea.jpg"
- },
- "nicovideo": {
-  "id": "sm4851760",
-  "time": "2008-10-06T23:56:08+09:00",
-  "title": "週刊VOCALOIDランキング　#53",
-  "desc": "○集計期間：9月29日5時～10月6日5時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各1000位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。公式総合ランキングが1000位まで拡張されたため、ランクイン数が増加しております。PL：Closed　週刊#52：sm4783296（秋味)：sm4817913　年間SP2 第1部： 週刊#54：sm4917986"
- }
+ "history_no": "【ＫＡＩＴＯ】なぜに買ったし【鏡音リン・レン】"
 }

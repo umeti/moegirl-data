@@ -68,7 +68,7 @@ async function main(arg) {
 }
 
 async function fixData() {
-  for (let no = 402; no <= 500; no++) {
+  for (let no = 1; no <= 60; no++) {
     console.log("Fetch vocaran " + no)
     let res = await fetch('http://web.archive.org/web/20180323041737/http://vocaran.jpn.org/vocaran/' + no)
     let html = await res.text()

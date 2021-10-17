@@ -1316,8 +1316,8 @@
   },
   {
    "rank": 74,
-   "rank0": 8,
-   "point": "",
+   "rank0": 0,
+   "point": "8,801",
    "sm": "sm3971304",
    "pic_archive": "http://web.archive.org/web/20180328034721im_/http://tn-skr.smilevideo.jp/smile?i=3971304",
    "time": "08/07/15(火) 18:59",
@@ -1442,8 +1442,8 @@
   },
   {
    "rank": 81,
-   "rank0": 7,
-   "point": "",
+   "rank0": 0,
+   "point": "7,808",
    "sm": "sm4967664",
    "pic_archive": "http://web.archive.org/web/20180328034721im_/http://tn-skr.smilevideo.jp/smile?i=4967664",
    "time": "08/10/18(土) 09:11",
@@ -1532,8 +1532,8 @@
   },
   {
    "rank": 86,
-   "rank0": 7,
-   "point": "",
+   "rank0": 0,
+   "point": "7,238",
    "sm": "sm3440324",
    "pic_archive": "http://web.archive.org/web/20180328034721im_/http://tn-skr.smilevideo.jp/smile?i=3440324",
    "time": "08/05/25(日) 20:53",
@@ -1604,8 +1604,8 @@
   },
   {
    "rank": 90,
-   "rank0": 6,
-   "point": "",
+   "rank0": 0,
+   "point": "6,566",
    "sm": "sm2891745",
    "pic_archive": "http://web.archive.org/web/20180328034721im_/http://tn-skr.smilevideo.jp/smile?i=2891745",
    "time": "08/04/04(金) 20:16",
@@ -1802,8 +1802,8 @@
   },
   {
    "rank": 101,
-   "rank0": 3,
-   "point": "",
+   "rank0": 0,
+   "point": "3,005",
    "sm": "sm3880186",
    "pic_archive": "http://web.archive.org/web/20180328034721im_/http://tn-skr.smilevideo.jp/smile?i=3880186",
    "time": "08/07/06(日) 23:34",
@@ -1910,8 +1910,8 @@
   },
   {
    "rank": 107,
-   "rank0": 1,
-   "point": "",
+   "rank0": 0,
+   "point": "1,466",
    "sm": "sm4543146",
    "pic_archive": "http://web.archive.org/web/20180328034721im_/http://tn-skr.smilevideo.jp/smile?i=4543146",
    "time": "08/09/07(日) 00:59",
@@ -1946,7 +1946,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm4010572",
    "pic_archive": "http://web.archive.org/web/20180328034721im_/http://tn-skr.smilevideo.jp/smile?i=4010572",
@@ -1990,22 +1990,5 @@
    "sm": "sm1541708"
   }
  ],
- "history_no": "#7",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #60",
-  "aid": 78275470,
-  "cid": 202359481,
-  "bvid": "BV16J411i71f",
-  "vocaloid": 60,
-  "utau": 0,
-  "pubdate": 1575632872,
-  "desc": "sm5348635\n○集計期間：11月17日5時～11月24日5時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：RSS版公式ランキングより\n　総合　　　　再生・コメント・マイリスト各1000位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\nお待たせいたしました。\n\nPL：Closed　週刊#59：sm5279024　週刊#61：sm5430322",
-  "pic": "http://i2.hdslb.com/bfs/archive/da28178431c9f9d6afb6f1163a9784329b131f49.jpg"
- },
- "nicovideo": {
-  "id": "sm5348635",
-  "time": "2008-11-24T23:20:47+09:00",
-  "title": "週刊VOCALOIDランキング　#60",
-  "desc": "○集計期間：11月17日5時～11月24日5時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各1000位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。お待たせいたしました。PL：Closed　週刊#59：sm5279024　週刊#61：sm5430322"
- }
+ "history_no": "#7"
 }

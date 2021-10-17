@@ -650,8 +650,8 @@
   },
   {
    "rank": 37,
-   "rank0": 18,
-   "point": "",
+   "rank0": 0,
+   "point": "18,505",
    "sm": "sm2393562",
    "pic_archive": "http://web.archive.org/web/20180328034717im_/http://tn-skr.smilevideo.jp/smile?i=2393562",
    "time": "08/02/21(木) 19:29",
@@ -740,8 +740,8 @@
   },
   {
    "rank": 42,
-   "rank0": 16,
-   "point": "",
+   "rank0": 0,
+   "point": "16,626",
    "sm": "sm2916956",
    "pic_archive": "http://web.archive.org/web/20180328034717im_/http://tn-skr.smilevideo.jp/smile?i=2916956",
    "time": "08/04/06(日) 20:26",
@@ -920,8 +920,8 @@
   },
   {
    "rank": 52,
-   "rank0": 13,
-   "point": "",
+   "rank0": 0,
+   "point": "13,636",
    "sm": "sm3398876",
    "pic_archive": "http://web.archive.org/web/20180328034717im_/http://tn-skr.smilevideo.jp/smile?i=3398876",
    "time": "08/05/22(木) 21:30",
@@ -1208,8 +1208,8 @@
   },
   {
    "rank": 68,
-   "rank0": 3,
-   "point": "",
+   "rank0": 0,
+   "point": "3,909",
    "sm": "sm1804377",
    "pic_archive": "http://web.archive.org/web/20180328034717im_/http://tn-skr.smilevideo.jp/smile?i=1804377",
    "time": "07/12/18(火) 06:28",
@@ -1244,8 +1244,8 @@
   },
   {
    "rank": 70,
-   "rank0": 2,
-   "point": "",
+   "rank0": 0,
+   "point": "2,944",
    "sm": "sm3202311",
    "pic_archive": "http://web.archive.org/web/20180328034717im_/http://tn-skr.smilevideo.jp/smile?i=3202311",
    "time": "08/05/05(月) 13:12",
@@ -1316,7 +1316,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "nm3370081",
    "pic_archive": "http://web.archive.org/web/20180328034717im_/http://tn-skr.smilevideo.jp/smile?i=3370081",
@@ -1334,22 +1334,5 @@
   }
  ],
  "history": [],
- "history_no": "【神威がくぽ】　疾風　【がくっぽいどオリジナル】",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #46",
-  "aid": 69754477,
-  "cid": 146434042,
-  "bvid": "BV1ZE411D7fq",
-  "vocaloid": 46,
-  "utau": 0,
-  "pubdate": 1569997950,
-  "desc": "https://www.nicovideo.jp/watch/sm4336653\n○集計期間：8月11日5時～8月18日5時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：RSS版公式ランキングより\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\n今週より、一部作業工程にrankingloid様のプログラム「日刊たんの妹(nameb by代打E様)」)」を導入しました。\nPL：Closed　週刊#45：sm4260628 週刊#47：sm4413536",
-  "pic": "http://i0.hdslb.com/bfs/archive/97f76c2b452ffba9ec0d90c083424f7cb181a39c.jpg"
- },
- "nicovideo": {
-  "id": "sm4336653",
-  "time": "2008-08-19T01:34:26+09:00",
-  "title": "週刊VOCALOIDランキング　#46",
-  "desc": "○集計期間：8月11日5時～8月18日5時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。今週より、一部作業工程にrankingloid様のプログラム「日刊たんの妹(nameb by代打E様)」)」を導入しました。PL：Closed　週刊#45：sm4260628 週刊#47：sm4413536"
- }
+ "history_no": "【神威がくぽ】　疾風　【がくっぽいどオリジナル】"
 }

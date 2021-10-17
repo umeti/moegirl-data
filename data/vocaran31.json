@@ -452,8 +452,8 @@
   },
   {
    "rank": 26,
-   "rank0": 48,
-   "point": "",
+   "rank0": 0,
+   "point": "48,470",
    "sm": "sm2090149",
    "pic_archive": "http://web.archive.org/web/20180328034718im_/http://tn-skr.smilevideo.jp/smile?i=2090149",
    "time": "08/01/20(日) 18:37",
@@ -758,8 +758,8 @@
   },
   {
    "rank": 43,
-   "rank0": 21,
-   "point": "",
+   "rank0": 0,
+   "point": "21,999",
    "sm": "sm2398205",
    "pic_archive": "http://web.archive.org/web/20180328034718im_/http://tn-skr.smilevideo.jp/smile?i=2398205",
    "time": "08/02/22(金) 04:13",
@@ -1046,8 +1046,8 @@
   },
   {
    "rank": 59,
-   "rank0": 12,
-   "point": "",
+   "rank0": 0,
+   "point": "12,634",
    "sm": "sm1911744",
    "pic_archive": "http://web.archive.org/web/20180328034718im_/http://tn-skr.smilevideo.jp/smile?i=1911744",
    "time": "07/12/31(月) 11:50",
@@ -1190,8 +1190,8 @@
   },
   {
    "rank": 67,
-   "rank0": 5,
-   "point": "",
+   "rank0": 0,
+   "point": "5,587",
    "sm": "sm2156833",
    "pic_archive": "http://web.archive.org/web/20180328034718im_/http://tn-skr.smilevideo.jp/smile?i=2156833",
    "time": "08/01/28(月) 00:12",
@@ -1208,8 +1208,8 @@
   },
   {
    "rank": 68,
-   "rank0": 4,
-   "point": "",
+   "rank0": 0,
+   "point": "4,997",
    "sm": "sm1908747",
    "pic_archive": "http://web.archive.org/web/20180328034718im_/http://tn-skr.smilevideo.jp/smile?i=1908747",
    "time": "07/12/31(月) 03:41",
@@ -1352,8 +1352,8 @@
   },
   {
    "rank": 76,
-   "rank0": 2,
-   "point": "",
+   "rank0": 0,
+   "point": "2,440",
    "sm": "sm2390140",
    "pic_archive": "http://web.archive.org/web/20180328034718im_/http://tn-skr.smilevideo.jp/smile?i=2390140",
    "time": "08/02/21(木) 08:08",
@@ -1370,8 +1370,8 @@
   },
   {
    "rank": 77,
-   "rank0": 2,
-   "point": "",
+   "rank0": 0,
+   "point": "2,132",
    "sm": "sm2129043",
    "pic_archive": "http://web.archive.org/web/20180328034718im_/http://tn-skr.smilevideo.jp/smile?i=2129043",
    "time": "08/01/25(金) 04:52",
@@ -1388,8 +1388,8 @@
   },
   {
    "rank": 78,
-   "rank0": 2,
-   "point": "",
+   "rank0": 0,
+   "point": "2,123",
    "sm": "sm2398354",
    "pic_archive": "http://web.archive.org/web/20180328034718im_/http://tn-skr.smilevideo.jp/smile?i=2398354",
    "time": "08/02/22(金) 04:49",
@@ -1424,8 +1424,8 @@
   },
   {
    "rank": 80,
-   "rank0": 1,
-   "point": "",
+   "rank0": 0,
+   "point": "1,568",
    "sm": "sm2469271",
    "pic_archive": "http://web.archive.org/web/20180328034718im_/http://tn-skr.smilevideo.jp/smile?i=2469271",
    "time": "08/02/29(金) 13:11",
@@ -1478,7 +1478,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm2223476",
    "pic_archive": "http://web.archive.org/web/20180328034718im_/http://tn-skr.smilevideo.jp/smile?i=2223476",
@@ -1496,22 +1496,5 @@
   }
  ],
  "history": [],
- "history_no": "KAITOオリジナル曲「カゲフミ」",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #31",
-  "aid": 64051499,
-  "cid": 140849867,
-  "bvid": "BV1Y4411Z7R5",
-  "vocaloid": 31,
-  "utau": 0,
-  "pubdate": 1565978934,
-  "desc": "https://www.nicovideo.jp/watch/sm3210344\n○集計期間：4月28日6時～5月5日0時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：\n　総合各300位内、カテゴリ別各100位内に入っている動画。\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\nPL:Close 週刊#30:sm3132727 週刊#32：sm3298460\n\n訂正：ランキングに欠落がありました、\n『A Song For You』～私はあなたの心の中に...feat.初音ミク ｓｍ2308938　10,110Pts\n【初音ミク】ミクがスペランカー略して「ミクランカー」 ｓｍ1810054 4,982pts\n再集計の結果暫定63、69位です。謹んでお詫び申し上げます。",
-  "pic": "http://i1.hdslb.com/bfs/archive/6e9cf39b83460bdc34b51214a2db4fb8a9e26fb4.jpg"
- },
- "nicovideo": {
-  "id": "sm3210344",
-  "time": "2008-05-06T01:06:20+09:00",
-  "title": "週刊VOCALOIDランキング　#31",
-  "desc": "○集計期間：4月28日6時～5月5日0時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：　総合各300位内、カテゴリ別各100位内に入っている動画。　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。PL:Close 週刊#30:sm3132727 週刊#32：sm3298460 訂正：ランキングに欠落がありました、『A Song For You』～私はあなたの心の中に...feat.初音ミク ｓｍ2308938　10,110Pts【初音ミク】ミクがスペランカー略して「ミクランカー」 ｓｍ1810054 4,982pts再集計の結果暫定63、69位です。謹んでお詫び申し上げます。"
- }
+ "history_no": "KAITOオリジナル曲「カゲフミ」"
 }

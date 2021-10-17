@@ -668,8 +668,8 @@
   },
   {
    "rank": 38,
-   "rank0": 21,
-   "point": "",
+   "rank0": 0,
+   "point": "21,891",
    "sm": "sm2736134",
    "pic_archive": "http://web.archive.org/web/20180328034656im_/http://tn-skr.smilevideo.jp/smile?i=2736134",
    "time": "08/03/22(土) 05:27",
@@ -866,8 +866,8 @@
   },
   {
    "rank": 49,
-   "rank0": 10,
-   "point": "",
+   "rank0": 0,
+   "point": "10,866",
    "sm": "sm2393562",
    "pic_archive": "http://web.archive.org/web/20180328034656im_/http://tn-skr.smilevideo.jp/smile?i=2393562",
    "time": "08/02/21(木) 19:29",
@@ -1154,8 +1154,8 @@
   },
   {
    "rank": 65,
-   "rank0": 6,
-   "point": "",
+   "rank0": 0,
+   "point": "6,913",
    "sm": "sm2156833",
    "pic_archive": "http://web.archive.org/web/20180328034656im_/http://tn-skr.smilevideo.jp/smile?i=2156833",
    "time": "08/01/28(月) 00:12",
@@ -1226,8 +1226,8 @@
   },
   {
    "rank": 69,
-   "rank0": 2,
-   "point": "",
+   "rank0": 0,
+   "point": "2,980",
    "sm": "sm2390140",
    "pic_archive": "http://web.archive.org/web/20180328034656im_/http://tn-skr.smilevideo.jp/smile?i=2390140",
    "time": "08/02/21(木) 08:08",
@@ -1352,8 +1352,8 @@
   },
   {
    "rank": 76,
-   "rank0": 201,
-   "point": "",
+   "rank0": 0,
+   "point": "201",
    "sm": "sm3084137",
    "pic_archive": "http://web.archive.org/web/20180328034656im_/http://tn-skr.smilevideo.jp/smile?i=3084137",
    "time": "08/04/24(木) 05:29",
@@ -1370,7 +1370,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm2788642",
    "pic_archive": "http://web.archive.org/web/20180328034656im_/http://tn-skr.smilevideo.jp/smile?i=2788642",
@@ -1388,22 +1388,5 @@
   }
  ],
  "history": [],
- "history_no": "初音ミクオリジナル曲 「ミクとピアノとファンタジィ」",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #37",
-  "aid": 65071976,
-  "cid": 142527293,
-  "bvid": "BV174411r7Wf",
-  "vocaloid": 37,
-  "utau": 0,
-  "pubdate": 1566573370,
-  "desc": "https://www.nicovideo.jp/watch/sm3680987\n○集計期間：6月9日6時～6月16日0時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内に入っている動画。\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\nナビゲートキャラクター募集は終了しました、多数のご応募ありがとうございました。\n\nPL：Closed 週刊#36：sm3612645 週刊#38：sm3751018",
-  "pic": "http://i0.hdslb.com/bfs/archive/9d5f545151bd985bbcba75163e580293447c4feb.jpg"
- },
- "nicovideo": {
-  "id": "sm3680987",
-  "time": "2008-06-17T01:40:58+09:00",
-  "title": "週刊VOCALOIDランキング　#37",
-  "desc": "○集計期間：6月9日6時～6月16日0時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内に入っている動画。　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。ナビゲートキャラクター募集は終了しました、多数のご応募ありがとうございました。PL：Closed 週刊#36：sm3612645 週刊#38：sm3751018"
- }
+ "history_no": "初音ミクオリジナル曲 「ミクとピアノとファンタジィ」"
 }

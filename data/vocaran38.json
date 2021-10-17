@@ -992,8 +992,8 @@
   },
   {
    "rank": 56,
-   "rank0": 7,
-   "point": "",
+   "rank0": 0,
+   "point": "7,567",
    "sm": "sm1059995",
    "pic_archive": "http://web.archive.org/web/20180328034749im_/http://tn-skr.smilevideo.jp/smile?i=1059995",
    "time": "07/09/15(土) 03:36",
@@ -1118,8 +1118,8 @@
   },
   {
    "rank": 63,
-   "rank0": 3,
-   "point": "",
+   "rank0": 0,
+   "point": "3,593",
    "sm": "sm1682901",
    "pic_archive": "http://web.archive.org/web/20180328034749im_/http://tn-skr.smilevideo.jp/smile?i=1682901",
    "time": "07/12/03(月) 08:42",
@@ -1244,8 +1244,8 @@
   },
   {
    "rank": 70,
-   "rank0": 1,
-   "point": "",
+   "rank0": 0,
+   "point": "1,240",
    "sm": "sm3202311",
    "pic_archive": "http://web.archive.org/web/20180328034749im_/http://tn-skr.smilevideo.jp/smile?i=3202311",
    "time": "08/05/05(月) 13:12",
@@ -1262,8 +1262,8 @@
   },
   {
    "rank": 71,
-   "rank0": 1,
-   "point": "",
+   "rank0": 0,
+   "point": "1,029",
    "sm": "nm2657814",
    "pic_archive": "http://web.archive.org/web/20180328034749im_/http://tn-skr.smilevideo.jp/smile?i=2657814",
    "time": "08/03/15(土) 19:29",
@@ -1316,8 +1316,8 @@
   },
   {
    "rank": 74,
-   "rank0": 182,
-   "point": "",
+   "rank0": 0,
+   "point": "182",
    "sm": "sm1609005",
    "pic_archive": "http://web.archive.org/web/20180328034749im_/http://tn-skr.smilevideo.jp/smile?i=1609005",
    "time": "07/11/24(土) 19:29",
@@ -1334,7 +1334,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm1581906",
    "pic_archive": "http://web.archive.org/web/20180328034749im_/http://tn-skr.smilevideo.jp/smile?i=1581906",
@@ -1352,22 +1352,5 @@
   }
  ],
  "history": [],
- "history_no": "【初音ミク】たちに「となりのトトロ メドレー」を歌ってもらいました",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #38",
-  "aid": 65223830,
-  "cid": 142528212,
-  "bvid": "BV1V4411k7BL",
-  "vocaloid": 38,
-  "utau": 0,
-  "pubdate": 1566665238,
-  "desc": "https://www.nicovideo.jp/watch/sm3751018\n○集計期間：6月16日6時～6月23日0時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内に入っている動画。\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\n来週はリニューアルのためUPが若干遅れるかもしれません。\nオーディション：sm3787146\n\nプレイリストの公開は終了しました。\n週刊VOCALOIDランキング　#37はsm3680987\n週刊VOCALOIDランキング　#39はsm3821671",
-  "pic": "http://i0.hdslb.com/bfs/archive/e92056911da22f3924556eabfd92f31e7a819623.jpg"
- },
- "nicovideo": {
-  "id": "sm3751018",
-  "time": "2008-06-24T01:03:31+09:00",
-  "title": "週刊VOCALOIDランキング　#38",
-  "desc": "○集計期間：6月16日6時～6月23日0時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内に入っている動画。　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。来週はリニューアルのためUPが若干遅れるかもしれません。オーディション：sm3787146プレイリストの公開は終了しました。週刊VOCALOIDランキング　#37はsm3680987週刊VOCALOIDランキング　#39はsm3821671"
- }
+ "history_no": "【初音ミク】たちに「となりのトトロ メドレー」を歌ってもらいました"
 }

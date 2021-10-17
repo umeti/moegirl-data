@@ -776,8 +776,8 @@
   },
   {
    "rank": 44,
-   "rank0": 27,
-   "point": "",
+   "rank0": 0,
+   "point": "27,534",
    "sm": "sm2871474",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=2871474",
    "time": "08/04/02(水) 19:54",
@@ -848,8 +848,8 @@
   },
   {
    "rank": 48,
-   "rank0": 23,
-   "point": "",
+   "rank0": 0,
+   "point": "23,756",
    "sm": "sm3742710",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=3742710",
    "time": "08/06/23(月) 05:55",
@@ -884,8 +884,8 @@
   },
   {
    "rank": 50,
-   "rank0": 21,
-   "point": "",
+   "rank0": 0,
+   "point": "21,369",
    "sm": "sm2352095",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=2352095",
    "time": "08/02/17(日) 07:50",
@@ -1082,8 +1082,8 @@
   },
   {
    "rank": 61,
-   "rank0": 12,
-   "point": "",
+   "rank0": 0,
+   "point": "12,695",
    "sm": "sm2129043",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=2129043",
    "time": "08/01/25(金) 04:52",
@@ -1172,8 +1172,8 @@
   },
   {
    "rank": 66,
-   "rank0": 5,
-   "point": "",
+   "rank0": 0,
+   "point": "5,186",
    "sm": "sm3882258",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=3882258",
    "time": "08/07/07(月) 02:15",
@@ -1190,8 +1190,8 @@
   },
   {
    "rank": 67,
-   "rank0": 4,
-   "point": "",
+   "rank0": 0,
+   "point": "4,108",
    "sm": "sm3798833",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=3798833",
    "time": "08/06/29(日) 01:00",
@@ -1244,8 +1244,8 @@
   },
   {
    "rank": 70,
-   "rank0": 562,
-   "point": "",
+   "rank0": 0,
+   "point": "562",
    "sm": "sm2896925",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=2896925",
    "time": "08/04/05(土) 04:58",
@@ -1262,7 +1262,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "nm3635575",
    "pic_archive": "http://web.archive.org/web/20180328034706im_/http://tn-skr.smilevideo.jp/smile?i=3635575",
@@ -1280,22 +1280,5 @@
   }
  ],
  "history": [],
- "history_no": "【がくっぽいど】 喪失モノクローム 【オリジナル】",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #44",
-  "aid": 69748326,
-  "cid": 146433668,
-  "bvid": "BV1ZE411D7px",
-  "vocaloid": 44,
-  "utau": 0,
-  "pubdate": 1569994919,
-  "desc": "https://www.nicovideo.jp/watch/sm4195636\n○集計期間：7月28日5時～8月4日5時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：RSS版公式ランキングより\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\nPL：Closed　週刊#43：sm4112386　週刊#45：sm4260628 予告補足：mylist/4892413\n訂正：欠落　５人揃って卑怯戦隊うろたんだー！【とかち仕様で新隊員歓迎】 ｓｍ2129043 12,695pts\n暫定61位です、謹んでお詫びいたします。",
-  "pic": "http://i2.hdslb.com/bfs/archive/228b06a6a3603644afc4e6e10f0862cbea9ce642.jpg"
- },
- "nicovideo": {
-  "id": "sm4195636",
-  "time": "2008-08-05T23:44:52+09:00",
-  "title": "週刊VOCALOIDランキング　#44",
-  "desc": "○集計期間：7月28日5時～8月4日5時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。PL：Closed　週刊#43：sm4112386　週刊#45：sm4260628 予告補足：mylist/4892413訂正：欠落　５人揃って卑怯戦隊うろたんだー！【とかち仕様で新隊員歓迎】 ｓｍ2129043 12,695pts暫定61位です、謹んでお詫びいたします。"
- }
+ "history_no": "【がくっぽいど】 喪失モノクローム 【オリジナル】"
 }

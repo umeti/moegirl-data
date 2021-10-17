@@ -848,8 +848,8 @@
   },
   {
    "rank": 48,
-   "rank0": 14,
-   "point": "",
+   "rank0": 0,
+   "point": "14,639",
    "sm": "nm4907580",
    "pic_archive": "http://web.archive.org/web/20180328034652im_/http://tn-skr.smilevideo.jp/smile?i=4907580",
    "time": "08/10/12(日) 16:47",
@@ -1478,8 +1478,8 @@
   },
   {
    "rank": 83,
-   "rank0": 7,
-   "point": "",
+   "rank0": 0,
+   "point": "7,066",
    "sm": "sm2736134",
    "pic_archive": "http://web.archive.org/web/20180328034652im_/http://tn-skr.smilevideo.jp/smile?i=2736134",
    "time": "08/03/22(土) 05:27",
@@ -1550,8 +1550,8 @@
   },
   {
    "rank": 87,
-   "rank0": 6,
-   "point": "",
+   "rank0": 0,
+   "point": "6,549",
    "sm": "sm3440324",
    "pic_archive": "http://web.archive.org/web/20180328034652im_/http://tn-skr.smilevideo.jp/smile?i=3440324",
    "time": "08/05/25(日) 20:53",
@@ -1730,8 +1730,8 @@
   },
   {
    "rank": 97,
-   "rank0": 3,
-   "point": "",
+   "rank0": 0,
+   "point": "3,566",
    "sm": "sm1804377",
    "pic_archive": "http://web.archive.org/web/20180328034652im_/http://tn-skr.smilevideo.jp/smile?i=1804377",
    "time": "07/12/18(火) 06:28",
@@ -1820,8 +1820,8 @@
   },
   {
    "rank": 102,
-   "rank0": 2,
-   "point": "",
+   "rank0": 0,
+   "point": "2,143",
    "sm": "sm4543146",
    "pic_archive": "http://web.archive.org/web/20180328034652im_/http://tn-skr.smilevideo.jp/smile?i=4543146",
    "time": "08/09/07(日) 00:59",
@@ -1874,8 +1874,8 @@
   },
   {
    "rank": 105,
-   "rank0": 1,
-   "point": "",
+   "rank0": 0,
+   "point": "1,294",
    "sm": "sm3742710",
    "pic_archive": "http://web.archive.org/web/20180328034652im_/http://tn-skr.smilevideo.jp/smile?i=3742710",
    "time": "08/06/23(月) 05:55",
@@ -1910,7 +1910,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm1847699",
    "pic_archive": "http://web.archive.org/web/20180328034652im_/http://tn-skr.smilevideo.jp/smile?i=1847699",
@@ -1954,22 +1954,5 @@
    "sm": "sm1385804"
   }
  ],
- "history_no": "#4",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #57",
-  "aid": 76443945,
-  "cid": 174882662,
-  "bvid": "BV1KJ41127HY",
-  "vocaloid": 57,
-  "utau": 0,
-  "pubdate": 1574298514,
-  "desc": "https://www.nicovideo.jp/watch/sm5137429\n○集計期間：10月27日5時～11月3日5時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n○集計対象：RSS版公式ランキングより\n　総合　　　　再生・コメント・マイリスト各1000位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も対象。\n\nPL：closed　週刊#56：sm5070884　週刊#58：sm5211517\n訂正：ランキングに欠落がありました。\n【MEIKO・KAITO】悠久賛歌【年長組ＰＶ】 ｓｍ5107775 33,626Pts\n【ＫＡＩＴＯ】誰かの願いが叶うころ【カバー】 ｎｍ5065448 5,698Pts\nそれぞれ暫定21位、91位です、謹んでお詫びいたします。",
-  "pic": "http://i1.hdslb.com/bfs/archive/632f2de8a6e0268d3bda0cbb293d3f036c807f1d.jpg"
- },
- "nicovideo": {
-  "id": "sm5137429",
-  "time": "2008-11-03T18:36:33+09:00",
-  "title": "週刊VOCALOIDランキング　#57",
-  "desc": "○集計期間：10月27日5時～11月3日5時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各1000位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も対象。PL：closed　週刊#56：sm5070884　週刊#58：sm5211517訂正：ランキングに欠落がありました。【MEIKO・KAITO】悠久賛歌【年長組ＰＶ】 ｓｍ5107775 33,626Pts 【ＫＡＩＴＯ】誰かの願いが叶うころ【カバー】 ｎｍ5065448 5,698Ptsそれぞれ暫定21位、91位です、謹んでお詫びいたします。"
- }
+ "history_no": "#4"
 }

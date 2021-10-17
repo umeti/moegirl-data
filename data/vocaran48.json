@@ -974,8 +974,8 @@
   },
   {
    "rank": 55,
-   "rank0": 20,
-   "point": "",
+   "rank0": 0,
+   "point": "20,128",
    "sm": "sm2916956",
    "pic_archive": "http://web.archive.org/web/20180328034315im_/http://tn-skr.smilevideo.jp/smile?i=2916956",
    "time": "08/04/06(日) 20:26",
@@ -992,8 +992,8 @@
   },
   {
    "rank": 56,
-   "rank0": 18,
-   "point": "",
+   "rank0": 0,
+   "point": "18,392",
    "sm": "sm1050729",
    "pic_archive": "http://web.archive.org/web/20180328034315im_/http://tn-skr.smilevideo.jp/smile?i=1050729",
    "time": "07/09/13(木) 19:56",
@@ -1244,8 +1244,8 @@
   },
   {
    "rank": 70,
-   "rank0": 11,
-   "point": "",
+   "rank0": 0,
+   "point": "11,577",
    "sm": "sm2352095",
    "pic_archive": "http://web.archive.org/web/20180328034315im_/http://tn-skr.smilevideo.jp/smile?i=2352095",
    "time": "08/02/17(日) 07:50",
@@ -1316,8 +1316,8 @@
   },
   {
    "rank": 74,
-   "rank0": 6,
-   "point": "",
+   "rank0": 0,
+   "point": "6,119",
    "sm": "sm1342044",
    "pic_archive": "http://web.archive.org/web/20180328034315im_/http://tn-skr.smilevideo.jp/smile?i=1342044",
    "time": "07/10/22(月) 23:44",
@@ -1334,8 +1334,8 @@
   },
   {
    "rank": 75,
-   "rank0": 4,
-   "point": "",
+   "rank0": 0,
+   "point": "4,888",
    "sm": "sm3742710",
    "pic_archive": "http://web.archive.org/web/20180328034315im_/http://tn-skr.smilevideo.jp/smile?i=3742710",
    "time": "08/06/23(月) 05:55",
@@ -1550,7 +1550,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm4001343",
    "pic_archive": "http://web.archive.org/web/20180328034315im_/http://tn-skr.smilevideo.jp/smile?i=4001343",
@@ -1568,22 +1568,5 @@
   }
  ],
  "history": [],
- "history_no": "初音ミク　が　オリジナル曲を歌ってくれたよ「メルト」",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #48",
-  "aid": 78118010,
-  "cid": 162454730,
-  "bvid": "BV1aJ411B7cJ",
-  "vocaloid": 48,
-  "utau": 0,
-  "pubdate": 1575522515,
-  "desc": "https://www.nicovideo.jp/watch/sm4492573\n○集計期間：8月25日5時～9月1日5時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：RSS版公式ランキングより\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\nPL：Closed　週刊#47：sm4413536　週刊#49：sm4566244",
-  "pic": "http://i2.hdslb.com/bfs/archive/c8d38fcca184957b827fc6efec0a057fc79d8260.jpg"
- },
- "nicovideo": {
-  "id": "sm4492573",
-  "time": "2008-09-02T00:36:45+09:00",
-  "title": "週刊VOCALOIDランキング　#48",
-  "desc": "○集計期間：8月25日5時～9月1日5時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：RSS版公式ランキングより　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内のいずれかに入った動画　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。PL：Closed　週刊#47：sm4413536　週刊#49：sm4566244"
- }
+ "history_no": "初音ミク　が　オリジナル曲を歌ってくれたよ「メルト」"
 }

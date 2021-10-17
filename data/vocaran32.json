@@ -470,8 +470,8 @@
   },
   {
    "rank": 27,
-   "rank0": 37,
-   "point": "",
+   "rank0": 0,
+   "point": "37,368",
    "sm": "sm2509538",
    "pic_archive": "http://web.archive.org/web/20180327090257im_/http://tn-skr.smilevideo.jp/smile?i=2509538",
    "time": "08/03/04(火) 03:09",
@@ -614,8 +614,8 @@
   },
   {
    "rank": 35,
-   "rank0": 18,
-   "point": "",
+   "rank0": 0,
+   "point": "18,064",
    "sm": "sm982882",
    "pic_archive": "http://web.archive.org/web/20180327090257im_/http://tn-skr.smilevideo.jp/smile?i=982882",
    "time": "07/09/04(火) 12:55",
@@ -848,8 +848,8 @@
   },
   {
    "rank": 48,
-   "rank0": 10,
-   "point": "",
+   "rank0": 0,
+   "point": "10,820",
    "sm": "sm2736134",
    "pic_archive": "http://web.archive.org/web/20180327090257im_/http://tn-skr.smilevideo.jp/smile?i=2736134",
    "time": "08/03/22(土) 05:27",
@@ -1028,8 +1028,8 @@
   },
   {
    "rank": 58,
-   "rank0": 3,
-   "point": "",
+   "rank0": 0,
+   "point": "3,157",
    "sm": "sm346059",
    "pic_archive": "http://web.archive.org/web/20180327090257im_/http://tn-skr.smilevideo.jp/smile?i=346059",
    "time": "07/05/25(金) 05:30",
@@ -1082,8 +1082,8 @@
   },
   {
    "rank": 61,
-   "rank0": 1,
-   "point": "",
+   "rank0": 0,
+   "point": "1,618",
    "sm": "sm2871474",
    "pic_archive": "http://web.archive.org/web/20180327090257im_/http://tn-skr.smilevideo.jp/smile?i=2871474",
    "time": "08/04/02(水) 19:54",
@@ -1208,7 +1208,7 @@
   },
   {
    "rank": null,
-   "rank0": 999,
+   "rank0": 0,
    "point": "",
    "sm": "sm2454715",
    "pic_archive": "http://web.archive.org/web/20180327090257im_/http://tn-skr.smilevideo.jp/smile?i=2454715",
@@ -1226,22 +1226,5 @@
   }
  ],
  "history": [],
- "history_no": "初音ミクにオリジナルソング「貴方に花を 私に唄を」を歌わせてみた。",
- "bilivideo": {
-  "title": "週刊VOCALOID Ranking #32",
-  "aid": 64181321,
-  "cid": 140850563,
-  "bvid": "BV154411f7PC",
-  "vocaloid": 32,
-  "utau": 0,
-  "pubdate": 1566053750,
-  "desc": "https://www.nicovideo.jp/watch/sm3298460\n○集計期間：5月5日6時～5月12日0時\n○集計方法：再生数+コメント数×補正値+マイリスト登録数×20\n　(補正値…ポイント合計に占める再生数+マイリスト数の割合)\n○集計対象：\n　総合　　　　再生・コメント・マイリスト各300位内、\n　カテゴリ別　再生・コメント・マイリスト各100位内に入っている動画。\n　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】\n　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。\n\nプレイリストの公開は終了しました。\n週刊VOCALOIDランキング　#31はsm3210344\n週刊VOCALOIDランキング　#33はsm3372021",
-  "pic": "http://i2.hdslb.com/bfs/archive/3ca2c791916ccdd552ece58149eb6644b27a382a.jpg"
- },
- "nicovideo": {
-  "id": "sm3298460",
-  "time": "2008-05-13T01:35:52+09:00",
-  "title": "週刊VOCALOIDランキング　#32",
-  "desc": "○集計期間：5月5日6時～5月12日0時○集計方法：再生数+コメント数×補正値+マイリスト登録数×20　(補正値…ポイント合計に占める再生数+マイリスト数の割合)○集計対象：　総合　　　　再生・コメント・マイリスト各300位内、　カテゴリ別　再生・コメント・マイリスト各100位内に入っている動画。　対象カテゴリ：【音楽】【歌ってみた】【演奏してみた】　＊　総合ランクに入っていれば、上記カテゴリ外動画も集計されます。プレイリストの公開は終了しました。週刊VOCALOIDランキング　#31はsm3210344週刊VOCALOIDランキング　#33はsm3372021"
- }
+ "history_no": "初音ミクにオリジナルソング「貴方に花を 私に唄を」を歌わせてみた。"
 }
