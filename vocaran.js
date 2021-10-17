@@ -68,13 +68,16 @@ async function main(arg) {
 }
 
 async function fixData() {
-  for (let no = 394; no <= 500; no++) {
+  for (let no = 402; no <= 500; no++) {
     console.log("Fetch vocaran " + no)
     let res = await fetch('http://web.archive.org/web/20180323041737/http://vocaran.jpn.org/vocaran/' + no)
     let html = await res.text()
 
     console.log("  make local data...")
     let data = await makeData(html)
+    if(!data.ranklist[0].time){
+      data = await makeDataFor2017(html)
+    }
     console.log("  save local data...")
     fs.writeFile(`data/vocaran${no}.json`, JSON.stringify(data, 2, ' '))
   }
@@ -320,6 +323,76 @@ async function bilimeta(aid) {
       pubdate, desc, pic
     }
   }
+}
+
+async function makeDataFor2017(html){
+  const $ = cheerio.load(html)
+  const ranklist = []
+  const history = []
+  let $history = $
+  $(".rank").parent().map((i, e) => {
+    let p = $("p", $(e))
+    let _ = {}
+    _.rank = $(p[0]).text()
+    _.rank0 = $(p[1]).text()
+    _.point = $(p[2]).text()
+    // 重点在这
+    let $img = $(e).next()
+    let $time = $img.next()
+    let $title = $time.next()
+    let $data = $title.next()
+    let $info = $data.next()
+
+    let img = $("img", $img).first()
+    _.sm = img.attr("alt")
+    _.pic_archive = img.attr("src")
+
+    _.time = $time.text()
+    _.title = $title.text()
+    _.pickup = $("a+span", $title).first().text()
+
+    let d = $(".mvlistdata", $data);
+    [_.collect, _.collect_weight] = getWeight($(d[0]).text());
+    [_.watch, _.watch_weight] = getWeight($(d[1]).text());
+    [_.comment, _.comment_weight] = getWeight($(d[2]).text());
+
+    let producer = $("a", $data).last()
+    _.producer = producer.text()
+
+    let uid = producer.attr("href")
+    uid = uid && uid.match(/\d+$/)
+    _.producer_id = uid && uid[0]
+
+    for (let k in _)
+      _[k] = trim(_[k])
+    ranklist.push(_)
+
+    if (_.rank == "10") {
+      $history = $(e).parent().next().next()
+    }
+    if (!_.point) {
+      _.point = _.rank0
+      _.rank0 = 0
+    }
+    _.rank = parseInt(_.rank)
+    _.rank0 = parseInt(_.rank0)
+    if (isNaN(_.rank0)) {
+      _.rank0 = 999
+    }
+  })
+  // 处理历史榜单
+  let history_no = $("a", $history).first().text()
+  $('img[alt^=rank]', $history).each((i, e) => {
+    let $e = $(e)
+    let rank = $e.attr('alt').substr(-1)
+    let title = $e.attr('title')
+    let sm = $e.attr('src').match(/\d+$/) || ''
+    sm = sm && 'sm' + sm[0]
+    let _ = { rank, title, sm }
+    history.push(_)
+  })
+
+  return { ranklist, history, history_no }
 }
 
 async function makeData(html) {
