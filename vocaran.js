@@ -37,6 +37,18 @@ async function main(arg) {
     return await fixData()
   }
 
+  for (let no = 402; no <= 500; no++) {
+    console.log('proc: '+no);
+    let oldData = JSON.parse(
+      await fs.readFile(`data/vocaran${no}.json`,'utf-8')
+    )
+    let newData = JSON.parse(
+      await fs.readFile(`data/vocaran/${no}.json`,'utf-8')
+    )
+    newData.ranklist = oldData.ranklist
+    fs.writeFile(`data/vocaran/${no}.json`,JSON.stringify(newData,' ',2))
+  }
+
   // let bug_item = JSON.parse(await fs.readFile(`data/vocaran/177.json`, 'utf-8'))
   // bug_item.nicovideo = await nicometa("sm13678185")
   // fs.writeFile('data/vocaran/177.json', JSON.stringify(bug_item, 2, ' '))

@@ -1,6 +1,6 @@
 const LOCAL_TEST = true
-const LOOP_L = 393
-const LOOP_R = 401
+const LOOP_L = 402
+const LOOP_R = 500
 const axios = require("axios")
 const fs = require('fs/promises')
 const yaml = require("yaml")
@@ -187,6 +187,7 @@ async function makePage(arg) {
     for(let i = LOOP_L; i <= LOOP_R; i++){
       await makePage([i])
     }
+    return 
   }
   let data = JSON.parse(await fs.readFile(`data/vocaran/${no}.json`, "utf-8"))
   let listdata = JSON.parse(await fs.readFile(`data/vocaran/${parseInt(no) - 1}.json`, "utf-8"))
@@ -206,11 +207,11 @@ async function renderUTAU(data, no, lastdata) {
     lastrankmap.set(_.sm, _)
   }
 
-  $.bilivideo = {}
-  $.nicovideo = {}
-  $.bilivideo.aid = 0
-  $.nicovideo.desc = ''
-  $.nicovideo.id = 'sm0'
+  // $.bilivideo = {}
+  // $.nicovideo = {}
+  // $.bilivideo.aid = 0
+  // $.nicovideo.desc = ''
+  // $.nicovideo.id = 'sm0'
   let desc = $.nicovideo.desc
   // 获取统计时间
   let [start_time,end_time,utau_start_time,utau_end_time] = getPeriod(no)
@@ -224,7 +225,7 @@ async function renderUTAU(data, no, lastdata) {
 |V起始时间 = ${fmt(start_time, false, false)}
 |V终止时间 = ${fmt(end_time, false, false)}
 |U起始时间 = ${fmt(utau_start_time, false, false)}
-|U终止时间 = ${fmt(utau_start_time, false, false)}
+|U终止时间 = ${fmt(utau_end_time, false, false)}
 |统计规则 = 2012
 }}
 
