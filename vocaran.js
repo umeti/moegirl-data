@@ -37,7 +37,7 @@ async function main(arg) {
     return await fixData()
   }
 
-  for (let no = 402; no <= 500; no++) {
+  for (let no = 1; no <= 61; no++) {
     console.log('proc: '+no);
     let oldData = JSON.parse(
       await fs.readFile(`data/vocaran${no}.json`,'utf-8')
