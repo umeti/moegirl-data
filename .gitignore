@@ -8,4 +8,5 @@ vc.yml
 out/
 data/vocarandb.json
 clip
-data/vocaran.db
+*.db
+*.log
