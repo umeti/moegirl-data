@@ -1,4 +1,4 @@
-const LOCAL_TEST = true
+const LOCAL_TEST = false
 const LOOP_L = 259
 const LOOP_R = 393
 const axios = require("axios")
