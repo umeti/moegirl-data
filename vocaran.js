@@ -52,7 +52,7 @@ async function main(arg) {
   }*/
   //週刊#212：sm15981491
   //週刊#247：sm18195515
-  let bug_item = JSON.parse(await fs.readFile(`data/vocaran/248.json`, 'utf-8'))
+  let bug_item = JSON.parse(await fs.readFile(`data/vocaran/247.json`, 'utf-8'))
   bug_item.nicovideo = await nicometa("sm18195515")
   fs.writeFile('data/vocaran/247.json', JSON.stringify(bug_item, 2, ' '))
 
