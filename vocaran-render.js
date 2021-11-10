@@ -191,7 +191,7 @@ async function makePage(arg) {
   }
   let data = JSON.parse(await fs.readFile(`data/vocaran/${no}.json`, "utf-8"))
   let listdata = JSON.parse(await fs.readFile(`data/vocaran/${parseInt(no) - 1}.json`, "utf-8"))
-  let wikitext = no < 259 ? 
+  let wikitext = no < 222 ? 
     await render(data, no, listdata) :
     await renderUTAU(data, no, listdata) 
 
@@ -216,22 +216,20 @@ async function renderUTAU(data, no, lastdata) {
   // 获取统计时间
   let [start_time,end_time,utau_start_time,utau_end_time] = getPeriod(no)
 
-  let out = `{{VOCALOID & UTAU Ranking
+  let out = `{{VOCALOID Ranking
 |id = ${$.nicovideo.id.substr(2)}
 |index = ${no}
-|image = V+周刊${start_time.getUTCFullYear()}.png
+|image =
 |title-color = 
 |发布时间 = ${fmt($.nicovideo.time)} 
-|V起始时间 = ${fmt(start_time, false, false)}
-|V终止时间 = ${fmt(end_time, false, false)}
-|U起始时间 = ${fmt(utau_start_time, false, false)}
-|U终止时间 = ${fmt(utau_end_time, false, false)}
+|起始时间 = ${fmt(start_time, false, false)}
+|终止时间 = ${fmt(end_time, false, false)}
 |统计规则 = 2012
 }}
 
-'''周刊VOCALOID & UTAU RANKING #${no}•${utau_no}'''是${
+'''周刊VOCALOID RANKING #${no}'''是${
   fmt($.nicovideo.time).substr(0, 11)
-}由'''sippotan'''投稿于niconico的VOCALOID、UTAU周刊。
+}由'''sippotan'''投稿于niconico的VOCALOID周刊。
 
 ==视频本体==
 {{BilibiliVideo|id=${$.bilivideo.aid}}}
@@ -251,6 +249,7 @@ async function renderUTAU(data, no, lastdata) {
   .replace(/＊\n/g,'＊')
   .replace(/\n　http/g,'　http')
   .replace(/\n\n\n*/g,'\n\n')
+  .replace(/PL(.+)\n　直近5週/,'PL$1　直近5週')
 }}-</poem>
 
 ==榜单==
@@ -268,7 +267,6 @@ async function renderUTAU(data, no, lastdata) {
 |bottom-column = {{color|#AA0000|上周冠军}}
 }}
 
-===VOCALOID榜===
 `
   let st = fmt(start_time, '-', false).substr(2)
   for (let i = 0; i < 30; i++) {
@@ -293,6 +291,7 @@ async function renderUTAU(data, no, lastdata) {
 |收藏权重 = ${_.collect_weight}
 |五倍阀 = ${_.limit?'1':''}
 }}
+
 `
   }
 
@@ -322,12 +321,14 @@ async function renderUTAU(data, no, lastdata) {
 |color = #FF9999
 |bottom-column = {{color|#FF9999|P I C K U P}}
 }}
+
 `
     }
   }
 
   // 历史榜单
-  //out += LOCAL_TEST ?'\n':await get_history($.history_no)
+  out += LOCAL_TEST ?'\n':await get_history($.history_no)
+/*
   let history_data = JSON.parse(await fs.readFile(
     `data/vocaran/${$.history_no.substr(1)}.json`,
     'utf-8'
@@ -345,17 +346,15 @@ async function renderUTAU(data, no, lastdata) {
 |color = #663300
 |bottom-column = {{color|#663300|H I S T O R Y}}
 }}
+
 `
-  }
+  }*/
   
   //ED
   let ed = $.ranklist[$.ranklist.length - 1]
   ed.name = takeName(ed)
 
-  out += `
-===UTAU榜===
-
-{{VOCALOID_&_UTAU_Ranking/bricks${ed.sm.substr(0, 2) == 'nm' ? '-nm' : ''}
+  out += `{{VOCALOID_&_UTAU_Ranking/bricks${ed.sm.substr(0, 2) == 'nm' ? '-nm' : ''}
 |id = ${ed.sm.substr(2)}
 |曲名 = ${ed.name} 
 |时间 = 20${ed.time.replace(/[\/]/g, '-').replace(/\(.+?\)/g, '')}
@@ -371,7 +370,7 @@ async function renderUTAU(data, no, lastdata) {
 
 == 注释 ==
 <references/>
-{{周刊VOCALOID & UTAU RANKING|2012}}
+{{周刊VOCALOID RANKING|2012}}
 [[Category:周刊VOCAL Character & UTAU RANKING]]
 `
 }

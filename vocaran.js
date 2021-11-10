@@ -37,7 +37,9 @@ async function main(arg) {
     return await fixData()
   }
 
-  for (let no = 1; no <= 61; no++) {
+
+  /*
+  for (let no = 239; no <= 239; no++) {
     console.log('proc: '+no);
     let oldData = JSON.parse(
       await fs.readFile(`data/vocaran${no}.json`,'utf-8')
@@ -47,11 +49,12 @@ async function main(arg) {
     )
     newData.ranklist = oldData.ranklist
     fs.writeFile(`data/vocaran/${no}.json`,JSON.stringify(newData,' ',2))
-  }
-
-  // let bug_item = JSON.parse(await fs.readFile(`data/vocaran/177.json`, 'utf-8'))
-  // bug_item.nicovideo = await nicometa("sm13678185")
-  // fs.writeFile('data/vocaran/177.json', JSON.stringify(bug_item, 2, ' '))
+  }*/
+  //週刊#212：sm15981491
+  //週刊#247：sm18195515
+  let bug_item = JSON.parse(await fs.readFile(`data/vocaran/248.json`, 'utf-8'))
+  bug_item.nicovideo = await nicometa("sm18195515")
+  fs.writeFile('data/vocaran/247.json', JSON.stringify(bug_item, 2, ' '))
 
   return '抓取阶段先告一段落'
   //93(无简介)
@@ -80,7 +83,7 @@ async function main(arg) {
 }
 
 async function fixData() {
-  for (let no = 1; no <= 60; no++) {
+  for (let no = 239; no <= 239; no++) {
     console.log("Fetch vocaran " + no)
     let res = await fetch('http://web.archive.org/web/20180323041737/http://vocaran.jpn.org/vocaran/' + no)
     let html = await res.text()
