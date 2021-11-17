@@ -1,0 +1,74 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" version="1.1" baseProfile="full">
+  <defs>
+    <linearGradient id="Gradient1">
+      <stop class="stop1" offset="0%" />
+      <stop class="stop2" offset="50%" />
+      <stop class="stop3" offset="100%" />
+    </linearGradient>
+    <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="red" />
+      <stop offset="50%" stop-color="black" stop-opacity="0" />
+      <stop offset="100%" stop-color="blue" />
+    </linearGradient>
+    <style type="text/css">
+      <![CDATA[
+      #rect1 {
+        fill: url(#Gradient1);
+      }
+
+      .stop1 {
+        stop-color: red;
+      }
+
+      .stop2 {
+        stop-color: black;
+        stop-opacity: 0;
+      }
+
+      .stop3 {
+        stop-color: blue;
+      }
+      ]]>
+    </style>
+
+    <radialGradient id="RadialGradient1">
+      <stop offset="0%" stop-color="red" />
+      <stop offset="100%" stop-color="blue" />
+    </radialGradient>
+    <radialGradient id="RadialGradient2" cx="0.25" cy="0.25" r="0.25">
+      <stop offset="0%" stop-color="red" />
+      <stop offset="100%" stop-color="blue" />
+    </radialGradient>
+
+    <linearGradient id="sky"  x1="0" x2="0" y1="0" y2="1">
+      <stop class="sky-stop1" offset="0%" />
+      <stop class="sky-stop2" offset="100%" />
+    </linearGradient>
+    <radialGradient id="light"  >
+      <stop offset="0%" stop-color="#fffff04f" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+    <radialGradient id="cloud"  >
+      <stop offset="0%" stop-color="#194f8e" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+    <style>
+    .sky{fill:url(#sky)}
+    .sky-stop1 {stop-color: #08192d;}
+    .sky-stop2 {stop-color: #08192d;}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="300" height="200" fill="##08192d" class='sky' />
+  <rect x="0" y="200" width="300" height="100" fill="#656765" class='land' />
+  <ellipse cx="75" cy="75" rx="50" ry="20" fill="url(#cloud)" class="cloud" />
+  <rect x="-100" y="-100" width="500" height="500" fill="url(#light)" />
+  <ellipse cx="175" cy="75" rx="50" ry="20" fill="url(#cloud)" class="cloud" />
+
+
+
+
+</svg>
